@@ -2,10 +2,10 @@
 > **Bridging Semantic Interoperability and Adaptive Learning in Complex Systems**
 
 ## Research Overview
-This repository presents a novel approach to enhancing self-adaptive systems (SAS) through semantic knowledge graph transformation and intelligent machine learning techniques. Our methodology addresses fundamental challenges in system adaptability by creating a flexible, semantically-rich framework for dynamic system reconfiguration.
+This repository presents a approach to enhancing self-adaptive systems (SAS) through semantic knowledge graph transformation and intelligent machine learning techniques. Our methodology addresses fundamental challenges in system adaptability by creating a flexible, semantically-rich framework for dynamic system reconfiguration.
 
 ### Research Contribution
-Our work introduces a comprehensive approach that:
+Our work introduces an approach that:
 - Enables semantic interoperability across heterogeneous data sources
 - Develops a generalizable framework for knowledge graph construction
 - Integrates machine learning for predictive system adaptation
@@ -100,7 +100,7 @@ Our approach addresses these challenges through:
 - **Unified Knowledge Representation:**
   - Creates a single ontology unifying data from multiple pilot projects.
 - **Graph Machine Learning Integration:**
-  - Leverages RDF as a graph structure for tasks like node classification, link prediction, and anomaly detection.
+  - Use of RDF as a graph structure for tasks like node classification, link prediction, and anomaly detection.
 - **Self-Adaptive Systems Context:**
   - Demonstrates the use of RDF and Graph ML in monitoring, analysis, planning, and execution (MAPE-K loop).
 
@@ -136,25 +136,25 @@ Our approach addresses these challenges through:
 ### 1. **Data Transformation**
 Run RML scripts to generate RDF from raw data:
 ```bash
-./scripts/generate_rdf.sh rml/standard/amicare.ttl rdf/standard/amicare.ttl
+./scripts/generate_rdf.sh rml/standard/source_a.ttl rdf/standard/source_a.ttl
 ```
 
 ### 2. **Semantic Enrichment**
 Use improved RML scripts with ontologies like SOSA and FHIR:
 ```bash
-./scripts/generate_rdf.sh rml/improved/amicare.ttl rdf/improved/amicare.ttl
+./scripts/generate_rdf.sh rml/improved/source_a.ttl rdf/improved/source_a.ttl
 ```
 
 ### 3. **Graph Construction**
 Convert RDF data into a graph format:
 ```bash
-python scripts/graph_converter.py --input rdf/improved/amicare.ttl --output data/graph/amicare.graphml
+python scripts/graph_converter.py --input rdf/improved/source_a.ttl --output data/graph/source_a.graphml
 ```
 
 ### 4. **Graph Machine Learning**
 Run a Graph ML task (e.g., node classification):
 ```bash
-python graph_ml/models/node_classification.py --graph data/graph/amicare.graphml
+python graph_ml/models/node_classification.py --graph data/graph/source_a.graphml
 ```
 
 ### 5. **Self-Adaptive System Simulation**
@@ -183,7 +183,7 @@ Integrate Graph ML outputs into the self-adaptive process (e.g., sending alerts 
 ## Testing
 - **RDF Validation:**
   ```bash
-  ./tests/validation/validate_rdf.sh rdf/improved/amicare.ttl
+  ./tests/validation/validate_rdf.sh rdf/improved/source_a.ttl
   ```
 - **Graph ML Testing:**
   ```bash

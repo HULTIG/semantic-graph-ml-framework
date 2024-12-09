@@ -1,3 +1,4 @@
 Java 17
 RMLMapper 6.5.1
-Apache Jena Fuseki (for SPARQL testing)
+Apache Jena Fuseki 5.1.0
+Apache Jena TDB 4.2.2
