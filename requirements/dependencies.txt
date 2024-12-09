@@ -1,0 +1,3 @@
+Java 17
+RMLMapper 6.5.1
+Apache Jena Fuseki (for SPARQL testing)
