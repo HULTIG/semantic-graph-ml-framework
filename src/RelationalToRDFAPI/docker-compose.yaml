@@ -1,0 +1,30 @@
+services:
+  fuseki:
+    image: stain/jena-fuseki
+    container_name: apache-jena
+    ports:
+      - "3030:3030"
+    volumes:
+      - fuseki-data:/fuseki
+     # - ./jena-config/config.ttl:/fuseki/config.ttl   # Mount custom config file
+      - ./jena-config/data:/fuseki/databases               # Mount TDB dataset
+
+    environment:
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - JVM_ARGS=${JVM_ARGS}
+#    command: ["--config", "/fuseki/config.ttl"]
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: r2rml-api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - fuseki
+    environment:
+      - JENA_REMOTE_ENDPOINT=${JENA_REMOTE_ENDPOINT}
+
+volumes:
+  fuseki-data:

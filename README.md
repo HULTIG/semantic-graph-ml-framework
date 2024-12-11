@@ -7,9 +7,9 @@ This repository presents a approach to enhancing self - adaptive systems(SAS) th
 ### Research Contribution
 Our work introduces an approach that:
 - Enables semantic interoperability across heterogeneous data sources
-  - Develops a generalizable framework for knowledge graph construction
-    - Integrates machine learning for predictive system adaptation
-      - Demonstrates adaptive decision - making through semantic reasoning
+- Develops a generalizable framework for knowledge graph construction
+- Integrates machine learning for predictive system adaptation
+- Demonstrates adaptive decision - making through semantic reasoning
 
 ---
 
@@ -25,8 +25,8 @@ Our work introduces an approach that:
 
 2. **Knowledge Graph Construction**
   - Convert mapped data into structured graph representations
-    - Apply semantic annotations and metadata
-      - Create a flexible, interconnected knowledge base
+  - Apply semantic annotations and metadata
+  - Create a flexible, interconnected knowledge base
 
 3. **Adaptive Learning Mechanism**
   - Implement machine learning models on semantic graphs
@@ -37,8 +37,8 @@ Our work introduces an approach that:
 
 4. **Self - Adaptive System Integration**
   - Implement MAPE - K(Monitor - Analyze - Plan - Execute - Knowledge) loop
-    - Enable dynamic system reconfiguration
-      - Provide feedback - driven adaptation strategies
+  - Enable dynamic system reconfiguration
+  - Provide feedback - driven adaptation strategies
 
 ---
 
@@ -56,14 +56,14 @@ Our work introduces an approach that:
 ---
 **TODO: REVIEW FOLDERS STRUTURE**
 ## Repository Structure
-- **`requirements/`:**Documentation for dependencies and setup.
-- **`data/`:**Raw input data, RDF outputs, and graph representations.
-- **`rml/`:**RML mapping scripts for standard, improved, and unified mappings.
-- **`rdf/`:**RDF outputs generated from RML mappings.
-- **`scripts/`:**Scripts for automating RDF generation and graph conversion.
-- **`graph_ml/`:**Graph ML workflows, models, and visualizations.
-- **`tests/`:**Test cases for reproducibility and validation.
-- **`docs/`:**Documentation for the process and Graph ML integration.
+- **`requirements/`**: Documentation for dependencies and setup.
+- **`data/`**: Raw input data, RDF outputs, and graph representations.
+- **`rml/`**: RML mapping scripts for standard, improved, and unified mappings.
+- **`rdf/`**: RDF outputs generated from RML mappings.
+- **`scripts/`**: Scripts for automating RDF generation and graph conversion.
+- **`graph_ml/`**: Graph ML workflows, models, and visualizations.
+- **`tests/`**: Test cases for reproducibility and validation.
+- **`docs/`**: Documentation for the process and Graph ML integration.
 
 
 ```txt
