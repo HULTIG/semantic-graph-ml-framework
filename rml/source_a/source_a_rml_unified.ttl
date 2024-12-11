@@ -19,7 +19,7 @@ hultig:DeviceMapping a rr:TriplesMap;
   rml:logicalSource [
     rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Device[*]"
+    rml:iterator "$.devices[*]"
   ];
   rr:subjectMap [
     rr:template "http://hultig.ubi.pt/ontology/source_a/device/{assetId}";
@@ -51,7 +51,7 @@ hultig:ActuatorMapping a rr:TriplesMap;
   rml:logicalSource [
     rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Actuator[*]"
+    rml:iterator "$.actuators[*]"
   ];
   rr:subjectMap [
     rr:template "http://hultig.ubi.pt/ontology/source_a/actuator/{id}";
@@ -86,7 +86,7 @@ hultig:SensorMapping a rr:TriplesMap;
   rml:logicalSource [
     rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Sensor[*]"
+    rml:iterator "$.sensors[*]"
   ];
   rr:subjectMap [
     rr:template "http://hultig.ubi.pt/ontology/source_a/sensor/{id}";
@@ -121,7 +121,7 @@ hultig:TemperatureContextEventMapping a rr:TriplesMap;
     rml:logicalSource [
         rml:source "../../data/source_a/data.json";
         rml:referenceFormulation ql:JSONPath;
-        rml:iterator "$.ContextEvent[?(@.originType == 'TEMPERATURE')]"
+        rml:iterator "$.events[?(@.originType == 'TEMPERATURE')]"
       ];
     rr:subjectMap [
         rr:template "http://hultig.ubi.pt/ontology/source_a/sensormeasurementevent/{id}";
@@ -155,7 +155,7 @@ hultig:TemperatureContextEventMapping a rr:TriplesMap;
       rml:logicalSource [
         rml:source "../../data/source_a/data.json";
         rml:referenceFormulation ql:JSONPath;
-        rml:iterator "$.ContextEvent[?(@.originType == 'HUMIDITY')]"
+        rml:iterator "$.events[?(@.originType == 'HUMIDITY')]"
         ];
       rr:subjectMap [
         rr:template "http://hultig.ubi.pt/ontology/source_a/sensormeasurementevent/{id}";

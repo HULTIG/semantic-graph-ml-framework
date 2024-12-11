@@ -15,6 +15,8 @@ Our work introduces an approach that:
 
 ## Technical Architecture
 
+![](docs/process-overview.png)
+
 ### Workflow Components
 1. **Semantic Data Transformation**
   - Ontology - driven mapping of diverse data sources
