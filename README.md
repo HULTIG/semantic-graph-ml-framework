@@ -64,7 +64,7 @@ Our work introduces an approach that:
 - **`graph_ml/`**: Graph ML workflows, models, and visualizations.
 - **`tests/`**: Test cases for reproducibility and validation.
 - **`docs/`**: Documentation for the process and Graph ML integration.
-
+- **`src/`**: Source code for the Spring Boot API and Graph Learning Demo Notebook.
 
 ```txt
 artifact-submission/
@@ -154,27 +154,73 @@ The RDF mappings will represent the data collected from the environment and othe
 - Process: Convert this raw data into semantically enriched RDF using your mappings.
 - Example Output:
 
-**TODO: update with demo output**
-  ```turtle
-<http://example.com/environment/Disp1> a sosa:Observation;
-  sosa:hasSimpleResult "30"^^ucum:beatsPerMinute;  # High heart rate
-  sosa:resultTime "2024-12-01T10:00:00Z"^^xsd:dateTimeStamp .
+```turtle
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix hultig: <http://hultig.ubi.pt/ontology/source_a#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ucum: <http://unitsofmeasure.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://hultig.ubi.pt/ontology/source_a/actuator/act_001> a sosa:Actuator;
+  sosa:isHostedBy <http://hultig.ubi.pt/ontology/source_a/device/dev_001> .
+
+<http://hultig.ubi.pt/ontology/source_a/platform/ui_001> a sosa:Platform;
+  sosa:hosts <http://hultig.ubi.pt/ontology/source_a/actuator/act_001>, <http://hultig.ubi.pt/ontology/source_a/sensor/sens_001>;
+  sosa:isHostedBy <http://hultig.ubi.pt/ontology/source_a/device/dev_001> .
+
+<http://hultig.ubi.pt/ontology/source_a/sensor/sens_001> a sosa:Sensor;
+  fhir:Device.identifier "sens_001";
+  sosa:hasSimpleResult "35.0"^^ucum:unit;
+  sosa:isHostedBy <http://hultig.ubi.pt/ontology/source_a/device/dev_001> .
+
+<http://hultig.ubi.pt/ontology/source_a/sensormeasurementevent/evt_001> a sosa:Observation;
+  fhir:Device.owner <http://hultig.ubi.pt/ontology/source_a/sensor/sens_001>;
+  fhir:Patient.identifier "usr_002";
+  sosa:hasSimpleResult "28.7"^^ucum:Cel;
+  sosa:observedProperty sosa:Property_Temperature;
+  sosa:resultTime "2021-09-29T11:19:11.788Z"^^xsd:dateTime .
+
+<http://hultig.ubi.pt/ontology/source_a/sensormeasurementevent/evt_002> a sosa:Observation;
+  fhir:Patient.identifier "usr_003";
+  sosa:hasSimpleResult "38.24"^^ucum:Percent;
+  sosa:madeBySensor <http://hultig.ubi.pt/ontology/source_a/sensor/sens_002>;
+  sosa:observedProperty sosa:Property_Humidity;
+  sosa:resultTime "2024-06-01T00:00:00.000Z"^^xsd:dateTime .
 ```
 ### Analysis
 
 The analysis is performed by SPARQL queries that applies reasoning into the collected data to identify potential health risks:
 - Example Query: Check for high heart rate and low activity.
-**TODO: update with demo output**
 
 ```sparql
-SELECT ?time ?heartRate ?activity
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX ucum: <http://unitsofmeasure.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?observation ?result ?property ?resultTime ?sensor ?patient
 WHERE {
-  ?obs a sosa:Observation;
-       sosa:hasSimpleResult ?heartRate, ?activity;
-       sosa:resultTime ?time.
-  FILTER(?heartRate > "100"^^xsd:integer && ?activity < "10"^^xsd:integer)
+  ?observation a sosa:Observation ;
+               sosa:hasSimpleResult ?result ;
+               sosa:observedProperty ?property ;
+               sosa:resultTime ?resultTime .
+               
+  OPTIONAL { ?observation sosa:madeBySensor ?sensor . }
+  OPTIONAL { ?observation fhir:Patient.identifier ?patient . }
 }
+ORDER BY ?resultTime
 ```
+
+TODO: Update Subtitles of the figures
+![Graph Representation Output](docs/graph-output.png)
 
 ### Planning
 
