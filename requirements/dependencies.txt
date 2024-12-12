@@ -1,4 +1,27 @@
+Docker
+Docker compose
 Java 17
 RMLMapper 6.5.1
 Apache Jena Fuseki 5.1.0
 Apache Jena TDB 4.2.2
+Python 3.10.2
+
+=====
+
+Specific Python libraries:
+
+rdflib==7.1.1
+networkx==3.4.2
+scikit-learn==1.6.0
+matplotlib==3.9.3
+matplotlib-inline==0.1.6
+pandas==2.2.3
+
+=====
+
+Specific Java Libraries
+
+R2RML
+Spring Boot
+Lombok
+Springdoc Openapi
