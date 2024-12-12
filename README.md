@@ -15,7 +15,7 @@ Our work introduces an approach that:
 
 ## Technical Architecture
 
-![](docs/process-overview.png)
+![Semantic Integration Process in SAFIR Framework](docs/process-overview.png)
 
 ### Workflow Components
 1. **Semantic Data Transformation**
@@ -130,7 +130,7 @@ artifact-submission/
 To effectively demonstrate the use of this project we have the following scenario:
 
 ## Example Use Case: Healthcare Monitoring
-  - **Scenario:**Healthcare Monitoring Monitor patient health using IoT devices and environmental data.
+  - **Scenario:** Healthcare Monitoring Monitor patient health using IoT devices and environmental data.
 - **Steps:**
   1. Transform sensor data to RDF.
   2. Enrich RDF with semantic annotations and context.

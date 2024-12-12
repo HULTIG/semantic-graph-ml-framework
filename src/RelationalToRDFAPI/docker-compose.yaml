@@ -14,11 +14,11 @@ services:
       - JVM_ARGS=${JVM_ARGS}
 #    command: ["--config", "/fuseki/config.ttl"]
 
-  api:
+  rml-api:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: r2rml-api
+    container_name: rml-api
     ports:
       - "8080:8080"
     depends_on:
