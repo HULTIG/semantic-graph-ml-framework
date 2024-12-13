@@ -10,7 +10,7 @@
 
 :DeviceMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./smarthabits/data/data.json";
+    rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$.Device[*]"
   ];
@@ -40,7 +40,7 @@
 
 :ActuatorMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./smarthabits/data/data.json";
+    rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$.Actuator[*]"
   ];
@@ -56,7 +56,7 @@
 
 :UIDeviceMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./smarthabits/data/data.json";
+    rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$.UIDevice[*]"
   ];
@@ -72,7 +72,7 @@
 
 :SensorMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./smarthabits/data/data.json";
+    rml:source "../../data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$.Sensor[*]"
   ];
@@ -95,7 +95,7 @@
 
 :ContextEventMapping a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "./smarthabits/data/data.json";
+        rml:source "../../data/source_a/data.json";
         rml:referenceFormulation ql:JSONPath;
         rml:iterator "$.ContextEvent[*]"
       ];

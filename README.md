@@ -456,6 +456,7 @@ To evaluate the results of our implementation, we will use the following metrics
 ---
 
 ## Limitations and Future Work
+TODO: add improvements on graph learning models and use cases implementation1
   - Current implementation is a proof - of - concept
     - Future research directions:
   * Scalability improvements

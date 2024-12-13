@@ -13,7 +13,7 @@
 @prefix schema: <http://schema.org/>.
 @prefix fhir: <http://hl7.org/fhir/>.
 @prefix hultig: <http://hultig.ubi.pt/ontology/source_a#>.
-
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 hultig:DeviceMapping a rr:TriplesMap;
   rml:logicalSource [
