@@ -1,0 +1,44 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://pharaon.eu/ontology/fhir/Extension/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix pharaon: <http://pharaon.eu/ontology/smarthabits#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ucum: <http://unitsofmeasure.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pharaon.eu/ontology/smarthabits/actuator/actuator1> a sosa:Actuator;
+  sosa:isHostedBy <http://pharaon.eu/ontology/smarthabits/device/device123> .
+
+<http://pharaon.eu/ontology/smarthabits/device/device123> a fhir:Device;
+  fhir:Device.deviceName "Device One";
+  fhir:Device.identifier "device123";
+  fhir:Device.owner <http://pharaon.eu/ontology/smarthabits/patient/user123>;
+  fhir:Device.serialNumber "SN123456" .
+
+<http://pharaon.eu/ontology/smarthabits/platform/uidevice1> a sosa:Platform;
+  sosa:hosts <http://pharaon.eu/ontology/smarthabits/actuator/actuator1>, <http://pharaon.eu/ontology/smarthabits/sensor/sensor1>;
+  sosa:isHostedBy <http://pharaon.eu/ontology/smarthabits/device/device123> .
+
+<http://pharaon.eu/ontology/smarthabits/sensor/60fb44f0-1c64-11ec-9d54-2d46395231dd>
+  a sosa:Sensor;
+  fhir:Device.identifier "60fb44f0-1c64-11ec-9d54-2d46395231dd";
+  schema:description "Temperature Sensor";
+  schema:location "Living Room";
+  sosa:hasSimpleResult "35"^^ucum:unit;
+  sosa:isHostedBy <http://pharaon.eu/ontology/smarthabits/device/device123>;
+  sosa:observes "TEMPERATURE" .
+
+<http://pharaon.eu/ontology/smarthabits/sensormeasurementevent/61544bb0f299d317b314cf93>
+  a sosa:Observation;
+  fhir:Device.owner <http://pharaon.eu/ontology/smarthabits/sensor/60fb44f0-1c64-11ec-9d54-2d46395231dd>;
+  fhir:Patient.identifier "MjVjMjVmMzItM2ZhNi00ZTg3LWIzZWYtNDQ2Nzg2NTgwMTMx";
+  sosa:hasSimpleResult "28.7"^^ucum:Cel;
+  sosa:observedProperty sosa:Property_Temperature;
+  sosa:resultTime "2021-09-29T11:19:11.788+00:00"^^xsd:dateTime .

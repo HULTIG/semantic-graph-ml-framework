@@ -1,5 +1,5 @@
 # Use a base Python image
-FROM python:3.10
+FROM python:3.10.12-slim
 
 # Set the working directory
 WORKDIR /app
@@ -13,6 +13,8 @@ RUN apt-get update && \
 
 # Copy the requirements file if available
 COPY requirements.txt .
+
+RUN pip install --no-cache-dir torch==2.5.1
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt

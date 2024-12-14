@@ -10,12 +10,20 @@ Python 3.10.2
 
 Specific Python libraries:
 
-rdflib==7.1.1
-networkx==3.4.2
-scikit-learn==1.6.0
-matplotlib==3.9.3
-matplotlib-inline==0.1.6
-pandas==2.2.3
+jupyter
+rdflib
+networkx
+scikit-learn
+matplotlib
+pandas
+numpy
+
+torch
+torch_cluster
+torch-geometric
+torch_scatter
+torch_sparse
+torch-spline-conv
 
 =====
 
