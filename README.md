@@ -254,7 +254,9 @@ Notebook Demo:
 
 ---
 
-TODO: Add video demo
+Video Demo:
+
+[![Video Demo](https://youtu.be/l3sAC_qWFBQ)](https://youtu.be/l3sAC_qWFBQ)
 
 To test the rml mappings and the RDF generation you can run the following commands:
 
