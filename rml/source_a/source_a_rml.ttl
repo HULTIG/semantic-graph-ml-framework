@@ -10,9 +10,9 @@
 
 :DeviceMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../../data/source_a/data.json";
+    rml:source "data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Device[*]"
+    rml:iterator "$.devices[*]"
   ];
   rr:subjectMap [
     rr:template "http://example.org/device/{assetId}";
@@ -40,9 +40,9 @@
 
 :ActuatorMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../../data/source_a/data.json";
+    rml:source "data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Actuator[*]"
+    rml:iterator "$.actuators[*]"
   ];
   rr:subjectMap [
     rr:template "http://example.org/actuator/{id}";
@@ -56,9 +56,9 @@
 
 :UIDeviceMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../../data/source_a/data.json";
+    rml:source "data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.UIDevice[*]"
+    rml:iterator "$.uiDevices[*]"
   ];
   rr:subjectMap [
     rr:template "http://example.org/uidevice/{id}";
@@ -72,9 +72,9 @@
 
 :SensorMapping a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "../../data/source_a/data.json";
+    rml:source "data/source_a/data.json";
     rml:referenceFormulation ql:JSONPath;
-    rml:iterator "$.Sensor[*]"
+    rml:iterator "$.sensors[*]"
   ];
   rr:subjectMap [
     rr:template "http://example.org/sensor/{id}";
@@ -95,9 +95,9 @@
 
 :ContextEventMapping a rr:TriplesMap;
     rml:logicalSource [
-        rml:source "../../data/source_a/data.json";
+        rml:source "data/source_a/data.json";
         rml:referenceFormulation ql:JSONPath;
-        rml:iterator "$.ContextEvent[*]"
+        rml:iterator "$.events[*]"
       ];
     rr:subjectMap [
         rr:template "http://example.com/sensormeasurementevent/{id}";

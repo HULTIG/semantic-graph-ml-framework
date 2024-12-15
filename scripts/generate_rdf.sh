@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage: ./generate_rdf.sh <input_rml> <output_rdf>
-RML_MAPPER="rmlmapper-6.5.1-r371-all.jar" # Change this to the path of your rmlmapper jar file
+RML_MAPPER="./rmlmapper-6.5.1-r371-all.jar" # Change this to the path of your rmlmapper jar file
 
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <input_rml_file> <output_rdf_file>"

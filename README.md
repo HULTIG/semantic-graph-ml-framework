@@ -2,7 +2,7 @@
   > **Bridging Semantic Interoperability and Adaptive Learning in Complex Systems**
 
 ## Research Overview
-This repository presents a approach to enhancing self - adaptive systems(SAS) through semantic knowledge graph transformation and intelligent machine learning techniques.Our methodology addresses fundamental challenges in system adaptability by creating a flexible, semantically - rich framework for dynamic system reconfiguration.
+This repository presents a approach to enhancing self - adaptive systems(SAS) through semantic knowledge graph transformation and intelligent machine learning techniques. Our methodology addresses fundamental challenges in system adaptability by creating a flexible, semantically - rich framework for dynamic system reconfiguration.
 
 ### Research Contribution
 Our work introduces an approach that:
@@ -17,37 +17,12 @@ Our work introduces an approach that:
 
 ![Semantic Integration Process in SAFIR Framework](docs/process-overview.png)
 
-### Workflow Components
-1. **Semantic Data Transformation**
-  - Ontology - driven mapping of diverse data sources
-  - Semantic enrichment using standard vocabularies
-  - Preserving contextual information across transformations
-
-2. **Knowledge Graph Construction**
-  - Convert mapped data into structured graph representations
-  - Apply semantic annotations and metadata
-  - Create a flexible, interconnected knowledge base
-
-3. **Adaptive Learning Mechanism**
-  - Implement machine learning models on semantic graphs
-  - Support predictive tasks:
-     * Anomaly detection
-     * System state prediction
-     * Adaptive decision support
-
-4. **Self - Adaptive System Integration**
-  - Implement MAPE - K(Monitor - Analyze - Plan - Execute - Knowledge) loop
-  - Enable dynamic system reconfiguration
-  - Provide feedback - driven adaptation strategies
-
----
-
 ## Key Features
   - **Data Transformation:**
     - Converts raw data into RDF using RML specifications.
     - Supports semantic enrichment with healthcare ontologies(e.g., SOSA, FHIR, UCUM).
 - **Unified Knowledge Representation:**
-  - Creates a single ontology unifying data from multiple pilot projects.
+  - Creates a single ontology unifying data from multiple data sources.
 - **Graph Machine Learning Integration:**
   - Use of RDF as a graph structure for tasks like node classification, link prediction, and anomaly detection.
 - **Self - Adaptive Systems Context:**
@@ -56,15 +31,6 @@ Our work introduces an approach that:
 ---
 
 ## Repository Structure
-- **`requirements/`**: Documentation for dependencies and setup.
-- **`data/`**: Raw input data, RDF outputs, and graph representations.
-- **`rml/`**: RML mapping scripts for standard, improved, and unified mappings.
-- **`rdf/`**: RDF outputs generated from RML mappings.
-- **`scripts/`**: Scripts for automating RDF generation and graph conversion.
-- **`graph_ml/`**: Graph ML workflows, models, and visualizations.
-- **`tests/`**: Test cases for reproducibility and validation.
-- **`docs/`**: Documentation for the process and Graph ML integration.
-- **`src/`**: Source code for the Spring Boot API and Graph Learning Demo Notebook.
 
 ```txt
 artifact-submission/
@@ -101,13 +67,13 @@ artifact-submission/
 
 ## MAPE - K Loop Scenario
 
-To effectively demonstrate the use of this project we have the following scenario:
+To demonstrate the use of this project we have the following scenario:
 
 ## Example Use Case: Healthcare Monitoring
 - **Scenario:** Healthcare Monitoring Monitor patient health using IoT devices and environmental data.
 - **Steps:**
   1. Transform sensor data to RDF.
-  2. Enrich RDF with semantic annotations and context.
+  2. Enrich RDF with semantic annotations and context with R2RML mapping scripts.
   3. Build a knowledge graph.
   4. Use Graph ML to detect anomalies or predict patient risk.
   5. Trigger adaptive actions(e.g., caregiver notifications, environment adjustments).
@@ -236,18 +202,18 @@ RMLMapper is used for transforming data to RDF.
 
 1. Download **RMLMapper version 6.5.1**:
 ```bash
-   wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.2.0/rmlmapper-7.2.0-r374-all.jar -O rmlmapper.jar
+wget wget https://github.com/RMLio/rmlmapper-java/releases/download/v6.5.1/rmlmapper-6.5.1-r371-all.jar -O rmlmapper.jar
 ```
 
 2. Move the downloaded file to the appropriate directory(e.g., `scripts/`):
 ```bash
-   mv rmlmapper.jar scripts/
-   mv rmlmapper.jar src/RelationalToRDFAPI/src/main/resources/jar/
+mv rmlmapper.jar scripts/
+mv rmlmapper.jar src/RelationalToRDFAPI/src/main/resources/jar/
 ```
 
 3. Verify the installation:
 ```bash
-   java -jar scripts/rmlmapper.jar -h
+java -jar scripts/rmlmapper-6.5.1-r371-all.jar -h
 ```
 
 You should see the help menu for RMLMapper.
@@ -279,6 +245,64 @@ With the services running, you can proceed with the following steps to interact 
 - **Fuseki SPARQL Endpoint**: `http://localhost:3030/ds/query`
 
 Without docker environment you can run the Spring Boot API and the notebook separately, the dependencies for the notebook are listed in the `requirements.txt` file.
+
+## How to Run
+
+The following steps demonstrate how to run the Spring Boot API and the Jupyter Notebook to interact with the system:
+
+```bash
+git clone https://github.com/HULTIG/safir-self-adaptive-semantic-framework.git
+
+cd safir-self-adaptive-semantic-framework
+
+# Download the RMLMapper JAR
+wget https://github.com/RMLio/rmlmapper-java/releases/download/v6.5.1/rmlmapper-6.5.1-r371-all.jar
+
+mkdir src/RelationalToRDFAPI/src/main/resources/jar/
+
+# Copy the JAR to the appropriate directories
+mv rmlmapper-6.5.1-r371-all.jar src/RelationalToRDFAPI/src/main/resources/jar/
+
+# Start the environment - it will take some time to build the services for the first time due to dependencies
+docker-compose -f src/docker-compose.yaml up -d --build
+
+# Access the Spring Boot API
+curl http://localhost:8080/swagger-ui.html
+
+# Access the Jupyter Notebook by copying the token from the terminal output of the notebook service
+docker ps --filter "name=notebook" --format "{{.ID}}" | xargs -I {} docker logs {} | grep ?token
+```
+
+> **NOTE**: The current implementation uses a simulated environment with artificial data. For real-world scenarios, you can replace the data sources with actual IoT devices, sensors, and healthcare systems data consedring data privacy and regulations concerns.
+
+After setting up the environment, it should be available the demo notebook and the Spring Boot API to interact with the process flow.
+
+![notebook-demo](docs/notebook-demo.png)
+Notebook Demo
+---
+
+TODO: Add video demo
+
+To test the rml mappings and the RDF generation you can run the following commands:
+
+```bash
+# Make sure the rmmlapper is downloaded and placed in the correct directory
+wget https://github.com/RMLio/rmlmapper-java/releases/download/v6.5.1/rmlmapper-6.5.1-r371-all.jar
+
+mv rmlmapper-6.5.1-r371-all.jar scripts/
+
+# Run the script to generate the RDF
+chmod +x scripts/generate_rdf.sh
+
+# Base RML mapping script
+scripts/generate_rdf.sh rml/source_a/source_a_rml.ttl rdf/input.ttl
+
+# Semantically Improved RML mapping script
+scripts/generate_rdf.sh rml/source_a/source_a_rml_imp.ttl rdf/source_a_rml_imp_output.ttl
+
+# Semantically enriched RML mapping script
+scripts/generate_rdf.sh rml/source_a/source_a_rml_unified.ttl rdf/output.ttl
+```
 
 ## Workflow
 
