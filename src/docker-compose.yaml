@@ -19,9 +19,7 @@ services:
     ports:
       - "3030:3030"
     volumes:
-      - fuseki-data:/fuseki
-      - ./jena-config/config.ttl:/fuseki/config.ttl   # Mount custom config file
-      - ./jena-config/data:/fuseki/databases               # Mount TDB dataset
+      - ./fuseki-config/data:/fuseki/databases               # Mount TDB dataset
 
     environment:
       - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
