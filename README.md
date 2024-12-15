@@ -197,28 +197,7 @@ Without the docker environment, you can run the Spring Boot API and the notebook
 
 ### Setup
 
-#### 1. **Download and Set Up RMLMapper**
-RMLMapper is used for transforming data to RDF.
-
-1. Download **RMLMapper version 6.5.1**:
-```bash
-wget wget https://github.com/RMLio/rmlmapper-java/releases/download/v6.5.1/rmlmapper-6.5.1-r371-all.jar -O rmlmapper.jar
-```
-
-2. Move the downloaded file to the appropriate directory(e.g., `scripts/`):
-```bash
-mv rmlmapper.jar scripts/
-mv rmlmapper.jar src/RelationalToRDFAPI/src/main/resources/jar/
-```
-
-3. Verify the installation:
-```bash
-java -jar scripts/rmlmapper-6.5.1-r371-all.jar -h
-```
-
-You should see the help menu for RMLMapper.
-
-#### 2. **Start the Environment**
+#### **Start the Environment**
 Use Docker Compose to bootstrap the Apache Jena Fuseki triple store, the Spring Boot API, and the notebook that demonstrates Graph ML workflows.
 
 ```bash
@@ -254,14 +233,6 @@ The following steps demonstrate how to run the Spring Boot API and the Jupyter N
 git clone https://github.com/HULTIG/safir-self-adaptive-semantic-framework.git
 
 cd safir-self-adaptive-semantic-framework
-
-# Download the RMLMapper JAR
-wget https://github.com/RMLio/rmlmapper-java/releases/download/v6.5.1/rmlmapper-6.5.1-r371-all.jar
-
-mkdir src/RelationalToRDFAPI/src/main/resources/jar/
-
-# Copy the JAR to the appropriate directories
-mv rmlmapper-6.5.1-r371-all.jar src/RelationalToRDFAPI/src/main/resources/jar/
 
 # Start the environment - it will take some time to build the services for the first time due to dependencies
 docker-compose -f src/docker-compose.yaml up -d --build
