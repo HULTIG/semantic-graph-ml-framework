@@ -20,13 +20,13 @@ services:
       - "3030:3030"
     volumes:
       - fuseki-data:/fuseki
-     # - ./jena-config/config.ttl:/fuseki/config.ttl   # Mount custom config file
+      - ./jena-config/config.ttl:/fuseki/config.ttl   # Mount custom config file
       - ./jena-config/data:/fuseki/databases               # Mount TDB dataset
 
     environment:
       - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
       - JVM_ARGS=${JVM_ARGS:-"-Xmx2g"}
-#    command: ["--config", "/fuseki/config.ttl"]
+
     networks:
       - demo-net
 
