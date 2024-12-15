@@ -256,7 +256,7 @@ Notebook Demo:
 
 Video Demo:
 
-[![Video Demo](https://youtu.be/l3sAC_qWFBQ)](https://youtu.be/l3sAC_qWFBQ)
+[![Video Demo](https://img.youtube.com/vi/l3sAC_qWFBQ/maxres1.jpg)](https://youtu.be/l3sAC_qWFBQ)
 
 To test the rml mappings and the RDF generation you can run the following commands:
 
