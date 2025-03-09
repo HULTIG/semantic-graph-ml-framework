@@ -1,0 +1,5 @@
+/rmlmapper*.jar
+/src/graph-learning-demo/.idea/
+src/fuseki-config/databases/*
+.idea/*
+src/data/rel-trial_materialized_cache/*

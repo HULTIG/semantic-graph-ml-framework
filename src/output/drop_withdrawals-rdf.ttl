@@ -1,0 +1,1712 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ns#> .
+@prefix example: <http://example.org/study/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/drop_withdrawal/10030> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "10030";
+  ex:period "Early Treatment";
+  ex:reason "Lost to Follow-up", "Withdrawal by Subject", "only treated one headache" .
+
+<http://example.org/drop_withdrawal/10048> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "10048";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "No sputum, devise issues, exacerbation", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10117> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "10117";
+  ex:period "First Intervention";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/10162> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "10162";
+  ex:period "Second Intervention";
+  ex:reason "Adverse Event", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/102> a ex:DropWithdrawal;
+  ex:count "32.0", "34.0", "53.0";
+  ex:date "2001-12-31"^^xsd:date;
+  ex:numericial "102";
+  ex:period "Overall Study";
+  ex:reason "Death" .
+
+<http://example.org/drop_withdrawal/10275> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "2.0", "29.0", "3.0", "33.0", "4.0", "44.0", "6.0",
+    "8.0", "9.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "10275";
+  ex:period "Double-blind Phase", "Extension Phase", "Open-label Run-in Period";
+  ex:reason "Administrative", "Adverse Event", "Did not qualify", "Lack of Efficacy",
+    "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10446> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-04-30"^^xsd:date;
+  ex:numericial "10446";
+  ex:period "Overall Study";
+  ex:reason "Subject was not vaccinated" .
+
+<http://example.org/drop_withdrawal/10652> a ex:DropWithdrawal;
+  ex:count "2.0", "42.0", "70.0", "9.0";
+  ex:date "2005-05-23"^^xsd:date;
+  ex:numericial "10652";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Pregnancy", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10708> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "10708";
+  ex:period "Second Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10761> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "10761";
+  ex:period "Washout Period A", "Washout Period B";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10892> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "10892";
+  ex:period "Washout";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/10895> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "6.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "10895";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Never received study treatment",
+    "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10938> a ex:DropWithdrawal;
+  ex:count "3.0", "8.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "10938";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Other" .
+
+<http://example.org/drop_withdrawal/10969> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "10969";
+  ex:period "Washout";
+  ex:reason "Physician Decision" .
+
+<http://example.org/drop_withdrawal/1099> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "12.0", "13.0", "15.0", "2.0", "20.0", "3.0", "6.0", "7.0",
+    "9.0";
+  ex:date "2001-03-31"^^xsd:date;
+  ex:numericial "1099";
+  ex:period "Follow-up Period", "Supplementation Period";
+  ex:reason "Adverse Event", "less than 12 weeks supplementation", "refused to receive supplement",
+    "transference or evasion of school" .
+
+<http://example.org/drop_withdrawal/10997> a ex:DropWithdrawal;
+  ex:count "2.0", "48.0", "6.0", "60.0", "8.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "10997";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/10998> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "15.0", "2.0", "3.0", "5.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "10998";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Miscellaneous", "Physician Decision",
+    "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11000> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "11000";
+  ex:period "Overall Study";
+  ex:reason "Lack of Efficacy", "Lost to Follow-up", "Other" .
+
+<http://example.org/drop_withdrawal/11067> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "4.0", "5.0", "6.0", "7.0", "8.0", "9.0";
+  ex:date "2004-10-07"^^xsd:date;
+  ex:numericial "11067";
+  ex:period "Overall Study";
+  ex:reason "Abnormal ECG", "Adverse Event", "Lack of Efficacy", "Lack of compliance",
+    "Lost to Follow-up", "No study meds", "Physician Decision", "Protocol Violation",
+    "Sponsor's decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11133> a ex:DropWithdrawal;
+  ex:count "2.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "11133";
+  ex:period "Washout Period of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11231> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "11231";
+  ex:period "Overall Study";
+  ex:reason "Dosing window missed", "Lost to Follow-up" .
+
+<http://example.org/drop_withdrawal/11272> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "11272";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Miscellaneous",
+    "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11297> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "11297";
+  ex:period "Second Intervention", "Washout";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11326> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-04-30"^^xsd:date;
+  ex:numericial "11326";
+  ex:period "First Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11689> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "11689";
+  ex:period "Period 1";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/11985> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "11985";
+  ex:period "Washout Period of 14 Days";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/12009> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "12009";
+  ex:period "Treatment Period I", "Treatment Period II";
+  ex:reason "Lost to Follow-up", "Other", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12044> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "12044";
+  ex:period "Second Intervention", "Washout Period of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12109> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "12109";
+  ex:period "First Intervention";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/12144> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "12144";
+  ex:period "Washout Period of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12157> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "12157";
+  ex:period "Washout Period of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12236> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "12236";
+  ex:period "Second Intervention";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/12378> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "19.0", "2.0", "3.0", "31.0", "32.0", "4.0", "8.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "12378";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lack of baseline fungus", "Lost to Follow-up",
+    "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12394> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "12394";
+  ex:period "Period 1";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/12456> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "12456";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12463> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "12463";
+  ex:period "Washout: 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12471> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "12471";
+  ex:period "Washout Period of 7 Days";
+  ex:reason "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/12579> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "12579";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1272> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2001-03-31"^^xsd:date;
+  ex:numericial "1272";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Other" .
+
+<http://example.org/drop_withdrawal/13138> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "13138";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/13186> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "13186";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13227> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-05-26"^^xsd:date;
+  ex:numericial "13227";
+  ex:period "Ove", "Overall Study";
+  ex:reason "Admin. of relaxant other than Zemuron®", "Reason not provided" .
+
+<http://example.org/drop_withdrawal/13244> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2004-12-27"^^xsd:date;
+  ex:numericial "13244";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Protocol Violation", "Sponsor's decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13369> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "13369";
+  ex:period "First Intervention", "Second Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Intolerance to Venopuncture", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13377> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "13377";
+  ex:period "Overall Study";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13383> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13383";
+  ex:period "First Intervention", "Second Intervention";
+  ex:reason "Adverse Event", "Intolerance to Venopuncture" .
+
+<http://example.org/drop_withdrawal/13384> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13384";
+  ex:period "First Intervention", "Second Intervention", "Washout of 42 Days";
+  ex:reason "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13385> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "13385";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Subject was unable to return", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13444> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "13444";
+  ex:period "First Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13520> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13520";
+  ex:period "Second Intervention", "Washout of 42 Days";
+  ex:reason "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13776> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13776";
+  ex:period "Washout Period of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13797> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13797";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/13957> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13957";
+  ex:period "Overall Study";
+  ex:reason "Didn't receive drug in period 2", "Withdrawal by Subject", "didn't return for period 2" .
+
+<http://example.org/drop_withdrawal/13998> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "13998";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Personal reason" .
+
+<http://example.org/drop_withdrawal/14137> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "14137";
+  ex:period "Overall Study";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/14459> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "14459";
+  ex:period "Second Intervention";
+  ex:reason "Missed 72 hour blood draw" .
+
+<http://example.org/drop_withdrawal/14525> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "14525";
+  ex:period "First Intervention", "Second Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/14595> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "14595";
+  ex:period "First Intervention", "Washout";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/14692> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-12-20"^^xsd:date;
+  ex:numericial "14692";
+  ex:period "Year 15";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/15062> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "15062";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1519> a ex:DropWithdrawal;
+  ex:count "1022.0", "1160.0", "1211.0", "1552.0", "1563.0", "182.0", "189.0", "198.0",
+    "203.0", "211.0", "214.0", "609.0", "627.0", "68.0", "95.0", "960.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "1519";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Data not available at data cut-off point", "Lost to Follow-up",
+    "Moved", "Other", "Protocol Violation", "Randomized Not Vaccinated (Visit 1)", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1524> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2001-07-31"^^xsd:date;
+  ex:numericial "1524";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Gout Flare", "Other" .
+
+<http://example.org/drop_withdrawal/15463> a ex:DropWithdrawal;
+  ex:count "101.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "15463";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up" .
+
+<http://example.org/drop_withdrawal/16615> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "16615";
+  ex:period "Treatment Period 1";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/16719> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "16719";
+  ex:period "First Intervention", "Second Intervention";
+  ex:reason "Emesis in Dosing Interval", "Physician Decision", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/1702> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "1702";
+  ex:period "Overall Study";
+  ex:reason "Death", "Patient Withdrawn Per Protocol", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/17133> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "17133";
+  ex:period "Washout: 7 Days";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/17184> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "17184";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1724> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0", "4.0", "5.0", "6.0", "7.0", "8.0";
+  ex:date "2003-02-28"^^xsd:date;
+  ex:numericial "1724";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Physician Decision", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/17457> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "17457";
+  ex:period "First Intervention", "Washout: 7 Days";
+  ex:reason "Adverse Event", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/1792> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "2.0", "3.0", "5.0", "8.0";
+  ex:date "2002-08-31"^^xsd:date;
+  ex:numericial "1792";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Bad prostate-specific antigen response", "Insufficient testosterone response",
+    "Mistakenly withdrawn", "Other", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1859> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "4.0", "6.0";
+  ex:date "2001-07-31"^^xsd:date;
+  ex:numericial "1859";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/1861> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "4.0", "5.0";
+  ex:date "2001-07-31"^^xsd:date;
+  ex:numericial "1861";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1992> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "12.0", "2.0", "4.0", "5.0", "56.0", "6.0";
+  ex:date "2001-11-30"^^xsd:date;
+  ex:numericial "1992";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Protocol Violation", "Site terminated and other",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/1995> a ex:DropWithdrawal;
+  ex:count "1.0", "13.0", "15.0", "6.0", "82.0";
+  ex:date "2002-02-28"^^xsd:date;
+  ex:numericial "1995";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Miscellaneous",
+    "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/2014> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "11.0", "2.0", "3.0", "4.0", "5.0", "7.0", "8.0";
+  ex:date "2001-07-31"^^xsd:date;
+  ex:numericial "2014";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Moved", "Other",
+    "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2071> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "3.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "2071";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Withdrawal by Subject", "subject took one dose of street cannabis" .
+
+<http://example.org/drop_withdrawal/2145> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "2145";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Pregnancy", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2149> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "3.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "2149";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "adv. to use original dose/amitriptyline",
+    "low mood and poor motivation" .
+
+<http://example.org/drop_withdrawal/2156> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "14.0", "2.0", "5.0", "7.0", "9.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "2156";
+  ex:period "Overall Study";
+  ex:reason "Administrative /other", "Adverse Event", "Death", "Failure to return",
+    "Insufficient therapeutic response", "Refused treatment" .
+
+<http://example.org/drop_withdrawal/2191> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "7.0";
+  ex:date "2004-05-06"^^xsd:date;
+  ex:numericial "2191";
+  ex:period "Part 1A", "Part 1B", "Part 2";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Other" .
+
+<http://example.org/drop_withdrawal/2253> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2001-06-30"^^xsd:date;
+  ex:numericial "2253";
+  ex:period "Period 1", "Washout";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2254> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2001-06-30"^^xsd:date;
+  ex:numericial "2254";
+  ex:period "Washout";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2298> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-04-24"^^xsd:date;
+  ex:numericial "2298";
+  ex:period "Completed Study Protocol", "Randomized";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2345> a ex:DropWithdrawal;
+  ex:count "1.0", "138.0", "144.0", "6.0", "69.0", "74.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "2345";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "moved from area", "serious adverse event" .
+
+<http://example.org/drop_withdrawal/2423> a ex:DropWithdrawal;
+  ex:count "1.0", "18.0", "2.0", "26.0", "4.0", "6.0", "7.0";
+  ex:date "2005-02-28"^^xsd:date;
+  ex:numericial "2423";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Cannabis affecting job", "Death", "Felt more alter without study medication",
+    "Lack of Efficacy", "Lost to Follow-up", "Moved out of area", "Symptom control without study medication",
+    "Unable to make journey", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2490> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "11.0", "15.0", "2.0", "3.0", "4.0", "5.0", "7.0";
+  ex:date "2001-11-30"^^xsd:date;
+  ex:numericial "2490";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Moved", "Pre-randomization Adverse Event",
+    "Protocol Violation", "Site closed (local pollen Season ended)", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/2864> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0", "3.0", "5.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "2864";
+  ex:period "Short Term Participation";
+  ex:reason "Death", "Withdrawal by Subject", "withdrew from multiple myeloma treatment" .
+
+<http://example.org/drop_withdrawal/2899> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-05-31"^^xsd:date;
+  ex:numericial "2899";
+  ex:period "Overall Study";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3021> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-01-31"^^xsd:date;
+  ex:numericial "3021";
+  ex:period "Second Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3039> a ex:DropWithdrawal;
+  ex:count "3.0", "4.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "3039";
+  ex:period "Overall Study";
+  ex:reason "Death" .
+
+<http://example.org/drop_withdrawal/3074> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "5.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "3074";
+  ex:period "Overall Study";
+  ex:reason "Admitted for Signs of PD", "Adverse Event", "Clinical Symptoms Progression not PD",
+    "PD Requiring Surgery", "Physician Decision Due To PD", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3114> ex:count "0.0", "1.0", "10.0", "13.0", "14.0",
+    "16.0", "18.0", "2.0", "27.0", "3.0", "31.0", "4.0", "5.0", "9.0";
+  ex:date "2002-05-31"^^xsd:date;
+  ex:numericial "3114";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up";
+  a ex:DropWithdrawal;
+  ex:reason "Other", "Patient Moved", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3162> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2001-12-31"^^xsd:date;
+  ex:numericial "3162";
+  ex:period "First Intervention";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/3163> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2001-12-31"^^xsd:date;
+  ex:numericial "3163";
+  ex:period "Second Intervention", "Washout: 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3215> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-09-30"^^xsd:date;
+  ex:numericial "3215";
+  ex:period "Second Intenvention (14-20 Days)", "Third Intenvention (14-20 Days)";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/328> a ex:DropWithdrawal;
+  ex:count "10.0", "11.0", "16.0", "17.0", "19.0", "2.0", "20.0", "3.0", "4.0", "5.0",
+    "6.0", "7.0", "8.0";
+  ex:date "2001-05-31"^^xsd:date;
+  ex:numericial "328";
+  ex:period "Overall Study";
+  ex:reason "Incomplete Safety Follow-up", "Lost to Follow-up", "Missed One or More Bleeds",
+    "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/332> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "112.0", "2.0", "3.0", "4.0", "7.0", "8.0", "9.0";
+  ex:date "2000-05-31"^^xsd:date;
+  ex:numericial "332";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Discontinued in Error", "Lack of Efficacy", "Left Country",
+    "Lost to Follow-up", "Noncompliance", "Protocol Violation", "Treatment Group Terminated by Sponsor",
+    "Withdrawal by Subject", "elevated lab values pre-randomization", "out-of-state",
+    "vacation" .
+
+<http://example.org/drop_withdrawal/3395> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-02-28"^^xsd:date;
+  ex:numericial "3395";
+  ex:period "Second Intervention";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/3498> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-01-31"^^xsd:date;
+  ex:numericial "3498";
+  ex:period "Second Intervention";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/3508> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0";
+  ex:date "2004-08-31"^^xsd:date;
+  ex:numericial "3508";
+  ex:period "Overall Study";
+  ex:reason "Death/NH placement of pt", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3641> a ex:DropWithdrawal;
+  ex:count "1.0", "15.0", "4.0", "56.0", "74.0", "85.0", "9.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "3641";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Decreased/no pain", "Increased bilirubin", "Issues with driving",
+    "Lack of Efficacy", "Lost to Follow-up", "Not enough improvement", "Patient leaving country",
+    "Patient moving", "Patient non-compliance", "Personal reasons", "Protocol Violation",
+    "Spray causes nausea", "Unable to collect consistent data", "Unable to tolerate study med. taste",
+    "Wanted to try another treatment", "Withdrawal by Subject", "multiple sclerosis less stable" .
+
+<http://example.org/drop_withdrawal/3660> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-03-31"^^xsd:date;
+  ex:numericial "3660";
+  ex:period "Washout";
+  ex:reason "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3731> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "3.0", "6.0", "8.0";
+  ex:date "2003-07-31"^^xsd:date;
+  ex:numericial "3731";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3747> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "17.0", "2.0", "20.0", "3.0", "4.0", "8.0", "9.0";
+  ex:date "2002-11-30"^^xsd:date;
+  ex:numericial "3747";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Lack of Efficacy", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3761> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0";
+  ex:date "2003-01-31"^^xsd:date;
+  ex:numericial "3761";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "No tophi found in MRI", "Physician Decision" .
+
+<http://example.org/drop_withdrawal/3817> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2002-08-31"^^xsd:date;
+  ex:numericial "3817";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Disease progression", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3853> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-08-31"^^xsd:date;
+  ex:numericial "3853";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3862> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "4.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "3862";
+  ex:period "Core Treatment", "Extension Year 1", "Extension Year 2";
+  ex:reason "Adverse Event", "Early withdrawals", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3873> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-03-31"^^xsd:date;
+  ex:numericial "3873";
+  ex:period "Washout";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/3940> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "15.0", "17.0", "18.0", "2.0", "3.0", "4.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "3940";
+  ex:period "Overall Study";
+  ex:reason "Hepatic abnormalities", "PSA increase >=10ng/mL", "PSA reduction <=50%",
+    "Prostate-specific antigen increase >=25%", "Testosterone 0.5 - 1.0 ng/mL", "Testosterone >1.0 ng/mL" .
+
+<http://example.org/drop_withdrawal/3987> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0", "20.0", "29.0", "3.0", "32.0", "37.0", "4.0", "41.0", "44.0",
+    "5.0", "6.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "3987";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Did not follow-up", "Early improvement", "Lost to Follow-up",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4041> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "5.0";
+  ex:date "2002-11-30"^^xsd:date;
+  ex:numericial "4041";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Exacerbation of seizures", "Exclusion criteria", "Lost to Follow-up",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4165> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "12.0", "14.0", "17.0", "2.0", "20.0", "3.0", "4.0", "6.0",
+    "9.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "4165";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Chemotherapy initiated", "Death", "Did not receive study drug",
+    "Erythropoietin therapy initiated", "Ineligibility determined", "Lost to Follow-up",
+    "Other", "Physician Decision", "Protocol deviation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4167> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "4167";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Protocol Violation", "Randomization criteria not met",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4231> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "13.0", "137.0", "14.0", "15.0", "18.0", "19.0", "2.0", "23.0",
+    "3.0", "31.0", "46.0", "48.0", "61.0", "62.0", "93.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "4231";
+  ex:period "Overall Study";
+  ex:reason "Administrative", "Adverse Event", "Complete Response", "Death", "Lost to Follow-up",
+    "Non-compliance", "Partial Response", "Progressive Disease", "Stable Disease", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4278> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "11.0", "2.0", "5.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "4278";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Patient non-compliance" .
+
+<http://example.org/drop_withdrawal/4347> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "4.0", "6.0";
+  ex:date "2004-03-31"^^xsd:date;
+  ex:numericial "4347";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Protocol Violation", "Withdrawal by Subject",
+    "administrative decision", "patient non-compliance" .
+
+<http://example.org/drop_withdrawal/4367> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "4367";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/4389> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "4389";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Ineligibility determined", "Initiation of maintenance dialysis",
+    "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4432> a ex:DropWithdrawal;
+  ex:count "1.0", "12.0", "2.0", "3.0", "4.0", "5.0", "6.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "4432";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Other", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4434> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-06-30"^^xsd:date;
+  ex:numericial "4434";
+  ex:period "Period 1";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/4449> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "4449";
+  ex:period "Period 1";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4459> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "4459";
+  ex:period "First Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4471> a ex:DropWithdrawal;
+  ex:count "6.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "4471";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up" .
+
+<http://example.org/drop_withdrawal/4519> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-06-30"^^xsd:date;
+  ex:numericial "4519";
+  ex:period "Washout";
+  ex:reason "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4528> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-06-17"^^xsd:date;
+  ex:numericial "4528";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up" .
+
+<http://example.org/drop_withdrawal/4567> a ex:DropWithdrawal;
+  ex:count "1.0", "10.0", "11.0", "13.0", "14.0", "16.0", "18.0", "19.0", "2.0", "21.0",
+    "23.0", "25.0", "28.0", "7.0", "8.0", "9.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "4567";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Gout Flare", "Lost to Follow-up", "Other", "Personal Reason(s)",
+    "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/4572> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "5.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "4572";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Personal problems", "Problems with administration", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4667> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-07-31"^^xsd:date;
+  ex:numericial "4667";
+  ex:period "Washout: 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4700> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "11.0", "2.0", "21.0", "3.0", "34.0", "4.0", "6.0";
+  ex:date "2004-02-29"^^xsd:date;
+  ex:numericial "4700";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Data Monitoring Committee Recommendation", "Lost to Follow-up",
+    "Protocol Violation", "Unable to meet protocol criteria", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4947> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-08-31"^^xsd:date;
+  ex:numericial "4947";
+  ex:period "Washout: 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4951> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-08-31"^^xsd:date;
+  ex:numericial "4951";
+  ex:period "Washout: 2 Weeks";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/4972> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-10-31"^^xsd:date;
+  ex:numericial "4972";
+  ex:period "First Intervention", "Washout: 21 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4981> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-09-30"^^xsd:date;
+  ex:numericial "4981";
+  ex:period "First Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/4982> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-10-31"^^xsd:date;
+  ex:numericial "4982";
+  ex:period "Second Intervention";
+  ex:reason "Emesis During Critical Breakfast" .
+
+<http://example.org/drop_withdrawal/5049> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "3.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "5049";
+  ex:period "Month 3", "Month 6";
+  ex:reason "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5112> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2002-10-31"^^xsd:date;
+  ex:numericial "5112";
+  ex:period "First Intervention";
+  ex:reason "Withdrawn Due to Emesis" .
+
+<http://example.org/drop_withdrawal/5173> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-10-31"^^xsd:date;
+  ex:numericial "5173";
+  ex:period "First Intervention", "Washout";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5197> a ex:DropWithdrawal;
+  ex:count "11.0", "13.0", "17.0", "3.0", "5.0", "7.0", "9.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "5197";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Moved", "Other", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5275> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-10-31"^^xsd:date;
+  ex:numericial "5275";
+  ex:period "First Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5324> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "5324";
+  ex:period "Overall Study";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5465> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2003-06-30"^^xsd:date;
+  ex:numericial "5465";
+  ex:period "Period 1", "Period 2";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/552> a ex:DropWithdrawal;
+  ex:count "2.0";
+  ex:date "2003-03-31"^^xsd:date;
+  ex:numericial "552";
+  ex:period "Overall Study";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/5567> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "5.0", "7.0";
+  ex:date "2004-08-31"^^xsd:date;
+  ex:numericial "5567";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Moved to rollover protocol", "Other",
+    "Progressive disease" .
+
+<http://example.org/drop_withdrawal/5593> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "5.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "5593";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Bad prostate specific antigen response", "Disease progression",
+    "Lack of trial drug at site", "Need of additional treatment", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5735> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2004-04-30"^^xsd:date;
+  ex:numericial "5735";
+  ex:period "Overall Study";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5778> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-06-01"^^xsd:date;
+  ex:numericial "5778";
+  ex:period "Overall Study";
+  ex:reason "Technical Error" .
+
+<http://example.org/drop_withdrawal/5835> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0";
+  ex:date "2005-02-28"^^xsd:date;
+  ex:numericial "5835";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Non-compliance", "Pregnancy", "Too time consuming",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5852> a ex:DropWithdrawal;
+  ex:count "1.0", "10.0", "16.0", "18.0", "2.0", "3.0", "4.0", "5.0", "56.0", "63.0",
+    "8.0";
+  ex:date "2003-12-31"^^xsd:date;
+  ex:numericial "5852";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Negative Baseline Culture of Candida",
+    "Positive Results for STD or abnormal PAP", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/5859> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2002-12-31"^^xsd:date;
+  ex:numericial "5859";
+  ex:period "Second Intervention", "Washout: 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6070> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "13.0", "15.0", "2.0", "20.0", "3.0", "4.0", "6.0", "7.0",
+    "8.0", "9.0";
+  ex:date "2003-08-23"^^xsd:date;
+  ex:numericial "6070";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "ECG abnormalities", "Lack of Efficacy", "Lost to Follow-up",
+    "Protocol Violation", "Sponsor's decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/646> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2000-07-31"^^xsd:date;
+  ex:numericial "646";
+  ex:period "Period: First Intervention", "Period: Washout of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6516> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "11.0", "13.0", "15.0", "16.0", "17.0", "18.0", "19.0",
+    "2.0", "3.0", "5.0", "6.0", "8.0", "9.0";
+  ex:date "2004-04-30"^^xsd:date;
+  ex:numericial "6516";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Gout Flare", "Lost to Follow-up", "Other", "Personal Reason(s)",
+    "Protocol Violation", "Therapeutic Failure" .
+
+<http://example.org/drop_withdrawal/6533> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0", "3.0";
+  ex:date "2003-03-31"^^xsd:date;
+  ex:numericial "6533";
+  ex:period "First Intervention", "Washout of 7 Days";
+  ex:reason "Emesis During Dosing Interval", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6549> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "36.0", "37.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "6549";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Lack of Efficacy", "Lost to Follow-up", "Refused Treatment" .
+
+<http://example.org/drop_withdrawal/6565> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "6.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "6565";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "No study drug taken", "Protocol Violation",
+    "Surgery, moving, personal, abn. labs", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6599> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2003-02-28"^^xsd:date;
+  ex:numericial "6599";
+  ex:period "First Intervention", "Washout";
+  ex:reason "Adverse Event", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6633> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-03-31"^^xsd:date;
+  ex:numericial "6633";
+  ex:period "Washout";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6701> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "5.0";
+  ex:date "2003-12-31"^^xsd:date;
+  ex:numericial "6701";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Non-Compliance", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6718> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2003-06-30"^^xsd:date;
+  ex:numericial "6718";
+  ex:period "Period 1";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/6720> a ex:DropWithdrawal;
+  ex:count "16.0", "5.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "6720";
+  ex:period "Overall Study";
+  ex:reason "Only received temporary implants", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6739> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-02-12"^^xsd:date;
+  ex:numericial "6739";
+  ex:period "Primary Vaccination Course";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6741> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2003-12-16"^^xsd:date;
+  ex:numericial "6741";
+  ex:period "Booster Phase", "Primary Phase";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Other", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/680> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "11.0", "12.0", "13.0", "18.0", "2.0", "3.0", "31.0", "4.0",
+    "7.0", "9.0";
+  ex:date "2001-12-31"^^xsd:date;
+  ex:numericial "680";
+  ex:period "Overall Study";
+  ex:reason "CAE - discontinued test vaccine", "Incomplete safety follow-up", "Lost to Follow-up",
+    "Missed one or more blood samplings", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6815> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0", "8.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "6815";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up", "Vaccination error-wrong dose/expired lot", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/6883> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-03-31"^^xsd:date;
+  ex:numericial "6883";
+  ex:period "Washout";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/6978> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-03-31"^^xsd:date;
+  ex:numericial "6978";
+  ex:period "First Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7068> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "4.0", "8.0";
+  ex:date "2003-11-26"^^xsd:date;
+  ex:numericial "7068";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Protocol Violation", "Unrelated to Study Medication" .
+
+<http://example.org/drop_withdrawal/7098> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0", "3.0";
+  ex:date "2005-02-28"^^xsd:date;
+  ex:numericial "7098";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Protocol Violation", "Withdrawal by Subject", "unk" .
+
+<http://example.org/drop_withdrawal/7101> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "6.0", "9.0";
+  ex:date "2004-09-30"^^xsd:date;
+  ex:numericial "7101";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Inclusion Violation", "Lost to Follow-up", "Other", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/714> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0", "3.0";
+  ex:date "2002-09-24"^^xsd:date;
+  ex:numericial "714";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Disease Progression" .
+
+<http://example.org/drop_withdrawal/7156> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "9.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "7156";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Lost to Follow-up", "Physician Decision", "Protocol Violation",
+    "Protocol entry criteria not met", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7166> ex:count "0.0", "1.0";
+  ex:date "2003-05-31"^^xsd:date;
+  a ex:DropWithdrawal;
+  ex:numericial "7166";
+  ex:period "Washout";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7173> a ex:DropWithdrawal;
+  ex:count "1.0", "10.0", "11.0", "18.0", "2.0", "3.0", "4.0", "6.0", "73.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "7173";
+  ex:period "Maintenance Phase I", "Maintenance Phase II", "Titration";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7196> a ex:DropWithdrawal;
+  ex:count "10.0", "14.0", "4.0", "56.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "7196";
+  ex:period "Overall Study";
+  ex:reason "Administrative", "Adverse Event", "Lack of Efficacy", "Lost to Follow-up",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7248> a ex:DropWithdrawal;
+  ex:count "1.0", "24.0", "3.0", "5.0", "9.0";
+  ex:date "2004-10-31"^^xsd:date;
+  ex:numericial "7248";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Disease progression", "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7284> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "7.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "7284";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Non-Compliance with Trial Medicine",
+    "Other", "Protocol Violation", "Serious Adverse Event" .
+
+<http://example.org/drop_withdrawal/7306> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "8.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "7306";
+  ex:period "Overall Study";
+  ex:reason "Administrative", "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7370> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0";
+  ex:date "2003-04-30"^^xsd:date;
+  ex:numericial "7370";
+  ex:period "Washout";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7374> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-05-31"^^xsd:date;
+  ex:numericial "7374";
+  ex:period "Period 1";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/7409> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "7409";
+  ex:period "Period 1 - Part I", "Period 1 - Part II";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7419> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "7419";
+  ex:period "Double-Blind Treatment Period", "Follow-Up Period";
+  ex:reason "Administrative reason by sponsor", "Adverse Event", "Lack of Efficacy",
+    "Lost to Follow-up", "Physician Decision", "Poor/Noncompliance", "Subject Withdrew consent",
+    "Subject no longer meets study criteria", "Subject withdrew Consent" .
+
+<http://example.org/drop_withdrawal/7462> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "13.0", "16.0", "2.0", "3.0", "4.0", "5.0", "6.0", "7.0", "8.0";
+  ex:date "2004-08-31"^^xsd:date;
+  ex:numericial "7462";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Moved", "Other", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7469> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0", "3.0", "4.0", "44.0", "5.0", "52.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "7469";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Clinical disease progression", "Died prior to receiving treatment",
+    "Disease progression", "Physician Decision", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7518> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-06-30"^^xsd:date;
+  ex:numericial "7518";
+  ex:period "First Intervention", "Washout";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/7585> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "7585";
+  ex:period "Overall Study";
+  ex:reason "Administrative" .
+
+<http://example.org/drop_withdrawal/774> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "10.0", "14.0", "17.0", "2.0", "21.0", "23.0", "3.0", "6.0",
+    "7.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "774";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Failure to Return", "Insufficient Therapeutic Response",
+    "Other Protocol Violation", "Other withdrawal reason", "Refused Treatment", "Violation of Selection Criteria at Entry" .
+
+<http://example.org/drop_withdrawal/7801> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0";
+  ex:date "2005-01-31"^^xsd:date;
+  ex:numericial "7801";
+  ex:period "Overall Study";
+  ex:reason "Loose Stools", "Protocol Violation", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7805> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "4.0";
+  ex:date "2004-01-31"^^xsd:date;
+  ex:numericial "7805";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Never received study treatment",
+    "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/7955> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "7955";
+  ex:period "Treatment Period I", "Treatment Period II";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/8008> a ex:DropWithdrawal;
+  ex:count "1.0", "10.0", "16.0", "2.0", "4.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "8008";
+  ex:period "Overall Study";
+  ex:reason "Administrative", "Adverse Event", "Lack of Efficacy", "Lost to Follow-up" .
+
+<http://example.org/drop_withdrawal/814> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "6.0";
+  ex:date "2002-06-24"^^xsd:date;
+  ex:numericial "814";
+  ex:period "Double-blind Phase", "Open-label Phase";
+  ex:reason "Adverse Event", "Lack of Response", "Other", "Protocol Issues", "Suboptimal Clinical Response" .
+
+<http://example.org/drop_withdrawal/8255> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "8255";
+  ex:period "Washout of 14 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8285> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-10-31"^^xsd:date;
+  ex:numericial "8285";
+  ex:period "Second Infusion (Week <6)";
+  ex:reason "Pt did not meet study requirement" .
+
+<http://example.org/drop_withdrawal/8290> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "8290";
+  ex:period "First Intervention", "Washout: 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8345> a ex:DropWithdrawal;
+  ex:count "1.0", "10.0", "2.0", "27.0", "3.0", "8.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "8345";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Death", "Did not receive treatment", "Disease progression",
+    "Physician Decision", "Reason unspecified" .
+
+<http://example.org/drop_withdrawal/8409> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "8409";
+  ex:period "Third Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8411> a ex:DropWithdrawal;
+  ex:count "1.0", "15.0", "2.0", "3.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "8411";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Physician Decision", "Progressive Disease", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8452> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "8452";
+  ex:period "Second Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/846> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0";
+  ex:date "2003-05-31"^^xsd:date;
+  ex:numericial "846";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up", "Other", "Test not done", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8525> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-08-31"^^xsd:date;
+  ex:numericial "8525";
+  ex:period "First Intervention";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/8596> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "8596";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up", "Not vaccinated", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8663> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "7.0";
+  ex:date "2005-01-10"^^xsd:date;
+  ex:numericial "8663";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Other", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/8666> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-03-16"^^xsd:date;
+  ex:numericial "8666";
+  ex:period "Overall Study";
+  ex:reason "Death" .
+
+<http://example.org/drop_withdrawal/870> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2004-12-31"^^xsd:date;
+  ex:numericial "870";
+  ex:period "Overall Study";
+  ex:reason "Ten participants were entered into the c" .
+
+<http://example.org/drop_withdrawal/8768> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "8768";
+  ex:period "Stage 2";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/8774> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-10-31"^^xsd:date;
+  ex:numericial "8774";
+  ex:period "Washout of 5 Weeks";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/879> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "4.0", "8.0";
+  ex:date "2000-11-30"^^xsd:date;
+  ex:numericial "879";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/881> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2001-02-28"^^xsd:date;
+  ex:numericial "881";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lost to Follow-up", "Patient Moved", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8815> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2005-04-30"^^xsd:date;
+  ex:numericial "8815";
+  ex:period "Overall Study";
+  ex:reason "Did not return record release form" .
+
+<http://example.org/drop_withdrawal/8816> a ex:DropWithdrawal;
+  ex:count "1.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "8816";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/8852> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "8852";
+  ex:period "First Intervention", "Second Intervention";
+  ex:reason "Difficulty with vein" .
+
+<http://example.org/drop_withdrawal/8967> a ex:DropWithdrawal;
+  ex:count "1.0", "3.0", "7.0";
+  ex:date "2004-07-31"^^xsd:date;
+  ex:numericial "8967";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9031> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "9031";
+  ex:period "Second Intervention";
+  ex:reason "Physician Decision" .
+
+<http://example.org/drop_withdrawal/9046> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "9046";
+  ex:period "First Intervention";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9129> a ex:DropWithdrawal;
+  ex:count "0.0", "2.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9129";
+  ex:period "Washout of 7 Days";
+  ex:reason "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9177> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9177";
+  ex:period "Washout of 21 Days";
+  ex:reason "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/9202> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-06-30"^^xsd:date;
+  ex:numericial "9202";
+  ex:period "Overall Study";
+  ex:reason "Lost to Follow-up", "Other", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9231> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-12-31"^^xsd:date;
+  ex:numericial "9231";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/9310> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9310";
+  ex:period "First Intervention", "Washout of 7 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9333> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9333";
+  ex:period "First Intervention", "Washout of 21 Days";
+  ex:reason "Adverse Event", "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9382> a ex:DropWithdrawal;
+  ex:count "10.0", "12.0", "14.0", "23.0", "25.0", "3.0", "32.0", "35.0", "4.0", "5.0",
+    "6.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "9382";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Other", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9452> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0";
+  ex:date "2004-12-21"^^xsd:date;
+  ex:numericial "9452";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Other" .
+
+<http://example.org/drop_withdrawal/9497> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9497";
+  ex:period "First Intervention";
+  ex:reason "Adverse Event" .
+
+<http://example.org/drop_withdrawal/9498> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0";
+  ex:date "2003-11-30"^^xsd:date;
+  ex:numericial "9498";
+  ex:period "First Intervention", "Washout: 7 Days";
+  ex:reason "Adverse Event", "Protocol Violation" .
+
+<http://example.org/drop_withdrawal/9519> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "3.0", "5.0", "6.0", "7.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "9519";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Lost to Follow-up", "Other" .
+
+<http://example.org/drop_withdrawal/960> a ex:DropWithdrawal;
+  ex:count "0.0";
+  ex:date "2004-11-30"^^xsd:date;
+  ex:numericial "960";
+  ex:period "Overall Study";
+  ex:reason "Physician Decision" .
+
+<http://example.org/drop_withdrawal/969> a ex:DropWithdrawal;
+  ex:count "1.0", "11.0", "2.0", "3.0", "4.0", "5.0", "6.0";
+  ex:date "2003-09-30"^^xsd:date;
+  ex:numericial "969";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of Efficacy", "Physician Decision", "Protocol Violation",
+    "Withdrawal by Subject" .
+
+<http://example.org/drop_withdrawal/9773> a ex:DropWithdrawal;
+  ex:count "1.0", "2.0", "25.0", "3.0", "43.0", "5.0", "56.0";
+  ex:date "2004-05-31"^^xsd:date;
+  ex:numericial "9773";
+  ex:period "Overall Study";
+  ex:reason "Adverse Event", "Lack of fungal pathogen at baseline", "Lost to Follow-up",
+    "Protocol Violation", "Withdrawal by Subject", "other" .
+
+<http://example.org/drop_withdrawal/9879> a ex:DropWithdrawal;
+  ex:count "0.0", "1.0", "2.0", "20.0", "21.0", "23.0", "3.0", "4.0", "8.0";
+  ex:date "2005-03-31"^^xsd:date;
+  ex:numericial "9879";
+  ex:period "Overall Study";
+  ex:reason "Administrative", "Adverse Event", "Did not qualify", "Lack of Efficacy",
+    "Lost to Follow-up", "Withdrawal by Subject" .

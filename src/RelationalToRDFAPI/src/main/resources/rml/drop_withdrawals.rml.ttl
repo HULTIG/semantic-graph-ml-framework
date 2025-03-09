@@ -1,0 +1,45 @@
+# RML mappings for transforming drop withdrawals data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+example:DropWithdrawalMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/drop_withdrawals.csv";
+        rml:referenceFormulation ql:CSV;
+        rml:iterator "/drop_withdrawals"
+    ];
+    rr:subjectMap [
+        rr:template "http://example.org/drop_withdrawal/{nct_id}";
+        rr:class ex:DropWithdrawal
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:numericial;
+        rr:objectMap [ rml:reference "nct_id" ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:period;
+        rr:objectMap [ rml:reference "period" ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:reason;
+        rr:objectMap [ rml:reference "reason" ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:count;
+        rr:objectMap [ rml:reference "count" ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:date;
+        rr:objectMap [ rml:reference "date"; rr:datatype xsd:date ]
+    ]. 

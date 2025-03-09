@@ -1,0 +1,962 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ns#> .
+@prefix example: <http://example.org/study/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/outcome/102> a ex:Outcome;
+  ex:date "2001-12-31"^^xsd:date;
+  ex:description "Change score was calculated by subtracting the follow-up HbA1c value from the baseline value for each patient. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Change score was calculated by subtracting the follow-up LDL value from the baseline value for each patient. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Change score was calculated by subtracting the follow-up value from the baseline value for each patient. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient non-adherent to the guideline recommendation for HbA1c <9 percent at baseline had achieved such a level at follow up. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for a semi-annual HbA1c assessment in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual HbA1c assessment in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual blood pressure assessment in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual eye exam in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual foot exam in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual lipid assessment in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated a patient who was non-compliant with the guideline recommendation for an annual renal function assessment in the baseline period was compliant in the follow-up period. Patients missing either a baseline or follow-up value were excluded. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated that a patient non-adherent to the guideline recommendation of LDL <100 mg/dL at baseline had achieved adherence at follow-up. Patient-level change scores were then summed and averaged over each study arm.",
+    "Each patient was assigned a change score of -1, 0, or 1. A positive value indicated that a patient non-adherent to the guideline recommendation of blood pressure <130/80 mmHg at baseline had achieved adherence at follow-up. Patient-level change scores were then summed and averaged over each study arm.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "102";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "Patients for whom baseline or follow-up records were not available were excluded.",
+    "Patients for whom either baseline or follow-up records were missing were excluded.",
+    "Patients for whom records were missing for either baseline or follow-up were excluded.",
+    "Patients for whom records were not available at either baseline or follow-up were excluded.",
+    "Patients missing either a baseline or follow-up HbA1c value were excluded.", "Patients missing either a baseline or follow-up blood pressure measurement were excluded.",
+    "Patients missing either a baseline or follow-up blood pressure value were excluded.",
+    "Patients missing either baseline or follow-up LDL values were excluded.", "Patients missing either baseline or follow-up values for HbA1c were excluded.";
+  ex:time_frame "This measure compared baseline values (01/01/2000-12/31/2000) to follow-up values (01/01/2001-12/31/2001)",
+    "change from baseline (01/01/2000-12/31/2000) to follow-up (01/01/2001-12/31/2001)",
+    "change from baseline (01/01/2000-12/31/2000) to follow-up (01/01/200112/31/2001)",
+    "change from baseline (1/1/2000-12/31/2000) to follow-up (1/1/2001-12/31/2001)";
+  ex:title "Change Score for Annual Blood Pressure Assessment (as Determined From Medical Record Review)",
+    "Change Score for Annual Eye Exam (as Determined From Medical Record Review)", "Change Score for Annual Eye Exam (as Determined From Medicare Claims Data)",
+    "Change Score for Annual Foot Exam (as Determined by Medical Record Review)", "Change Score for Annual HbA1c Assessment (as Determined From Medical Record Review)",
+    "Change Score for Annual HbA1c Assessment (as Determined From Medicare Claims Data)",
+    "Change Score for Annual Lipid Assessment (as Determined From Medical Record Review)",
+    "Change Score for Annual Lipid Assessment (as Determined From Medicare Claims Data)",
+    "Change Score for Annual Renal Function Assessment (as Determined From Medical Record Review)",
+    "Change Score for Blood Pressure (b.p.) <130/80 mmHg", "Change Score for Diastolic Blood Pressure",
+    "Change Score for HbA1c <9 Percent", "Change Score for HbA1c Level", "Change Score for LDL <100 mg/dL",
+    "Change Score for LDL Level", "Change Score for Semiannual HbA1c Assessment (as Determined From Medicare Claims Data)",
+    "Change Score for Systolic Blood Pressure";
+  ex:units "change in percentage of glycosolated-Hb", "mg/dL", "mmHg", "units on a scale" .
+
+<http://example.org/outcome/1099> a ex:Outcome;
+  ex:date "2001-03-31"^^xsd:date;
+  ex:description "Schoolchildren were allocated into two homogeneous groups named Growth Deficit (HAZ < -1,5 Z-score), and Normal Height (HAZ between -1,0 and ±1,0 Z-score), and were randomly assigned to compose two exposed groups to receive a supplement of 30mg of zinc amino acid chelate, and two control groups to receive placebo individually once a week, during 12 weeks. Children's heights were measured at the End of Supplementation period and again after 12 weeks (Follow-up period). In combination with sex and age we transformed stature to Height-for-Age, expressed in Z-score, which was calculated as a number of standard deviations or Z-scores below or above the reference mean or median value, according to the formula below:~Z-score = (observed value - median value of the reference population) / standard deviation value of reference population.~We analyzed and discussed the change in HAZ (HAZ at the End of Follow-up period - HAZ at End of Supplementation).";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "1099";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:time_frame "Height-for-Age Z-score was measured at the End of Supplementation period and again at the End of Follow-up period, with a 12 weeks interval.";
+  ex:title "Change in Height-for-Age Z-score (HAZ) From End of Supplementation to End of Follow-up Period.";
+  ex:units "Z-Score" .
+
+<http://example.org/outcome/1272> a ex:Outcome;
+  ex:date "2001-03-31"^^xsd:date;
+  ex:description "Period 1 was the first application of BTDS 10: The time for absorption to return to normal measured by AUC0-7d.~AUC0-7d - The area under the plasma concentration-time course profile from time = 0 (dosing) to BTDS removal.",
+    "Period 1 was the first application of BTDS 10: The time for absorption to return to normal measured by Cmax0-7.~Cmax0-7d - The maximum observed concentration taken directly from the plasma concentration-time course profile.",
+    "Period 1 was the first application of BTDS 10: The time for absorption to return to normal measured by Tmax0-7d.~Tmax0-7d - The time from dosing to the maximum observed concentration was taken directly from the plasma concentration-time course profile. If the maximum plasma concentration was observed at 2 or more consecutive time points, the earliest time point was used for Tmax.",
+    "Period 1 was the first application of BTDS 10: To determine the minimum application site rest periods that ensured that the reapplication of BTDS to the same site in the deltoid region did not result in increased absorption of the drug as measured by AUC0-3d [The area under the plasma concentration-time course profile from time = 0 (dosing) through day 3 (to 72 hours)].",
+    "Period 1 was the first application of BTDS 10: To determine the minimum application site rest periods that ensured that the reapplication of BTDS to the same site in the deltoid region did not result in increased absorption of the drug as measured by Cmax0-3d.~Cmax0-3d - The maximum observed concentration taken directly from the plasma concentration-time course profile from time = 0 (dosing) through day 3 (to 72 hours). This was considered an index of maximum (peak) exposure to the study drug.",
+    "Period 2 was the second application of BTDS 10: The time for absorption to return to normal measured by AUC0-7d.~AUC0-7d - The area under the plasma concentration-time course profile from time = 0 (dosing) to BTDS removal.",
+    "Period 2 was the second application of BTDS 10: The time for absorption to return to normal measured by Cmax0-7d.~Cmax0-7d - The maximum observed concentration taken directly from the plasma concentration-time course profile.",
+    "Period 2 was the second application of BTDS 10: The time for absorption to return to normal measured by Tmax0-7d.~Tmax0-7d - The time from dosing to the maximum observed concentration was taken directly from the plasma concentration-time course profile. If the maximum plasma concentration was observed at 2 or more consecutive time points, the earliest time point was used for Tmax.",
+    "Period 2 was the second application of BTDS 10: To determine the minimum application site rest periods that ensured that the reapplication of BTDS to the same site in the deltoid region did not result in increased absorption of the drug as measured by AUC0-3d.~AUC0-3d - The area under the plasma concentration-time course profile from time = 0 (dosing) through day 3 (to 72 hours).",
+    "Period 2 was the second application of BTDS 10: To determine the minimum application site rest periods that ensured that the reapplication of BTDS to the same site in the deltoid region did not result in increased absorption of the drug as measured by Cmax0-3d.~Cmax0-3d (pg/mL) - The maximum observed concentration taken directly from the plasma concentration-time course profile from time = 0 (dosing) through day 3 (to 72 hours). This was considered an index of maximum (peak) exposure to the study drug.";
+  ex:dispersion_type "Standard Error";
+  ex:numericial "1272";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "Pharmacokinetic Population: All subjects who satisfied the inclusion/exclusion criteria, received both applications of BTDS, and submitted to postbaseline phlebotomy through at least the 72-hour time point of both applications.";
+  ex:time_frame "0 to 3 days", "0 to 3 days (72 hours)", "0 to 7 days", "0 to 7days";
+  ex:title "Period 1: AUC0-3d", "Period 1: AUC0-7d.", "Period 1: Cmax0-3d", "Period 1: Cmax0-7",
+    "Period 1: Tmax0-7d.", "Period 2: AUC0-3d.", "Period 2: AUC0-7d", "Period 2: Cmax0-3d",
+    "Period 2: Cmax0-7d", "Period 2: Tmax0-7d.";
+  ex:units "hour", "pg/mL", "pg/mL*h" .
+
+<http://example.org/outcome/1391> a ex:Outcome;
+  ex:date "2001-09-30"^^xsd:date;
+  ex:description "Active Joint Range of Motion (ROM): Shoulder Flexion Ability to maximally raise one's arm overhead without assistance. Shoulder range of motion (mean of left and right arms) measured in degrees (0-180) by goniometry. Greater degree of flexion indicates greater response.",
+    "Apnea/Hypopnea Index (AHI): Number of absent (apnea) and shallow (hypopnea) breaths per hour of sleep. Overall change from Baseline to Week 26 in AHI. A greater decrease in events indicates a greater response.",
+    "CHAQ/HAQ) = Patient questionnaire that measures the degree of disability on a scale of 0 (no disability) to 3 (maximal disability). A lower score indicates a greater response.",
+    "Liver Organ Volume: Volume of liver measured by Magnetic Resonance Imaging (MRI). Greater decrease in volume indicates a greater response.",
+    "Percent Predicted Forced Vital Capacity (FVC): the maximal exhaled breathe volume following a maximal inhaled breath. Overall Change from Baseline to Week 26 in percent predicted FVC = (observed value)/(predicted value) * 100%). A higher value indicates a greater response.",
+    "Six Minute Walk Test (6MWT): Distance walked (measured in meters) in 6 minutes. A longer distance indicates a greater response.",
+    "Urinary Glycosaminoglycan (GAG) Levels: Concentration of GAG relative to creatinine in urine. A greater decrease in GAG level indicates a greater response.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "1391";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:time_frame "Baseline to Week 26", "Baseline to week 26";
+  ex:title "Overall Change From Baseline to Week 26 in Active Joint Range of Motion (ROM)",
+    "Overall Change From Baseline to Week 26 in Apnea/Hypopnea Index (AHI)", "Overall Change From Baseline to Week 26 in Child Health Assessment Questionnaire/Health Assessment Questionnaire (CHAQ/HAQ) Disability Index Score",
+    "Overall Change From Baseline to Week 26 in Percent Predicted Forced Vital Capacity (FVC)",
+    "Overall Change From Baseline to Week 26 in Six Minute Walk Test (6MWT)", "Overall Percent Change From Baseline to Week 26 in Liver Volume",
+    "Overall Percent Change From Baseline to Week 26 in Urinary Glycosaminoglycan (GAG) Levels";
+  ex:units "Cubic centimeters", "Degrees", "Events per hour", "Percent predicted FVC",
+    "Units on a scale", "meters", "ug/mg" .
+
+<http://example.org/outcome/1509> a ex:Outcome;
+  ex:date "2001-06-30"^^xsd:date;
+  ex:description "Participants self-rated the degree of pain experienced in the neck-shoulder region on the 0-100 standardized Visual Analog Scale (VAS) at baseline and one day post-treatment. The VAS is a 100mm long horizontal scale ranging from '0: no pain at all' on one end to '100: worst pain imaginable' on the other end. The participant marked the point along the scale that best showed the pain level they experienced in the neck-shoulder area at each point in time. The higher the number marked, the greater the pain level.",
+    "Participants self-rated the degree of pain experienced in the neck-shoulder region on the 0-100 standardized Visual Analog Scale (VAS) at baseline and one day post-treatment. The VAS is a 100mm long horizontal scale ranging from '0: no pain at all' on one end to '100: worst pain imaginable' on the other end. The participant marked the point along the scale that best showed the pain level they experienced in the neck-shoulder area at that point in time. The higher the number marked, the greater the pain level.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "1509";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean", "Number";
+  ex:time_frame "baseline and one day", "one day";
+  ex:title "Change in Self-reported Pain Rating in the Neck and Shoulder Area on the 0-100 Visual Analog Scale (VAS)From Baseline to One Day Post-treatment",
+    "Muscle Trigger Points of the Cervical Spine", "Range of Motion of the Neck and Shoulders",
+    "The Number of Participants Whose Self-reported Pain Rating in the Neck and Shoulder Area on the 0-100 Visual Analog Scale (VAS) Decreased by 30% or More From Baseline to One Day After Study Treatment";
+  ex:units "participants", "units on a scale" .
+
+<http://example.org/outcome/1523> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "In order to determine total antioxidant capacity a quantitative immunoassay using commercial kits (R&D Systems, Inc. Minneapolis, USA) was conducted.";
+  ex:dispersion_type "Inter-Quartile Range";
+  ex:numericial "1523";
+  ex:outcome_type "Primary";
+  ex:param_type "Median";
+  ex:population "All participants who completed all study visits were included";
+  ex:time_frame "Baseline and 5 days";
+  ex:title "Change From Baseline in Concentrations of Antioxidant Profile After Red Wine Intake";
+  ex:units "percentage of change in TAC" .
+
+<http://example.org/outcome/1524> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "24-hour urine uric acid levels were obtained at the Day 28 visit. The percent change in 24-hour urine uric acid level from baseline to the Day 28 visit was summarized.",
+    "Serum urate values were obtained at the Day 14 visit. The percent change in serum urate from baseline to the Day 14 visit was summarized.",
+    "Serum urate values were obtained at the Day 14 visit. The percentage of subjects whose serum urate decreased to <6.0 mg/dL at the Day 14 visit was summarized.",
+    "Serum urate values were obtained at the Day 21 visit. The percent change in serum urate from baseline to the Day 21 visit was summarized.",
+    "Serum urate values were obtained at the Day 21 visit. The percentage of subjects whose serum urate decreased to <6.0 mg/dL at the Day 21 visit was summarized.",
+    "Serum urate values were obtained at the Day 28 visit. The percent change in serum urate from baseline to the Day 28 visit was summarized.",
+    "Serum urate values were obtained at the Day 28 visit. The percentage of subjects whose serum urate decreased to <6.0 mg/dL at the Day 28 visit was summarized.",
+    "Serum urate values were obtained at the Day 7 visit. The percent change in serum urate from baseline to the Day 7 visit was summarized.",
+    "Serum urate values were obtained at the Day 7 visit. The percentage of subjects whose serum urate decreased to <6.0 mg/dL at the Day 7 visit was summarized.",
+    "Serum urate values were obtained at the Day 7, 14, 21,and 28 visits. The maximum percent change in serum urate levels obtained at any visit was summarized.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "1524";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean", "Number";
+  ex:population "Analysis performed on intent-to-treat (ITT) subjects, defined as all randomized subjects who took at least 1 dose of study drug and who had baseline serum urate ?8.0 mg/dL. The last observation carried forward (LOCF) method was used to impute missing data. The baseline value was carried forward if no postbaseline visits were available.",
+    "The analysis was performed on ITT subjects, which were defined as all randomized subjects who took at least 1 dose of study drug and who had baseline serum urate ? 8.0 mg/dL.",
+    "The analysis was performed on ITT subjects, which were defined as all randomized subjects who took at least 1 dose of study drug and who had baseline serum urate ? 8.0 mg/dL. Missing data was not imputed",
+    "The analysis was performed on ITT subjects, which were defined as all randomized subjects who took at least 1 dose of study drug and who had baseline serum urate ? 8.0 mg/dL. The LOCF method was used to impute missing data. The baseline value was carried forward if no post-baseline visits were available.",
+    "The analysis was performed on ITT subjects, which were defined as all randomized subjects who took at least 1 dose of study drug and who had baseline serum urate ? 8.0 mg/dL. The last observation carried forward (LOCF) method was used to impute missing data. The baseline value was carried forward if no post-baseline visits were available.";
+  ex:time_frame "Baseline and Any visit (Day 7, 14, 21,or 28)", "Baseline and Day 14.",
+    "Baseline and Day 21.", "Baseline and Day 28.", "Baseline and Day 7.", "Day 14.",
+    "Day 21.", "Day 28.", "Day 7.";
+  ex:title "Maximum Percent Change in Serum Urate Level From Baseline During the Entire Treatment Period.",
+    "Percent Change in 24-hour Urine Uric Acid Level From Baseline to Day 28.", "Percent Change in Serum Urate Levels From Baseline to the Day 14 Visit.",
+    "Percent Change in Serum Urate Levels From Baseline to the Day 21 Visit", "Percent Change in Serum Urate Levels From Baseline to the Day 28 Visit.",
+    "Percent Change in Serum Urate Levels From Baseline to the Day 7 Visit.", "Percentage of Subjects Whose Serum Urate Level Decreased to <6.0 Milligram Per Deciliter (mg/dL) at the Day 28 Visit.",
+    "Percentage of Subjects Whose Serum Urate Level Decreased to <6.0 mg/dL at the Day 14 Visit.",
+    "Percentage of Subjects Whose Serum Urate Level Decreased to <6.0 mg/dL at the Day 21 Visit.",
+    "Percentage of Subjects Whose Serum Urate Level Decreased to <6.0 mg/dL at the Day 7 Visit.";
+  ex:units "percent change from baseline", "percentage of subjects" .
+
+<http://example.org/outcome/1671> a ex:Outcome;
+  ex:date "2001-06-30"^^xsd:date;
+  ex:description "AUC0-? - Area under the plasma concentration time curve to last measurable time point~Day 1 - pre-dose, 30, 60, 90, 120, 180 minutes, 4, 6, 7, 8, 12, hours post final dose Day 8 - pre-dose, 30, 60, 90, 120, 180 minutes, 4, 6, 7, 8, 12, 24, 36, 48 and 72 hours post final dose",
+    "Cmax - Maximum observed plasma concentration", "Total Number of Adverse Events.";
+  ex:dispersion_type "Standard Deviation", "Standard Error";
+  ex:numericial "1671";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean", "Number";
+  ex:time_frame "Day 1 - pre-dose, 30, 60, 90, 120, 180 minutes, 4, 6, 7, 8, 12, hours post final dose Day 8 - pre-dose, 30, 60, 90, 120, 180 minutes, 4, 6, 7, 8, 12, 24, 36, 48 and 72 hours post final dose",
+    "Day 1 and Day 8", "up to 20 weeks";
+  ex:title "AUC0-?", "Cmax", "Total Number of Adverse Events";
+  ex:units "Total Number of AE", "ng.h/ml", "ng/ml" .
+
+<http://example.org/outcome/1704> a ex:Outcome;
+  ex:date "2001-06-30"^^xsd:date;
+  ex:description "Measurement of the decrease of hair loss by pull test and pulling some hair with the fingers.~Measurements estimated and reported every 15 days. The Measure reports decrease in fallen hair",
+    "Measurements checked and reported every 15 days of the decrease of existing sebum on the scalp of the volunteers with a sebum-meter.",
+    "Number of hair was assessed for each participant with a polarized light video-camera every 15 days for a total of 6 assessments";
+  ex:dispersion_type "Full Range";
+  ex:numericial "1704";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "Good state of general health Suffering from hair loss", "Good state of general health Suffering from hair loss No pharmacological treatment in progress Promise not to change the usual daily routine No atopy in the anamnesis";
+  ex:time_frame "baseline and 90 days";
+  ex:title "Change of Sebum on a Sebum-meter", "Change of the Amount of Hair Loss in a Pull Test",
+    "Change of the Density of the Hair on a Polarized Light Video-camera as a Measure of Efficacy.";
+  ex:units "Fallen hair", "hairs/square inch", "mg sebum/c^2" .
+
+<http://example.org/outcome/1859> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "Ineffective treatment was defined as:~Subject took >1 gram of acetaminophen in a 24-hour period, or~Subject required a change in transdermal patch (TDS) dose, or~Subject had difficulty in keeping the TDS on, or~Subject discontinued due to ineffective treatment (but did not meet any of the above criteria).~Note: some subjects may have had multiple reasons for ineffective treatment and are counted under each category. Therefore the sum of subjects across all criteria for ineffective treatment is greater than the total number of subjects with ineffective treatment.",
+    "Note: The total numbers of Subjects w/ineffective treatment or who discont'd for placebo and BTDS are 1 less because there were reasons other than lack of efficacy that made up this total: adverse event, death, lost to follow- up, protocol violation, and other. Example for placebo 89+5=94; however, 93 is indicated for the total because there is 1 subject in the placebo group who was counted under ineffective treatment and discontinued due to reasons other than lack of efficacy. The same is true for 1 subject in BTDS.",
+    "The average daily acetaminophen (Panadol) use (1 tablet = 500 mg) during the double-blind phase was compared between the treatment groups using ANCOVA methodology with terms for country and treatment. The average escape medication used in the last 4 days prior to randomization was included as a covariate.",
+    "The time of ineffective treatment was calculated as the earliest of the following:~The date the subject first took >1 gram of acetaminophen,~The visit date when ineffective treatment was first determined, or~The date the last patch was removed.";
+  ex:dispersion_type "Standard Error";
+  ex:numericial "1859";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean", "Mean", "Number";
+  ex:population "Full Analysis (N = 266) consisted of subjects who were randomized into the double-blind evaluation phase, were exposed to study drug, and provided at least 1 efficacy assessment during the double-blind evaluation phase.",
+    "The Full Analysis Population (N = 266) for efficacy analyses included all subjects who were randomized and provided at least 1 efficacy assessment in the double-blind phase.";
+  ex:time_frame "14 days", "Double-blind phase (14 days)";
+  ex:title "The Amount of Rescue Medication Used for Pain (Average Daily Number of Acetaminophen Tablets).",
+    "The Number of Subjects Who Had Ineffective Treatment or Who Discontinued Due to Reasons Other Than Ineffective Treatment in the Double-blind Phase",
+    "The Number of Subjects With Ineffective Treatment During the Double-blind Evaluation Phase.",
+    "Time (Days) From the Initial Dose of Study Drug in the Double-blind Evaluation Phase to Ineffective Treatment";
+  ex:units "Days", "Tablets", "participants" .
+
+<http://example.org/outcome/1861> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "A clinical adverse experience (AE) is defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of the SPONSOR'S product, whether or not considered related to the use of the product",
+    "A laboratory adverse experience (LAE) is defined as any unfavorable and unintended change in the chemistry of the body temporally associated with the use of the SPONSOR'S product, whether or not considered related to the use of the product",
+    "Patients with drug-related (as assessed by an investigator who is a qualified physician according to his/her best clinical judgment) CAEs",
+    "Serious CAEs are any AEs occurring at any dose that; Results in death; or Is life threatening; or Results in a persistent or significant disability/incapacity; or Results in or prolongs an existing inpatient hospitalization; or Is a congenital anomaly/birth defect; or Is a cancer; or Is an overdose",
+    "Serious LAEs are any LAEs occurring at any dose that: Results in death; or Is life threatening; or Results in a persistent or significant disability/incapacity; or Results in or prolongs an existing inpatient hospitalization; or Is a congenital anomaly/birth defect; or Is a cancer; or Is an overdose";
+  ex:numericial "1861";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Number";
+  ex:population "All patients who took study medication during the 2-week, double-blind treatment period and had at least one laboratory test post baseline were included in the analysis.",
+    "All patients who took study medication during the 2-week, double-blind treatment period were included in the analysis.";
+  ex:time_frame "2 weeks";
+  ex:title "Number of Patients Who Were Discontinued Due to CAEs", "Number of Patients Who Were Discontinued Due to LAEs",
+    "Number of Patients With Clinical Adverse Experiences (CAEs)", "Number of Patients With Drug-related CAEs",
+    "Number of Patients With Drug-related LAEs", "Number of Patients With Laboratory Adverse Experiences (LAEs)",
+    "Number of Patients With Serious CAEs", "Number of Patients With Serious LAEs";
+  ex:units "Participants" .
+
+<http://example.org/outcome/1992> a ex:Outcome;
+  ex:date "2001-11-30"^^xsd:date;
+  ex:description "An adverse experience (AE) is defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of the SPONSOR'S product, whether or not considered related to the use of the product";
+  ex:numericial "1992";
+  ex:outcome_type "Primary";
+  ex:param_type "Number";
+  ex:population "All patients who took study medication were included in the analysis.";
+  ex:time_frame "Up to 52 weeks of treatment";
+  ex:title "Number of Clinical Adverse Experiences (CAEs) Reported by Patients With up to 52 Weeks of Treatment";
+  ex:units "Participants" .
+
+<http://example.org/outcome/1995> a ex:Outcome;
+  ex:date "2002-02-28"^^xsd:date;
+  ex:description "Safety was assessed using reports of all new adverse events (AEs) that occurred after the first application of a patch during the extension phase were recorded.";
+  ex:numericial "1995";
+  ex:outcome_type "Primary";
+  ex:param_type "Number";
+  ex:population "The Extension Safety population (N = 189) includes all subjects who were exposed to BTDS during the Open-label Extension Phase and provided at least 1 valid safety assessment after exposure to BTDS during the Open-label Extension Phase.";
+  ex:time_frame "28 weeks";
+  ex:title "Number of Participants With Adverse Events (AEs) as a Measure of Safety.";
+  ex:units "participants" .
+
+<http://example.org/outcome/2014> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "An evaluation by the patient, administered at the last visit (or upon discontinuation) using a 7-point scale [Score 0 (very much better) to 6 (very much worse)], of the change in symptoms as compared to the beginning of the study.",
+    "An evaluation by the physician, administered at the last visit (or upon discontinuation) using a 7-point scale [Score 0 (very much better) to 6 (very much worse)], of the change in symptoms as compared to the beginning of the study.",
+    "Mean change from baseline in Daytime Eye Symptoms scores. Patients were asked to rate each of the 4 eye symptoms of tearing, itchy, red, and puffy eyes daily on a 4-point scale [0 (best) to 3 (worst)]. The average of the 4 individual eye symptoms scores was reported as the Daytime Eye Symptoms Score.",
+    "Mean change from baseline in Daytime Nasal Symptoms. Patients were asked to rate each of the 4 nasal symptoms of Congestion, Rhinorrhea, Itching, and Sneezing daily on a 4-point scale [Score 0 (best) to 3 (worst)]. The average of the 4 individual nasal symptoms scores was reported as the Daytime Nasal Symptoms Score.",
+    "Mean change from baseline in Nighttime Symptoms Score. Patients were asked to rate each symptoms of Nasal Congestion Upon Awakening, Difficulty Going to Sleep, and Nighttime Awakenings daily on a 4-point [Scale 0 (best) to 3 (worst)]. The average of the individual symptoms scores was reported as the Nighttime Symptoms Score.",
+    "Patients completed a validated, self-administered Rhinoconjunctivitis Quality-of-Life Questionnaire, which included 28 questions on a 7-point scale [Score 0 (best) to 6 (worst)], across 7 domains: activities, sleep, non-nose/eye symptoms, practical problems, nasal symptoms, eye symptoms, and emotional. The individual domain scores were calculated as the average values of all scores within a domain, then the scores for the 7 domains were averaged for the overall score.";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "2014";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean";
+  ex:population "The primary efficacy analyses were based on intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement were included.",
+    "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and a week 2 measurement were included. No missing values were imputed.",
+    "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle. Since only 1 measurement was obtained during the treatment period, no missing values were imputed.";
+  ex:time_frame "Baseline and at the end of 2-week treatment period", "Baseline and over the 2-week treatment period",
+    "End of the 2-week treatment period";
+  ex:title "Mean Change From Baseline in Daytime Eye Symptoms Score Over the 2-week Treatment Period",
+    "Mean Change From Baseline in Daytime Nasal Symptoms Score Over the 2-week Treatment Period",
+    "Mean Change From Baseline in Nighttime Symptoms Score Over the 2-week Treatment Period",
+    "Mean Change From Baseline in Rhinoconjunctivitis Quality-of-Life Score After the 2-week Treatment Period",
+    "Patient's Global Evaluation of Allergic Rhinitis at the End of the 2-week Treatment Period",
+    "Physician's Global Evaluation of Allergic Rhinitis at the End of the 2-week Treatment Period";
+  ex:units "Scores on a scale" .
+
+<http://example.org/outcome/2102> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "Bioequivalence based on Fluoxetine AUC0-inf (area under the concentration-time curve from time zero to infinity).",
+    "Bioequivalence based on Fluoxetine AUC0-t (area under the concentration-time curve from time zero to time of last measurable concentration).",
+    "Bioequivalence based on Fluoxetine Cmax (maximum observed concentration of drug substance in plasma).",
+    "Bioequivalence based on Norfluoxetine AUC0-inf (area under the concentration-time curve from time zero to infinity).",
+    "Informational comparison of AUC0-t values for the metabolite Norfluoxetine.", "Informational comparison of Cmax values for the metabolite Norfluoxetine.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "2102";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "All participants that completed the study had their samples analyzed.";
+  ex:time_frame "Blood samples collected over a 25 day period.";
+  ex:title "AUC0-inf of Fluoxetine.", "AUC0-inf of Norfluoxetine.", "AUC0-t of Fluoxetine.",
+    "AUC0-t of Norfluoxetine.", "Cmax of Fluoxetine.", "Cmax of Norfluoxetine.";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/2133> a ex:Outcome;
+  ex:date "2001-07-31"^^xsd:date;
+  ex:description "Bioequivalence based on Fluoxetine AUC0-inf (area under the concentration-time curve from time zero to infinity).",
+    "Bioequivalence based on Fluoxetine AUC0-t (area under the concentration-time curve from time zero to time of last measurable concentration).",
+    "Bioequivalence based on Fluoxetine Cmax (maximum observed concentration of drug substance in plasma).",
+    "Informational comparison of AUC0-inf values for the metabolite Norfluoxetine.", "Informational comparison of AUC0-t values for the metabolite Norfluoxetine.",
+    "Informational comparison of Cmax values for the metabolite Norfluoxetine.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "2133";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "All participants that completed the study had their samples analyzed.";
+  ex:time_frame "Blood samples collected over a 25 day period.";
+  ex:title "AUC0-inf of Fluoxetine.", "AUC0-inf of Norfluoxetine.", "AUC0-t of Fluoxetine.",
+    "AUC0-t of Norfluoxetine.", "Cmax of Fluoxetine.", "Cmax of Norfluoxetine.";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/2253> a ex:Outcome;
+  ex:date "2001-06-30"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-72", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "2253";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study was included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 96 hour period";
+  ex:title "AUC0-72 - Area Under the Concentration-time Curve From Time Zero to 72 Hours (Per Participant)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*hr/mL", "ng/mL" .
+
+<http://example.org/outcome/2254> a ex:Outcome;
+  ex:date "2001-06-30"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-72", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "2254";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study was included in statistical analysis.",
+    "Data from all subjects who completed the study was included in the statistical analysis.",
+    "Data from all subjects who completed the study was used in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 96 hour period";
+  ex:title "AUC0-72 - Area Under the Concentration Time Curve From Time Zero to Time 72 Hours (Per Participant)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*hr/mL", "ng/mL" .
+
+<http://example.org/outcome/2490> a ex:Outcome;
+  ex:date "2001-11-30"^^xsd:date;
+  ex:description "An evaluation by the patient, administered after the first 2 weeks of treatment using a 7-point scale [Score 0 (best) to 6 (worst)], of the change in symptoms as compared to the beginning of the study.",
+    "An evaluation by the physician, administered after the first 2 weeks of treatment using a 7-point scale [Score 0 (best) to 6 (worst)], of the change in symptoms as compared to the beginning of the study.",
+    "Composite Symptoms Scores were computed as the average of Daytime Nasal Scores [Score 0 (best) to 3 (worst)] and Nighttime Symptoms Scores [Score 0 (best) to 3 (worst)].",
+    "Mean change from baseline in Daytime Eye Symptoms scores.~Patients were asked to rate each of the 4 eye symptom of tearing, itchy, red, and puffy eyes daily on a 4-point scale [Score 0 (best) to 3 (worst)]. The average of the 4 individual eye symptoms scores was reported as the Daytime Eye Symptoms Score.",
+    "Mean change from baseline in Daytime Nasal Symptoms Score.~Patients were asked to rate each nasal symptom of Congestion, Rhinorrhea, Itching, and Sneezing daily on a 4- point scale [Score 0 (best) to 3 (worse)]. The average of the 4 individual nasal symptoms scores was reported as the Daytime Nasal Symptoms Score.",
+    "Mean change from baseline in Nighttime Symptoms Score.~Patients were asked to rate each symptom daily on a 4-point scale [Score 0 (best) to 3 (worse)], and the combined score of Nasal Congestion Upon Awakening, Difficulty Going to Sleep, and Nighttime Awakenings was reported as the Nighttime Symptoms Score.",
+    "Patients completed a Rhinoconjunctivitis Quality-of-Life Questionnaire-28 questions on a 7-point scale [0(best) to 6(worst)] across 7 domains: activity,sleep,non-nose/eye symptoms,practical problems,nasal symptoms, eye symptoms, and emotions. The scores for each domain were averaged, then scores for the 7 domains were averaged for an overall score.";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "2490";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean";
+  ex:population "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement through the first 2 weeks of treatment were included",
+    "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement through the first 2 weeks of treatment were included.",
+    "The primary efficacy analyses were based on the intention-to-treat. Since only 1 measurement was obtained during the treatment period, no missing values were imputed.";
+  ex:time_frame "After first 2 weeks of treatment", "Baseline and first 2 Weeks of treatment period (from randomization through the end of Week 2)";
+  ex:title "Mean Change From Baseline in Composite Symptoms Score (Daytime Nasal and Nighttime Symptoms) Over First 2 Weeks of Treatment Period",
+    "Mean Change From Baseline in Daytime Eye Symptoms Score Over First 2 Weeks of Treatment Period",
+    "Mean Change From Baseline in Daytime Nasal Symptoms Score Over First 2 Weeks of Treatment Period",
+    "Mean Change From Baseline in Nighttime Symptoms Score Over First 2 Weeks of Treatment Period",
+    "Mean Change From Baseline in Rhinoconjunctivitis Quality-of-Life Score After First 2 Weeks of Treatment Period",
+    "Patient's Global Evaluation of Allergic Rhinitis After First 2 Weeks of Treatment",
+    "Physician's Global Evaluation of Allergic Rhinitis After First 2 Weeks of Treatment";
+  ex:units "Scores on a scale" .
+
+<http://example.org/outcome/2645> a ex:Outcome;
+  ex:date "2001-11-30"^^xsd:date;
+  ex:description "Area under the plasma concentration versus time curve from time zero to infinity (AUC0-oo) of BIA 2-093",
+    "Area under the plasma concentration versus time curve from time zero to the last sampling time at which concentrations were at or above the limit of quantification (AUC0-t) of BIA 2-093",
+    "Maximum observed plasma concentration of BIA 2-093", "Time of occurrence of Cmax of BIA 2-093";
+  ex:dispersion_type "Full Range", "Standard Deviation";
+  ex:numericial "2645";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean", "Median";
+  ex:time_frame "pre-dose, ½, 1, 1½, 2, 3, 4, 6, 8, 12, 18, 24, 36, 48, 72 and 96 hours post-dose";
+  ex:title "Area Under the Plasma Concentration Versus Time Curve From Time Zero to Infinity (AUC0-oo)",
+    "Area Under the Plasma Concentration Versus Time Curve From Time Zero to the Last Sampling Time at Which Concentrations Were at or Above the Limit of Quantification (AUC0-t)",
+    "Maximum Observed Plasma Concentration (Cmax)", "Time of Occurrence of Cmax (Tmax)";
+  ex:units "hours", "ng.h/mL", "ng/mL" .
+
+<http://example.org/outcome/2875> a ex:Outcome;
+  ex:date "2002-06-30"^^xsd:date;
+  ex:description "Dialysate samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate dialysis elimination, computed as [amount of drug in dialysate divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.",
+    "Dialysate samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate dialysis elimination, computed as [amount of metabolite in dialysate divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.",
+    "Dialyzer samples were obtained up to 5 hours from the start of dialysis on Days 3 and 40 (corresponding to HD sessions 2 and 18). Arterial concentrations were estimated using the inflow to the dialyzer, and venous concentrations were estimated using the outflow from the dialyzer. The concentration at each collection time was recorded and averaged among all participants and expressed in ng/mL.",
+    "Plasma and urine samples up to 12 hours post-dose during the first dose analysis (Days 1 to 5) were used to calculate CLr, computed as [amount of drug excreted divided by the AUC12]. The CLr was averaged among all participants and expressed in L/h.",
+    "Plasma and urine samples up to 12 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate CLr, computed as [amount of drug excreted divided by the AUC12]. The CLr was averaged among all participants and expressed in L/h.",
+    "Plasma and urine samples up to 42 hours post-dose during the first dose analysis (Days 1 to 5) were used to calculate CLr, computed as [amount of metabolite excreted divided by the AUC42]. The CLr was averaged among all participants and expressed in L/h.",
+    "Plasma and urine samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate CLr, computed as [amount of metabolite excreted divided by the AUC48]. The CLr was averaged among all participants and expressed in L/h.",
+    "Plasma samples up to 12 hours post-dose during the first (Days 1 to 6) and second (Days 36 to 43) dose analyses were used to calculate apparent clearance adjusted for oral bioavailability. The CL/F with each dose was averaged among all participants and expressed in L/h.",
+    "Plasma samples up to 120 hours and dialysate samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate CLd, computed as [amount of metabolite recovered in dialysate divided by the AUC over the dialysis interval]. The CLd was averaged among all participants and expressed in L/h.",
+    "Plasma samples up to 42 hours post-dose during the first (Days 1 to 5) and second (Days 38 to 43) dose analyses were used to calculate apparent clearance adjusted for oral bioavailability. The CL/F with each dose was averaged among all participants and expressed in L/h.",
+    "Plasma samples up to 48 hours post-dose during the first (Days 1 to 6) and second (Days 36 to 43) dose analyses were used to calculate apparent clearance adjusted for oral bioavailability. The CL/F with each dose was averaged among all participants and expressed in L/h.",
+    "Plasma samples up to 90 hours post-dose during the first (Days 1 to 5) and second (Days 38 to 43) dose analyses, in addition to dialyzer samples obtained on Days 3 and 40, were used to calculate CLd, computed as [amount of metabolite recovered in dialysate divided by the AUC over the dialysis interval]. The CLd with each dose was averaged among all participants and expressed in L/h.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6) and up to 168 hours post-dose during the second dose analysis (Days 36 to 43), and the observed time of maximum concentration was recorded. The Tmax following each dose was averaged among all participants and expressed in hours.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6) and up to 168 hours post-dose during the second dose analysis (Days 36 to 43). The concentration at each collection time was recorded and averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6) and up to 168 hours post-dose during the second dose analysis (Days 36 to 43). Urine and dialysate samples were also obtained up to 48 hours post-dose during the first dose analysis. The elimination rate constant was calculated as [natural log (ln)(2) divided by the half-life] and expressed as inverse hours (1/h).",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6) and up to 168 hours post-dose during the second dose analysis (Days 36 to 43). Urine and dialysate samples were also obtained up to 48 hours post-dose during the first dose analysis. The time required for the concentration to decrease by one-half was recorded and averaged among all participants and expressed in hours.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6), and the AUC was determined from 0 to 48 hours (AUC48) and up to the last measurable concentration (AUClast). Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6), and the AUC12 and AUClast were determined. Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 120 hours post-dose during the first dose analysis (Days 1 to 6), and the maximum observed concentration was recorded. The Cmax was averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 120 post-dose during the first dose analysis (Days 1 to 6) and up to 168 hours post-dose during the second dose analysis (Days 36 to 43). The concentration at each collection time was recorded and averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 168 hours post-dose during the second dose analysis (Days 36 to 43), and the AUC12 and AUClast were determined. Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 168 hours post-dose during the second dose analysis (Days 36 to 43), and the AUC48 and AUClast were determined. Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 168 hours post-dose during the second dose analysis (Days 36 to 43), and the maximum observed concentration was recorded. The Cmax was averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 90 hours post-dose during the first (Days 1 to 5) and second (Days 38 to 43) dose analyses, and the observed time of maximum concentration was recorded. The Tmax following each dose was averaged among all participants and expressed in hours.",
+    "Plasma samples were obtained up to 90 hours post-dose during the first dose analysis (Days 1 to 5) and up to 114 hours post-dose during the second dose analysis (Days 38 to 43). The concentration at each collection time was recorded and averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 90 hours post-dose during the first dose analysis (Days 1 to 5), and the AUC was determined from 0 to 42 hours (AUC42) and up to the last measurable concentration (AUClast). Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 90 hours post-dose during the first dose analysis (Days 1 to 5), and the maximum observed concentration was recorded. The Cmax was averaged among all participants and expressed in nanograms per milliliter (ng/mL).",
+    "Plasma samples were obtained up to 90 hours post-dose during the first dose analysis (Days 1 to 5), and the maximum observed concentration was recorded. The Cmax was averaged among all participants and expressed in ng/mL.",
+    "Plasma samples were obtained up to 90 hours post-dose during the second dose analysis (Days 38 to 43), and the AUC12 and AUClast were determined. Values we",
+    "Plasma samples were obtained up to 90 hours post-dose during the second dose analysis (Days 38 to 43), and the AUC42 and AUClast were determined. Values were averaged among all participants and expressed in ng*h/mL.",
+    "Plasma samples were obtained up to 90 hours post-dose during the second dose analysis (Days 38 to 43), and the maximum observed concentration was recorded. The Cmax was averaged among all participants and expressed in ng/mL.",
+    "Urine samples up to 42 hours post-dose during the first dose analysis (Days 1 to 5) were used to calculate drug excretion, computed as [amount of drug excreted divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.",
+    "Urine samples up to 42 hours post-dose during the first dose analysis (Days 1 to 5) were used to calculate metabolite excretion, computed as [amount of metabolite excreted divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.",
+    "Urine samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate renal excretion, computed as [amount of drug in urine divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.",
+    "Urine samples up to 48 hours post-dose during the first dose analysis (Days 1 to 6) were used to calculate renal excretion, computed as [amount of metabolite in urine divided by the oral oseltamivir dose] multiplied by 100. The value was averaged among all participants and expressed as a percent of the oseltamivir dose administered.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "2875";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:population "PK Analysis Population (First Dose Subpopulation).", "PK Analysis Population (Second Dose Subpopulation).",
+    "PK Analysis Population (Second Dose Subpopulation): All participants who completed treatment and provided evaluable data during the second dose assessment period.",
+    "PK Analysis Population.", "PK Analysis Population; n = number of participants included at specified timepoints in the analysis.",
+    "PK Analysis Population; n = number of participants included in the specific dose analysis.",
+    "PK Analysis Population; number (n) equals (=) number of participants included at specified timepoints in the analysis.",
+    "Pharmacokinetic (PK) Analysis Population (First Dose Subpopulation): All participants who completed treatment and provided evaluable data during the first dose assessment period.";
+  ex:time_frame "Blood samples 0, 1, 2, 4, 8, 12 hours from D1 and D36 dose", "Blood samples 0, 1, 2, 4, 8, 12 hours from D1 dose; urine samples 0 to 12 hours from D1 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42 hours from D1 and D38 dose", "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42 hours from D1 dose; urine samples 0 to 42 hours from D1 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49 hours from D1 and D38 dose AND at 90 hours from D1 dose AND at 114 hours from D38 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from D1 and D38 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from D1 dose", "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from D38 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from Day 1 (D1) dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from Day 38 (D38) dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 20, 32, 42, 48, 49, 90 hours from from D1 and D38 dose; dialyzer samples 1, 2, 4, 5 hours from start of dialysis on Days 3 and 40",
+    "Blood samples 0, 1, 2, 4, 8, 12, 24, 48 hours from D1 and D36 dose", "Blood samples 0, 1, 2, 4, 8, 12, 24, 48 hours from D1 dose; urine samples 0 to 48 hours from D1 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120 hours from D1 and D36 dose AND at 168 hours from D36 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120 hours from D1 and D36 dose AND at 168 hours from D36 dose; urine samples 0 to 48 hours from D1 dose; dialysate samples 0 to 48 hours from D1 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120 hours from D1 dose", "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120 hours from D1 dose; dialysate samples 0 to 48 hours from D1 dose",
+    "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120, 168 hours from D36 dose", "Blood samples 0, 1, 2, 4, 8, 12, 24, 48, 72, 120, 168 hours from Day 36 (D36) dose",
+    "Dialysate samples 0 to 48 hours from D1 dose", "Dialyzer samples 1, 2, 4, 5 hours from start of dialysis on Days 3 and 40",
+    "Urine samples 0 to 42 hours from D1 dose", "Urine samples 0 to 48 hours from D1 dose";
+  ex:title "AUC of Metabolite Oseltamivir Carboxylate in CAPD Participants During Days 1 to 6",
+    "AUC of Metabolite Oseltamivir Carboxylate in CAPD Participants During Days 36 to 43",
+    "AUC of Metabolite Oseltamivir Carboxylate in HD Participants During Days 1 to 5",
+    "AUC of Metabolite Oseltamivir Carboxylate in HD Participants During Days 38 to 43",
+    "AUC of Oseltamivir in CAPD Participants During Days 1 to 6", "AUC of Oseltamivir in CAPD Participants During Days 36 to 43",
+    "AUC of Oseltamivir in HD Participants During Days 38 to 43", "CL/F of Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "CL/F of Metabolite Oseltamivir Carboxylate in HD Participants", "CL/F of Oseltamivir in CAPD Participants",
+    "CLd of Metabolite Oseltamivir Carboxylate in CAPD Participants", "CLr of Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "CLr of Metabolite Oseltamivir Carboxylate in HD Participants", "CLr of Oseltamivir in CAPD Participants",
+    "Cmax of Metabolite Oseltamivir Carboxylate in CAPD Participants During Days 1 to 6",
+    "Cmax of Metabolite Oseltamivir Carboxylate in CAPD Participants During Days 36 to 43",
+    "Cmax of Metabolite Oseltamivir Carboxylate in HD Participants During Days 1 to 5",
+    "Cmax of Oseltamivir in CAPD Participants During Days 1 to 6", "Cmax of Oseltamivir in CAPD Participants During Days 36 to 43",
+    "Cmax of Oseltamivir in HD Participants During Days 38 to 43", "Dialysis Clearance (CLd) of Metabolite Oseltamivir Carboxylate in HD Participants",
+    "Elimination Rate Constant of Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "Maximum Plasma Concentration (Cmax) of Oseltamivir in HD Participants During Days 1 to 5",
+    "Percentage of Oseltamivir Dose Eliminated by Dialysis as Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "Percentage of Oseltamivir Dose Eliminated by Dialysis as Unchanged Drug in CAPD Participants",
+    "Percentage of Oseltamivir Dose Excreted as Metabolite Oseltamivir Carboxylate in HD Participants",
+    "Percentage of Oseltamivir Dose Excreted as Unchanged Drug in HD Participants", "Percentage of Oseltamivir Dose Renally Excreted as Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "Percentage of Oseltamivir Dose Renally Excreted as Unchanged Drug in CAPD Participants",
+    "Plasma Concentration of Metabolite Oseltamivir Carboxylate by Timepoint in CAPD Participants",
+    "Plasma Concentration of Metabolite Oseltamivir Carboxylate by Timepoint in HD Participants",
+    "Plasma Concentration of Metabolite Oseltamivir Carboxylate in Arterial and Venous Blood by Timepoint in HD Participants",
+    "Plasma Concentration of Oseltamivir by Timepoint in CAPD Participants", "Plasma Concentration of Oseltamivir by Timepoint in HD Participants",
+    "Renal Clearance (CLr) of Oseltamivir in HD Participants", "Terminal Elimination Half-Life of Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "Time to Maximum Plasma Concentration (Tmax) of Oseltamivir in HD Participants", "Tmax of Metabolite Oseltamivir Carboxylate in CAPD Participants",
+    "Tmax of Metabolite Oseltamivir Carboxylate in HD Participants", "Tmax of Oseltamivir in CAPD Participants";
+  ex:units "1/h", "L/h", "hours", "ng*h/mL", "ng/mL", "percentage of oseltamivir dose",
+    "percentage of osteltamivir dose" .
+
+<http://example.org/outcome/3021> a ex:Outcome;
+  ex:date "2002-01-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf.", "Bioequivalence based on AUC0-t.",
+    "Bioequivalence based on Cmax.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3021";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "All participants that completed the study had their samples analyzed. One subject had very low plasma metronidazole levels for Period I samples, therefore the data from this subject was dropped from the statistical analysis.";
+  ex:time_frame "Blood samples collected over a 60 hour period.";
+  ex:title "AUC0-inf (Area Under the Concentration-time Curve From Time Zero to Infinity)",
+    "AUC0-t (Area Under the Concentration-time Curve From Time Zero to Time of Last Measurable Concentration)",
+    "Cmax (Maximum Observed Concentration of Drug Substance in Plasma)";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3114> a ex:Outcome;
+  ex:date "2002-05-31"^^xsd:date;
+  ex:description "An evaluation by the patient, administered at week 4 of the study (or upon discontinuation) using a 7-point scale [Score 0 (best) to 6 (worst)], of the change in symptoms as compared to the beginning of the study.",
+    "An evaluation by the physician, administered at week 4 of the study (or upon discontinuation) using a 7-point scale [Score 0 (best) to 6 (worst)], of the change in symptoms as compared to the beginning of the study.",
+    "Composite Symptoms Scores were computed as the average of the Daytime Nasal Symptoms Scores [Score 0 (best) to 3 (worst)]. and Nighttime Symptoms Scores collected [Score 0 (best) to 3 (worst)].",
+    "Mean change from baseline in Daytime Nasal Symptoms score.~Patients were asked to rate each nasal symptom of Congestion, Rhinorrhea, Itching, and Sneezing daily on a 4-point scale [Score 0 (best) to 3 (worst)]. The average of the 4 individual nasal symptoms scores was reported as the Daytime Nasal Symptoms Score.",
+    "Mean change from baseline in Nighttime Symptoms Score.~Patients were asked to rate each symptom daily on a 4-point scale [Score 0 (best) to 3 (worst)], and the average score of Nasal Congestion Upon Awakening, Difficulty Going to Sleep, and Nighttime Awakenings was reported as the Nighttime Symptoms Score.";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "3114";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean";
+  ex:population "All patients who had a baseline and at least one posttreatment measurement were included.",
+    "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle. Since only 1 measurement was obtained during the treatment period, no missing values were imputed.";
+  ex:time_frame "Baseline and first 4 weeks in 6-week treatment period", "Baseline and first 4 weeks of a 6-week treatment period",
+    "End of the first 4 weeks in 6-week treatment period";
+  ex:title "Mean Change From Baseline in Composite Symptoms Score", "Mean Change From Baseline in Daytime Nasal Symptoms Score",
+    "Mean Change From Baseline in Nighttime Symptoms Score", "Patient's Global Evaluation of Allergic Rhinitis",
+    "Physician's Global Evaluation of Allergic Rhinitis";
+  ex:units "Score 0 (best) to 3 (worst)", "Scores on a scale" .
+
+<http://example.org/outcome/3162> a ex:Outcome;
+  ex:date "2001-12-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3162";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 60 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated) - Carvedilol in Plasma",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant) - Carvedilol in Plasma",
+    "Cmax - Maximum Observed Concentration - Carvedilol in Plasma";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3163> a ex:Outcome;
+  ex:date "2001-12-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3163";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 60 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated) - Carvedilol in Plasma",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant) - Carvedilol in Plasma",
+    "Cmax - Maximum Observed Concentration - Carvedilol in Plasma";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/328> a ex:Outcome;
+  ex:date "2001-05-31"^^xsd:date;
+  ex:description "Antibody Response to Measles at 6 Weeks Postvaccination for Subjects Initially Seronegative (a titer < 120 mIU/mL) to Measles at Baseline",
+    "Antibody Response to Mumps at 6 Weeks Postvaccination for Subjects Initially Seronegative (a titer < 10 Ab units/mL) to Mumps at Baseline",
+    "Antibody Response to Rubella at 6 Weeks Postvaccination for Subjects Initially Seronegative (a titer < 10 IU/mL) to Rubella at Baseline",
+    "Antibody Response to Varicella at 6 Weeks Postvaccination for Subjects Initially With Varicella Antibody Titer < 1.25 gpELISA units/mL at Baseline",
+    "Postvaccination observed Geometric Mean Titer of antibody to Measles.", "Postvaccination observed Geometric Mean Titer of antibody to Mumps.",
+    "Postvaccination observed Geometric Mean Titer of antibody to Rubella", "Postvaccination observed Geometric Mean Titer of antibody to Varicella",
+    "Subjects with a serious vaccine-related CAE (an AE which is assessed by an investigator/qualified physician as being related to study vaccine and results in death, persistent or significant disability/incapacity, prolongs an existing inpatient hospitalization, is life-threatening, a congenital anomaly/birth defect, a cancer, or an overdose).";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "328";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean", "Number";
+  ex:population "All subjects with follow-up for safety were included in the analysis.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, Varicella Antibody Titer < 1.25 gpELISA units/mL at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, Varicella Antibody Titer <1.25 gpELISA units/mL at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to measles at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to mumps at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to rubella at baseline, and followed protocol procedures.";
+  ex:time_frame "6 weeks Postvaccination";
+  ex:title "Antibody Response to Measles for Subjects Initially Seronegative (a Titer < 120 mIU/mL) to Measles at Baseline - Geometric Mean Titer",
+    "Antibody Response to Mumps for Subjects Initially Seronegative (a Titer < 10 Ab Units/mL) to Mumps at Baseline - Geometric Mean Titer",
+    "Antibody Response to Rubella for Subjects Initially Seronegative (a Titer < 10 IU/mL) to Rubella at Baseline - Geometric Mean Titer",
+    "Antibody Response to Varicella for Subjects Initially With Varicella Antibody Titer < 1.25 gpELISA Units/mL at Baseline - Geometric Mean Titer",
+    "Number of Participants With Postvaccination Measles Enzyme-Linked Immunosorbent Assay (ELISA) Antibody Titer ? 120 mIU/mL",
+    "Number of Participants With Postvaccination Mumps ELISA Antibody Titer ? 10 Ab Units/mL",
+    "Number of Participants With Postvaccination Rubella ELISA Antibody Titer ? 10 IU/mL",
+    "Number of Participants With Postvaccination Varicella Antibody Titer ? 5 Glycoprotein Enzyme-Linked Immunosorbent Assay (gpELISA) Units/mL",
+    "Number of Participants With Serious Vaccine-related CAEs";
+  ex:units "ELISA AB units", "Participants", "gpELISA", "mIU/mL" .
+
+<http://example.org/outcome/332> a ex:Outcome;
+  ex:date "2000-05-31"^^xsd:date;
+  ex:description "An evaluation by the patient, administered at the last visit (or~upon discontinuation) using a 7-point scale, of the change in symptoms as compared to the beginning of the~study. Scores were measured as 0 (best) to 6 (worst).",
+    "An evaluation by the physician, administered at the last visit (or upon discontinuation) using a 7-point scale, of the change in symptoms as compared to the beginning of the study. Scores were measured as 0 (best) to 6 (worst).",
+    "Mean change from baseline in Daytime Eye Symptoms scores.~Patients were asked to rate each of the 4 eye symptoms of tearing, itchy, red, and puffy eyes daily on a 4-point scale. The average of the 4 individual eye symptoms scores was reported as the Daytime Eye Symptoms Score. Scores were measured as 0 (best) to 3 (worst).",
+    "Mean change from baseline in Daytime Nasal Symptoms score.~Patients were asked to rate each of the 4 nasal symptoms of Congestion, Rhinorrhea, Itching, and Sneezing daily~on a 4-point scale. The average of the 4 individual nasal symptoms scores was reported as the Daytime Nasal~Symptoms Score. Scores were measured as 0 (best) to 3 (worst).",
+    "Mean change from baseline in Nighttime Symptoms Score.~Patients were asked to rate each symptom daily on a 4-point scale, and the combined score of Nasal Congestion Upon Awakening, Difficulty Going to Sleep, and Nighttime Awakenings was reported as the Nighttime Symptoms Score. Scores were measured as 0 (best) to 3 (worst).",
+    "Patients completed the validated, self-administered RQLQ, which included 28 items on a 7-point scale across 7 domains: activities, sleep, non-nose/eye symptoms, practical problems, nasal symptoms, eye symptoms, and emotional. Scores for each domain were averaged, then scores for the 7 domains were averaged for the overall score. Scores were measured as 0 (best) to 6 (worst).";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "332";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean";
+  ex:population "The primary efficacy analysis was based on the ITT (all-patients treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement were included.",
+    "The secondary efficacy analyses were based on the ITT (all-patients treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement were included.",
+    "This secondary endpoint analysis was performed using the intention-to-treat approach. Patients were excluded if no baseline or treatment period data were available. No missing values were imputed.",
+    "This secondary endpoint analysis was performed using the intention-to-treat approach. Patients were excluded if no treatment period data were available. No missing values were imputed.";
+  ex:time_frame "Baseline and Week 2", "Week 2";
+  ex:title "Mean Change From Baseline in Daytime Eye Symptoms Score Over 2 Weeks", "Mean Change From Baseline in Daytime Nasal Symptoms Score Over 2 Weeks",
+    "Mean Change From Baseline in Nighttime Symptoms Score Over 2 Weeks", "Mean Change From Baseline in Rhinoconjunctivitis Quality-of-life Questionnaire (RQLQ) Overall Score at Week 2",
+    "Patient's Global Evaluation of Allergic Rhinitis at Week 2", "Physician's Global Evaluation of Allergic Rhinitis at Week 2";
+  ex:units "Units on a Scale" .
+
+<http://example.org/outcome/3344> a ex:Outcome;
+  ex:date "2002-01-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3344";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 144 hour period", "Blood samples collected over144 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated) - Terbinafine in Plasma",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant) - Terbinafine in Plasma",
+    "Cmax - Maximum Observed Concentration - Terbinafine in Plasma";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3366> a ex:Outcome;
+  ex:date "2002-01-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3366";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 144 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated) - Terbinafine in Plasma",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant) - Terbinafine in Plasma",
+    "Cmax - Maximum Observed Concentration - Terbinafine in Plasma";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3395> a ex:Outcome;
+  ex:date "2002-02-28"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3395";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 120 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3498> a ex:Outcome;
+  ex:date "2002-01-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf.", "Bioequivalence based on AUC0-t.",
+    "Bioequivalence based on Cmax.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3498";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "All participants that completed the study had their samples analyzed.";
+  ex:time_frame "Blood samples collected over a 48 hour period.";
+  ex:title "AUC0-inf = Area Under the Concentration-time Curve From Time Zero to Infinity.",
+    "AUC0-t = Area Under the Concentration-time Curve From Time Zero to Time of Last Measurable Concentration (Per Participant)",
+    "Cmax = Maximum Observed Concentration.";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3519> a ex:Outcome;
+  ex:date "2002-02-28"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3519";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 120 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3660> a ex:Outcome;
+  ex:date "2002-03-31"^^xsd:date;
+  ex:description "Bioequivalence basd on Cmax", "Bioequivalence based on AUC0-inf",
+    "Bioequivalence based on AUC0-t";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3660";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Two subjects did not complete the study, and there was an issue with dosing of one subject (the whole tablet was not consumed for one of the periods) therefore there are 29 data sets that were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 120 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3684> a ex:Outcome;
+  ex:date "2002-03-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3684";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 120 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3693> a ex:Outcome;
+  ex:date "2002-02-28"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3693";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 24 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3740> a ex:Outcome;
+  ex:date "2002-04-30"^^xsd:date;
+  ex:description "Area under the plasma concentration versus time curve (AUC) to last measurable time point (AUC0-t) was acessed for BIA 2-093 metabolites (BIA 2-194; BIA 2-195) and Oxcarbazepine.",
+    "Maximum observed plasma concentration (Cmax) was acessed for BIA 2-093 metabolites (BIA 2-194; BIA 2-195) and Oxcarbazepine.",
+    "Monitoring of Adverse Events throughout the study: Safety was evaluated from the number of reported adverse events (AEs) by patient";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3740";
+  ex:outcome_type "Other Pre-specified", "Primary", "Secondary";
+  ex:param_type "Mean", "Number";
+  ex:population "Values are described for single dose of BIA 2-093 or oxcarbazepine respectively for Group 1 and 2.";
+  ex:time_frame "4 weeks", "at pre-dose, ½, 1, 1½, 2, 3, 4, 6, 8, 12, 18, 24, 36, 48, 72 and 96 hours post-dose";
+  ex:title "Area Under the Plasma Concentration Versus Time Curve (AUC)", "Maximum Drug Concentration (Cmax)",
+    "Total of Subjects Reporting at Least One Adverse Event";
+  ex:units "ng*h/mL", "ng/mL", "subjects reporting at least 1 AE" .
+
+<http://example.org/outcome/3851> a ex:Outcome;
+  ex:date "2002-03-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf.", "Bioequivalence based on AUC0-t.",
+    "Bioequivalence based on Cmax.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3851";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "All participants that completed the study had their samples analyzed.";
+  ex:time_frame "Blood samples collected over a 48 hour period.";
+  ex:title "AUC0-inf = Area Under the Concentration-time Curve From Time Zero to Infinity.",
+    "AUC0-t = Area Under the Concentration-time Curve From Time Zero to Time of Last Measurable Concentration (Per Participant)",
+    "Cmax = Maximum Observed Concentration.";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3873> a ex:Outcome;
+  ex:date "2002-03-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3873";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 24 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/3954> a ex:Outcome;
+  ex:date "2002-05-31"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-72", "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "3954";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 72 hour period";
+  ex:title "AUC0-72 - Area Under the Concentration-time Curve From Time Zero to 72 Hours Post-dose (Per Participant) - Metabolite A77 1726",
+    "Cmax - Maximum Observed Concentration - Metabolite A77 1726 in Plasma";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/4434> a ex:Outcome;
+  ex:date "2002-06-30"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-inf", "Bioequivalence based on AUC0-t",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "4434";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study was included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 168 hour period";
+  ex:title "AUC0-inf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*hr/mL", "ng/mL" .
+
+<http://example.org/outcome/4519> a ex:Outcome;
+  ex:date "2002-06-30"^^xsd:date;
+  ex:description "Bioequivalence based on AUC0-t", "Bioequivalence based on AUCinf",
+    "Bioequivalence based on Cmax";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "4519";
+  ex:outcome_type "Primary";
+  ex:param_type "Mean";
+  ex:population "Data from all subjects who completed the study were included in the statistical analysis.";
+  ex:time_frame "Blood samples collected over 36 hour period";
+  ex:title "AUC0-t - Area Under the Concentration-time Curve From Time Zero to Time of Last Non-zero Concentration (Per Participant)",
+    "AUCinf - Area Under the Concentration-time Curve From Time Zero to Infinity (Extrapolated)",
+    "Cmax - Maximum Observed Concentration";
+  ex:units "ng*h/mL", "ng/mL" .
+
+<http://example.org/outcome/646> a ex:Outcome;
+  ex:date "2000-07-31"^^xsd:date;
+  ex:description "Ae0-36 = cumulative urine excretion", "Rmax = maximum rate of urinary excretion";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "646";
+  ex:outcome_type "Primary";
+  ex:param_type "Geometric Mean";
+  ex:time_frame "Urine collected over 36 hour period";
+  ex:title "Bioequivalence Based on Ae0-36", "Bioequivalence Based on Rmax";
+  ex:units "ng/mL" .
+
+<http://example.org/outcome/680> ex:date "2001-12-31"^^xsd:date;
+  ex:description "Antibody Response to Measles at 6 Weeks Postvaccination for Participants Initially Seronegative (a titer <120 mIU/mL) to Measles at Baseline",
+    "Antibody Response to Mumps at 6 Weeks Postvaccination for Participants Initially Seronegative (a titer <10 Ab units/mL) to Mumps at Baseline",
+    "Antibody Response to Rubella at 6 Weeks Postvaccination for Participants Initially Seronegative (a titer <10 IU/mL) to Rubella at Baseline",
+    "Antibody Response to Varicella-Zoster Virus (VZV) at 6 Weeks Postvaccination for Participants Initially Seronegative (a titer <0.6 gpELISA units/mL) to VZV at Baseline",
+    "Antibody response to Diphtheria at 6 weeks postvaccination", "Antibody response to Haemophilus influenzae type B (Hib). (Anti-polyribosylribitol phosphate (PRP) was measured by radioimmunoassay (RIA) using radiolabeled-PRP according to a standard Farr technique and with a standard provided by the U.S. FDA.)",
+    "Antibody response to Hepatitis B (titers measured using the Quantitative AUSAB™ radioimmunoassay (RIA)).",
+    "Antibody response to Pertussis Toxin (titers of pertussis toxin antibodies were measured with an indirect, noncompetitive EIA).",
+    "Antibody response to Tetanus (tetanus antitoxin were measured with an indirect, noncompetitive enzyme immunoassay (EIA)) at 6 weeks postvaccination.",
+    "Antibody response to pertussis FHA(titers of pertussis filamentous hemagglutinin antibodies were measured with an indirect, noncompetitive EIA).",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Diphtheria. (Titers measured using Vero Cell Culture Assay.)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Hepatitis B. (Titers measured using the Quantitative AUSAB™ radioimmunoassay (RIA).)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Measles. (Titers measured using Measles ELISA.)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Pertussis Filamentous Hemagglutinin (FHA). (Titers measured using an indirect, noncompetitive Pertussis enzyme immunoassay (EIA).)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Pertussis Toxin (PT). Titers measured using an indirect, noncompetitive Pertussis enzyme immunoassay (EIA).",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Rubella. (Titers measured using Rubella ELISA.)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Tetanus. (Titers of tetanus antitoxin were measured with an indirect, noncompetitive enzyme immunoassay (EIA).)",
+    "Postvaccination Observed Geometric Mean Titer of Antibody to Varicella. (Titers measured using VZV gpELISA.)",
+    "Postvaccination observed GMT of antibody to Hib. (Anti-polyribosylribitol phosphate (PRP) was measured by RIA using radiolabeled-PRP according to a standard Farr technique and with a standard provided by the U.S. FDA.)",
+    "Postvaccination observed GMT of antibody to mumps. (Titers measured using mumps ELISA.)";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "680";
+  ex:outcome_type "Primary";
+  ex:param_type "Geometric Mean", "Number";
+  ex:population "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to measles at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to mumps at baseline, and followed protocol procedures.",
+    "Per-protocol analysis set includes participants who had pre- and postvaccination blood samples within predefined day ranges, were seronegative to rubella at baseline, and followed protocol procedures.",
+    "The per-protocol analysis set included participants who had pre- and post-randomization blood samples within predefined day ranges and followed protocol procedures.",
+    "The per-protocol analysis set included participants who had pre- and post-randomization blood samples within predefined day ranges, were seronegative to measles at baseline, and followed protocol procedures.",
+    "The per-protocol analysis set included participants who had pre- and post-randomization blood samples within predefined day ranges, were seronegative to mumps at baseline, and followed protocol procedures.",
+    "The per-protocol analysis set included participants who had pre- and post-randomization blood samples within predefined day ranges, were seronegative to rubella at baseline, and followed protocol procedures.",
+    "The per-protocol analysis set included participants~who had pre- and post-randomization blood samples within predefined day ranges, were seronegative to~varicella at baseline, and followed protocol procedures.";
+  ex:time_frame "6 Weeks Postvaccination", "6 weeks Postvaccination";
+  ex:title "Antibody Response to Diphtheria at 6 Weeks Postvaccination - GMT", "Antibody Response to Haemophilus Influenzae Type B (Hib) at 6 Weeks Postvaccination - GMT",
+    "Antibody Response to Hepatitis B at 6 Weeks Postvaccination - GMT", "Antibody Response to Measles at 6 Weeks Postvaccination for Participants Initially Seronegative to Measles at Baseline - Geometric Mean Titer (GMT)",
+    "Antibody Response to Mumps at 6 Weeks Postvaccination for Participants Initially Seronegative to Mumps at Baseline - GMT",
+    "Antibody Response to Pertussis Filamentous Hemagglutinin (FHA) at 6 Weeks Postvaccination - GMT",
+    "Antibody Response to Pertussis Toxin (PT) at 6 Weeks Postvaccination - GMT";
+  a ex:Outcome;
+  ex:title "Antibody Response to Rubella at 6 Weeks Postvaccination for Participants Initially Seronegative to Rubella at Baseline - GMT",
+    "Antibody Response to Tetanus at 6 Weeks Postvaccination - GMT", "Antibody Response to Varicella at 6 Weeks Postvaccination for Participants Initially Seronegative to Varicella at Baseline - GMT",
+    "Number of Participants With ?4-fold Rise in Pertussis Filamentous Hemagglutinin (FHA) EIA Antibody Titer",
+    "Number of Participants With ?4-fold Rise in Pertussis Toxin (PT) EIA Antibody Titer",
+    "Number of Participants With Postvaccination Diphtheria Vero Cell Culture Assay Antibody Titer ?0.1 IU/mL",
+    "Number of Participants With Postvaccination Haemophilus Influenzae Type B (Hib) Radioimmunoassay (RIA) Antibody Titer ? 1 mcg/mL",
+    "Number of Participants With Postvaccination Hepatitis B (Quantitative AUSAB™ Radioimmunoassay (RIA)) Antibody Titer ?10 mIU/mL",
+    "Number of Participants With Postvaccination Measles Enzyme-Linked Immunosorbent Assay (ELISA) Antibody Titer ?120 mIU/mL",
+    "Number of Participants With Postvaccination Mumps ELISA Antibody Titer ?10 Ab Units/mL",
+    "Number of Participants With Postvaccination Rubella ELISA Antibody Titer ?10 IU/mL",
+    "Number of Participants With Postvaccination Tetanus Enzyme Immunoassay (EIA) Antibody Titer ?0.1 IU/mL",
+    "Number of Participants With Postvaccination Varicella-Zoster Virus (VZV) Glycoprotein Enzyme-Linked Immunosorbent Assay (gpELISA) Antibody Titer ?5 gpELISA Units/mL";
+  ex:units "ELISA Ab units/mL", "IU/mL", "Participants", "gpELISA units/mL", "mIU/mL",
+    "units/mL" .
+
+<http://example.org/outcome/720> a ex:Outcome;
+  ex:date "2001-02-28"^^xsd:date;
+  ex:description "The patients recorded daily their extraintestinal disorders (fever, anal fissures, stomatitis, arthralgia, skin irritation) using a treatment improvement protocol (TIP).",
+    "score for Crohn´s disease: Crohn´s Disease Activity Index (CDAI), < 150 = remission, 151-220 = moderate activity, 221-450 = severe activity; score for ulcerative colitis: Colitis Activity Index (CAI), 0-4 = remission, 5-9 = low activity, 10-16 = moderate activity, 17-23 = high activity.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "720";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean";
+  ex:time_frame "8 weeks";
+  ex:title "Extra-intestinal Pain", "Score of Crohn´s Disease and/or Ulcerative Colitis";
+  ex:units "Percentage of days with pain", "units on a scale" .
+
+<http://example.org/outcome/757> a ex:Outcome;
+  ex:date "2000-09-30"^^xsd:date;
+  ex:description "Range of motion (ROM) for the left shoulder is a measure of how well the participant can move the left shoulder. The participant gently raises the left shoulder (and left arm) as far as possible, and this distance is measured in degrees. The change for ROM for the left shoulder is measured as the difference in degrees of ROM recorded from baseline to one hour after study treatment. If the change is positive (+), this means that ROM has gotten better and can move the left shoulder better and further than before getting the treatment. If the change is negative (-), this means that ROM has gotten worse and the left shoulder can move less easily and not as far than before getting the treatment",
+    "Range of motion (ROM) for the left side of the neck is a measure of how well the neck can move to the left side. The participant gently tilts their neck to the left side as far as possible, and this distance is measured in degrees. The change for ROM for the left side of the neck is measured as the difference in degrees of ROM recorded from baseline to one hour after study treatment. If the change is positive (+), this means that ROM has gotten better and the neck can move further to the left side than before getting the treatment. If the change is negative (-), this means that ROM has gotten worse and the neck can move less to the left side than before getting the treatment",
+    "Range of motion (ROM) for the right shoulder is a measure of how well the participant can move the right shoulder. The participant gently raises the right shoulder (with right arm) as far as possible, and this distance is measured in degrees. The change for ROM for the right shoulder is measured as the difference in degrees of ROM recorded from baseline to one hour after study treatment. If the change is positive (+), this means that ROM has gotten better and the right shoulder can move further more easily than before getting the treatment. If the change is negative (-), this means that ROM has gotten worse and the right shoulder can move less and not as far to the left side than before getting the treatment.",
+    "Range of motion (ROM) for the right side of the neck is a measure of how well the neck can move to the right side. The participant gently tilts their neck to the right side as far as possible, and this distance is measured in degrees. The change for ROM for the right side of the neck is measured as the difference in degrees of ROM recorded from baseline to one hour after study treatment. If the change is positive (+), this means that ROM has gotten better and the neck can move further to the right side than before getting the treatment. If the change is negative (-), this means that ROM has gotten worse and the neck can move less to the right side than before getting the treatment.",
+    "Self-reported degree of pain in the neck and shoulder region on the Visual Analog Scale (VAS). The VAS is a 100 mm long horizontal line ranging from '0: no pain at all' on one end to '100: worst pain imaginable' on the other end. Participants mark a point along the line that best represents the pain they are experiencing at that moment.",
+    "Self-reported degree of pain in the neck and shoulder region on the Visual Analog Scale (VAS). The VAS is a 100 mm long horizontal line ranging from '0: no pain at all' on one end to '100: worst pain imaginable' on the other end. Participants mark a point along the line that best represents the pain they are experiencing at that moment. The change is calculated as the difference from the VAS score recorded at baseline to the VAS score recorded one hour after study treatment administration. A positive change (+) means that the pain got worse and a negative change (-) means that the pain got better.";
+  ex:dispersion_type "Standard Deviation";
+  ex:numericial "757";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Mean", "Number";
+  ex:time_frame "baseline and one hour", "one hour";
+  ex:title "Change in Range of Motion (ROM) for the Left Shoulder From Baseline to One Hour After Study Treatment.",
+    "Change in Range of Motion (ROM) for the Left Side of the Neck From Baseline to One Hour After Study Treatment.",
+    "Change in Range of Motion (ROM) for the Right Shoulder From Baseline to One Hour After Study Treatment.",
+    "Change in Range of Motion (ROM) for the Right Side of the Neck From Baseline to One Hour After Study Treatment.",
+    "Change in Self-reported Degree of Pain in the Neck-shoulder Region on the 0-100 Visual Analog Scale (VAS)",
+    "Number of Participants Whose Self-reported Degree of Pain on the Visual Analog Scale (VAS) in the Neck and Shoulder Area Decreased by 30% or More From Before to After Study Treatment.";
+  ex:units "degrees", "participants", "units on a scale" .
+
+<http://example.org/outcome/761> a ex:Outcome;
+  ex:date "2000-10-31"^^xsd:date;
+  ex:description "An adverse event was defined as any undesirable event occurring to a subject during the study, whether or not related to the investigational product";
+  ex:numericial "761";
+  ex:outcome_type "Primary";
+  ex:param_type "Number";
+  ex:time_frame "up to 20 weeks";
+  ex:title "Total Number of Adverse Events";
+  ex:units "Number of Adverse Events" .
+
+<http://example.org/outcome/814> a ex:Outcome;
+  ex:date "2002-06-24"^^xsd:date;
+  ex:description "Response was defined using the JRA definition of improvement (JRA DOI) as a ? 30% improvement from baseline in at least three of the six JRA Core Set Criteria and ? 30% worsening in not more than one of the six assessments. The JRA Core Set Criteria consist of:~Physician's global assessment of disease severity assessed on a visual analog scale (VAS) from 1 to 10~Patient's/Parent's global assessment of overall well being assessed on a VAS from 1 to 10~Number of active joints (swelling, not due to deformity, or if no swelling is present, limitation of motion accompanied by pain on passive motion and/or tenderness and/or warmth)~Number of joints with limitation of motion~Childhood Health Assessment Questionnaire (CHAQ)~Erythrocyte sedimentation rate (ESR)",
+    "Response was defined using the JRA definition of improvement (JRA DOI) as a ? 50% improvement from baseline in at least three of the six JRA Core Set Criteria and ? 30% worsening in not more than one of the six assessments. The JRA Core Set Criteria consist of:~Physician's global assessment of disease severity assessed on a visual analog scale (VAS) from 1 to 10~Patient's/Parent's global assessment of overall well being assessed on a VAS from 1 to 10~Number of active joints (swelling, not due to deformity, or if no swelling is present, limitation of motion accompanied by pain on passive motion and/or tenderness and/or warmth)~Number of joints with limitation of motion~Childhood Health Assessment Questionnaire (CHAQ)~Erythrocyte sedimentation rate (ESR)",
+    "Response was defined using the JRA definition of improvement (JRA DOI) as a ? 70% improvement from baseline in at least three of the six JRA Core Set Criteria and ? 30% worsening in not more than one of the six assessments. The JRA Core Set Criteria consist of:~Physician's global assessment of disease severity assessed on a visual analog scale (VAS) from 1 to 10~Patient's/Parent's global assessment of overall well being assessed on a VAS from 1 to 10~Number of active joints (swelling, not due to deformity, or if no swelling is present, limitation of motion accompanied by pain on passive motion and/or tenderness and/or warmth)~Number of joints with limitation of motion~Childhood Health Assessment Questionnaire (CHAQ)~Erythrocyte sedimentation rate (ESR)";
+  ex:numericial "814";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Number";
+  ex:population "All randomized participants; participants with missing data are counted as non-responders.",
+    "All randomized participants; participants with missing data were counted as non-responders.";
+  ex:time_frame "Baseline and month 6";
+  ex:title "Percentage of Participants With a 50% Improvement in JRA DOI at Month 6",
+    "Percentage of Participants With a 70% Improvement in JRA DOI at Month 6", "Percentage of Participants With a JRA Response at Month 6";
+  ex:units "percentage of participants" .
+
+<http://example.org/outcome/879> a ex:Outcome;
+  ex:date "2000-11-30"^^xsd:date;
+  ex:description "An evaluation by the patient, administered at the last visit (or upon discontinuation) using a 7-point scale, in answer to a single question regarding the change in symptoms as compared to the beginning of the study. Responses were assigned numerical values from 0 (very much better) to 6 (very much worse).",
+    "An evaluation by the physician, administered at the last visit (or upon discontinuation) using a 7-point scale, of the change in symptoms as compared to the beginning of the study. Responses were assigned numerical values from 0 (very much better) to 6 (very much worse).",
+    "Mean change from baseline in Daytime Eye Symptoms scores on a 4-point scale [0(best) to 3(worst)]. The average of the 4 individual eye symptoms scores (tearing, itchy, red, and puffy eyes) was reported as the Daytime Eye Symptoms Score.",
+    "Mean change from baseline in Daytime Nasal Symptoms score on a 4-point scale [0(best) to 3(worst)]. The average of the 4 individual nasal symptoms scores (Congestion, Rhinorrhea, Itching, and Sneezing) was reported as the Daytime Nasal Symptoms Score.",
+    "Mean change from baseline in Nighttime Symptoms Score on a 4-point scale [0(best) to 3(worst)]. The average of 3 scores (Nasal Congestion Upon Awakening, Difficulty Going to Sleep, and Nighttime Awakenings) was reported as the Nighttime Symptoms Score.",
+    "Patients completed a validated, self-administered questionnaire, which included 28 questions on a 7-point scale [score 0 (best) to 6 (worst)] across 7 domains: activities, sleep, non-nose/eye symptoms, practical problems, nasal symptoms, eye symptoms, and emotional. The scores for each domain were averaged, then the scores for the 7 domains were averaged for the overall score.";
+  ex:dispersion_type "95% Confidence Interval";
+  ex:numericial "879";
+  ex:outcome_type "Primary", "Secondary";
+  ex:param_type "Least Squares Mean";
+  ex:population "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement were included.",
+    "The primary efficacy analyses were based on the intention-to-treat (all-patients-treated) principle, i.e., all patients who had a baseline and at least one posttreatment measurement were included. No missing values were imputed.",
+    "The primary efficacy analyses were based on the intention-to-treat. Since only 1 measurement was obtained during the treatment period, no missing values were imputed.";
+  ex:time_frame "Baseline and Week 2", "Week 2", "Week 2 (or upon discontinuation)";
+  ex:title "Mean Change From Baseline in Daytime Eye Symptoms Score", "Mean Change From Baseline in Daytime Nasal Symptoms Score",
+    "Mean Change From Baseline in Nighttime Symptoms Score", "Mean Change From Baseline in Rhinoconjunctivitis Quality-of-Life Score",
+    "Patient's Global Evaluation of Allergic Rhinitis", "Physician's Global Evaluation of Allergic Rhinitis";
+  ex:units "Units on a Scale" .
+
+<http://example.org/outcome/881> a ex:Outcome;
+  ex:date "2001-02-28"^^xsd:date;
+  ex:description "An adverse experience (AE) is defined as any unfavorable and unintended change in the structure, function, or chemistry of the body temporally associated with the use of the SPONSOR'S product, whether or not considered related to the use of the product";
+  ex:numericial "881";
+  ex:outcome_type "Primary";
+  ex:param_type "Number";
+  ex:population "All patients who took study medication were included in the analysis.";
+  ex:time_frame "During the 6 weeks of treatment";
+  ex:title "Number of Clinical Adverse Experiences (CAEs) Reported by Patients During the 6-weeks of Treatment";
+  ex:units "Participants" .
