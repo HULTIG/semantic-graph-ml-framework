@@ -3,3 +3,53 @@
 src/fuseki-config/databases/*
 .idea/*
 src/data/rel-trial_materialized_cache/*
+
+# Ignore all CSV files in the data directory
+src/data/*.csv
+
+# Ignore large data files
+*.csv
+*.dat
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
