@@ -1,0 +1,433 @@
+# RML mappings for transforming clinical trial data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Studies Mapping
+example:StudiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/studies.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/studies/{nct_id}";
+        rr:class ex:studies
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:start_date;
+        rr:objectMap [ rml:reference "start_date"; rr:datatype xsd:dateTime ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:target_duration;
+        rr:objectMap [ rml:reference "target_duration"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:study_type;
+        rr:objectMap [ rml:reference "study_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:acronym;
+        rr:objectMap [ rml:reference "acronym"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:baseline_population;
+        rr:objectMap [ rml:reference "baseline_population"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:brief_title;
+        rr:objectMap [ rml:reference "brief_title"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:official_title;
+        rr:objectMap [ rml:reference "official_title"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:phase;
+        rr:objectMap [ rml:reference "phase"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:enrollment_type;
+        rr:objectMap [ rml:reference "enrollment_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:source;
+        rr:objectMap [ rml:reference "source"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:number_of_arms;
+        rr:objectMap [ rml:reference "number_of_arms"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:number_of_groups;
+        rr:objectMap [ rml:reference "number_of_groups"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:has_date;
+        rr:objectMap [ rml:reference "has_date"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:is_fda_regulated_drug;
+        rr:objectMap [ rml:reference "is_fda_regulated_drug"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:is_fda_regulated_device;
+        rr:objectMap [ rml:reference "is_fda_regulated_device"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:is_unapproved_device;
+        rr:objectMap [ rml:reference "is_unapproved_device"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:is_us_export;
+        rr:objectMap [ rml:reference "is_us_export"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:biospec_retention;
+        rr:objectMap [ rml:reference "biospec_retention"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:biospec_description;
+        rr:objectMap [ rml:reference "biospec_description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:source_class;
+        rr:objectMap [ rml:reference "source_class"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:baseline_type_units_analyzed;
+        rr:objectMap [ rml:reference "baseline_type_units_analyzed"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:fdaaa8f1_violation;
+        rr:objectMap [ rml:reference "fdaaa8f1_violation"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:plan_to_share_ipd;
+        rr:objectMap [ rml:reference "plan_to_share_ipd"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:detailed_descriptions;
+        rr:objectMap [ rml:reference "detailed_descriptions"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:brief_summaries;
+        rr:objectMap [ rml:reference "brief_summaries"; rr:datatype xsd:string ]
+    ].
+
+# Reported Event Totals Mapping
+example:ReportedEventTotalsMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/reported_event_totals.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/reported_event_totals/{id}";
+        rr:class ex:reported_event_totals
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:event_type;
+        rr:objectMap [ rml:reference "event_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:classification;
+        rr:objectMap [ rml:reference "classification"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:subjects_affected;
+        rr:objectMap [ rml:reference "subjects_affected"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:subjects_at_risk;
+        rr:objectMap [ rml:reference "subjects_at_risk"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:date;
+        rr:objectMap [ rml:reference "date"; rr:datatype xsd:dateTime ]
+    ].
+
+# Outcomes Mapping
+example:OutcomesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/outcomes.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/outcomes/{id}";
+        rr:class ex:outcomes
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:outcome_type;
+        rr:objectMap [ rml:reference "outcome_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:title;
+        rr:objectMap [ rml:reference "title"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:description;
+        rr:objectMap [ rml:reference "description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:time_frame;
+        rr:objectMap [ rml:reference "time_frame"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:population;
+        rr:objectMap [ rml:reference "population"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:units;
+        rr:objectMap [ rml:reference "units"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:units_analyzed;
+        rr:objectMap [ rml:reference "units_analyzed"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:dispersion_type;
+        rr:objectMap [ rml:reference "dispersion_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:param_type;
+        rr:objectMap [ rml:reference "param_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:date;
+        rr:objectMap [ rml:reference "date"; rr:datatype xsd:dateTime ]
+    ].
+
+# Drop Withdrawals Mapping
+example:DropWithdrawalsMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/drop_withdrawals.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/drop_withdrawals/{id}";
+        rr:class ex:drop_withdrawals
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:period;
+        rr:objectMap [ rml:reference "period"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:reason;
+        rr:objectMap [ rml:reference "reason"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:count;
+        rr:objectMap [ rml:reference "count"; rr:datatype xsd:integer ]
+    ].
+
+# Interventions Studies Mapping
+example:InterventionsStudiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/interventions_studies.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/interventions_studies/{intervention_id}";
+        rr:class ex:interventions_studies
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:intervention_id;
+        rr:objectMap [ rml:reference "intervention_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:mesh_term;
+        rr:objectMap [ rml:reference "mesh_term"; rr:datatype xsd:string ]
+    ].
+
+# Facilities Mapping
+example:FacilitiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/facilities.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/facilities/{facility_id}";
+        rr:class ex:facilities
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:facility_id;
+        rr:objectMap [ rml:reference "facility_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:name;
+        rr:objectMap [ rml:reference "name"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:city;
+        rr:objectMap [ rml:reference "city"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:state;
+        rr:objectMap [ rml:reference "state"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:zip;
+        rr:objectMap [ rml:reference "zip"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:country;
+        rr:objectMap [ rml:reference "country"; rr:datatype xsd:string ]
+    ].
+
+# Sponsors Studies Mapping
+example:SponsorsStudiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/sponsors_studies.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/sponsors_studies/{sponsor_id}";
+        rr:class ex:sponsors_studies
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:sponsor_id;
+        rr:objectMap [ rml:reference "sponsor_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:name;
+        rr:objectMap [ rml:reference "name"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:agency_class;
+        rr:objectMap [ rml:reference "agency_class"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:organization;
+        rr:objectMap [ rml:reference "organization"; rr:datatype xsd:string ]
+    ].
+
+# Conditions Studies Mapping
+example:ConditionsStudiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/conditions_studies.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/conditions_studies/{condition_id}";
+        rr:class ex:conditions_studies
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:condition_id;
+        rr:objectMap [ rml:reference "condition_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:mesh_term;
+        rr:objectMap [ rml:reference "mesh_term"; rr:datatype xsd:string ]
+    ].

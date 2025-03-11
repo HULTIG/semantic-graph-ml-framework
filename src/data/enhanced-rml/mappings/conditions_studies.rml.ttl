@@ -1,0 +1,44 @@
+# RML mappings for transforming conditions studies data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Conditions Studies Mapping
+example:ConditionsStudiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/conditions_studies.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/conditions_studies/{id}";
+        rr:class ex:conditions_studies
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:condition_id;
+        rr:objectMap [ rml:reference "condition_id"; rr:datatype xsd:integer ]
+    ]. 

@@ -13,7 +13,7 @@
     ];
 
     rr:subjectMap [
-        rr:template "http://example.org/study/{nCL_id}";
+        rr:template "http://example.org/study/{nct_id}";
         rr:class ex:Study
     ];
 

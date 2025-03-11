@@ -1,0 +1,89 @@
+# RML mappings for transforming outcomes data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Outcomes Mapping
+example:OutcomesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/outcomes.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/outcomes/{id}";
+        rr:class ex:outcomes
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:outcome_type;
+        rr:objectMap [ rml:reference "outcome_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:title;
+        rr:objectMap [ rml:reference "title"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:description;
+        rr:objectMap [ rml:reference "description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:time_frame;
+        rr:objectMap [ rml:reference "time_frame"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:population;
+        rr:objectMap [ rml:reference "population"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:units;
+        rr:objectMap [ rml:reference "units"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:units_analyzed;
+        rr:objectMap [ rml:reference "units_analyzed"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:dispersion_type;
+        rr:objectMap [ rml:reference "dispersion_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:param_type;
+        rr:objectMap [ rml:reference "param_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:date;
+        rr:objectMap [ rml:reference "date"; rr:datatype xsd:dateTime ]
+    ]. 

@@ -1,0 +1,114 @@
+# RML mappings for transforming outcome analyses data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Outcome Analyses Mapping
+example:OutcomeAnalysesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/outcome_analyses.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/outcome_analyses/{id}";
+        rr:class ex:outcome_analyses
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:outcome_id;
+        rr:objectMap [ rml:reference "outcome_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:param_type;
+        rr:objectMap [ rml:reference "param_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:param_value;
+        rr:objectMap [ rml:reference "param_value"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:dispersion_type;
+        rr:objectMap [ rml:reference "dispersion_type"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:dispersion_value;
+        rr:objectMap [ rml:reference "dispersion_value"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:ci_n_sides;
+        rr:objectMap [ rml:reference "ci_n_sides"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:ci_percent;
+        rr:objectMap [ rml:reference "ci_percent"; rr:datatype xsd:float ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:ci_lower_limit;
+        rr:objectMap [ rml:reference "ci_lower_limit"; rr:datatype xsd:float ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:ci_upper_limit;
+        rr:objectMap [ rml:reference "ci_upper_limit"; rr:datatype xsd:float ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:ci_upper_limit_na_comment;
+        rr:objectMap [ rml:reference "ci_upper_limit_na_comment"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:p_value;
+        rr:objectMap [ rml:reference "p_value"; rr:datatype xsd:float ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:method;
+        rr:objectMap [ rml:reference "method"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:method_description;
+        rr:objectMap [ rml:reference "method_description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:groups_description;
+        rr:objectMap [ rml:reference "groups_description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:other_analysis_description;
+        rr:objectMap [ rml:reference "other_analysis_description"; rr:datatype xsd:string ]
+    ].

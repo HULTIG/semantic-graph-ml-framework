@@ -106,7 +106,7 @@ The framework evaluates performance using:
 
 Detailed documentation for each component:
 - [RelationalToRDFAPI Documentation](src/RelationalToRDFAPI/README.md)
-- [Graph Learning Demo Guide](src/graph-learning-demo/demo.ipynb)
+- [Graph Learning Demo Guide](src/graph-learning-demo/r2rml_aproach.ipynb)
 
 ## Contributing
 

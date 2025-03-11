@@ -1,0 +1,99 @@
+# RML mappings for transforming eligibilities data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Eligibilities Mapping
+example:EligibilitiesMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/eligibilities.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/eligibilities/{id}";
+        rr:class ex:eligibilities
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:sampling_method;
+        rr:objectMap [ rml:reference "sampling_method"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:gender;
+        rr:objectMap [ rml:reference "gender"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:minimum_age;
+        rr:objectMap [ rml:reference "minimum_age"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:maximum_age;
+        rr:objectMap [ rml:reference "maximum_age"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:healthy_volunteers;
+        rr:objectMap [ rml:reference "healthy_volunteers"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:population;
+        rr:objectMap [ rml:reference "population"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:criteria;
+        rr:objectMap [ rml:reference "criteria"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:gender_based;
+        rr:objectMap [ rml:reference "gender_based"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:gender_description;
+        rr:objectMap [ rml:reference "gender_description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:adult;
+        rr:objectMap [ rml:reference "adult"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:child;
+        rr:objectMap [ rml:reference "child"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:older_adult;
+        rr:objectMap [ rml:reference "older_adult"; rr:datatype xsd:boolean ]
+    ].

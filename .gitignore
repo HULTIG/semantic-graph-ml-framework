@@ -53,3 +53,4 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+src/data/rmlmapper-6.5.1-r371-all.jar

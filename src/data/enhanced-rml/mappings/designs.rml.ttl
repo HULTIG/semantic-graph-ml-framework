@@ -1,0 +1,99 @@
+# RML mappings for transforming designs data into RDF
+# Document metadata
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+# RML mappings
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+# Ontologies
+@prefix ex: <http://example.org/ns#>.
+@prefix example: <http://example.org/study/>.
+
+# Base URI for the dataset
+@base <http://example.org/study/>.
+
+# Designs Mapping
+example:DesignsMapping a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "data/designs.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+        rr:template "http://example.org/designs/{id}";
+        rr:class ex:designs
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:id;
+        rr:objectMap [ rml:reference "id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:nct_id;
+        rr:objectMap [ rml:reference "nct_id"; rr:datatype xsd:integer ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:allocation;
+        rr:objectMap [ rml:reference "allocation"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:intervention_model;
+        rr:objectMap [ rml:reference "intervention_model"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:observational_model;
+        rr:objectMap [ rml:reference "observational_model"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:primary_purpose;
+        rr:objectMap [ rml:reference "primary_purpose"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:time_perspective;
+        rr:objectMap [ rml:reference "time_perspective"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:masking;
+        rr:objectMap [ rml:reference "masking"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:subject_masked;
+        rr:objectMap [ rml:reference "subject_masked"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:caregiver_masked;
+        rr:objectMap [ rml:reference "caregiver_masked"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:investigator_masked;
+        rr:objectMap [ rml:reference "investigator_masked"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:outcomes_assessor_masked;
+        rr:objectMap [ rml:reference "outcomes_assessor_masked"; rr:datatype xsd:boolean ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:masking_description;
+        rr:objectMap [ rml:reference "masking_description"; rr:datatype xsd:string ]
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate ex:intervention_model_description;
+        rr:objectMap [ rml:reference "intervention_model_description"; rr:datatype xsd:string ]
+    ].

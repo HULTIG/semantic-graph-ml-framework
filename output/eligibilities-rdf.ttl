@@ -1,0 +1,1735 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ns#> .
+@prefix example: <http://example.org/study/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/eligibilities/0> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~all patients undergoing surgery at our institution for proven gastric adenocarcinoma will be enrolled in the present study~Exclusion Criteria:~Patients with lower esophageal adenocarcinoma or cancer crossing the esophagogastric junction with its epicenter in the proximal 2 cm of stomach, which were taken apart from stomach cancers in the last two AJCC cancer staging editions, will be excluded.~Patients with ongoing infections, concomitant immune-mediated diseases, or on drugs capable of affecting neutrophil and/or lymphocyte counts (e.g., steroids, immunosuppressants, etc.) will be excluded from the study.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 0;
+  ex:nct_id 4;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients with proven gastric adenocarcinoma undergoing surgery.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/1> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~age over 14 years old.~Patients presenting liver hydatid cyst .~Exclusion Criteria:~age less than 14 years old.~Patients presenting other localization of hydtic cyst , than the liver.~calcified cysts.~patients with incomplete medical records.~patients who were lost to follow up.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 1;
+  ex:minimum_age "14 Years";
+  ex:nct_id 5;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "914 Patients , who underwent surgical treatment at the Department of General and Digestive Surgery, Sahloul University Hospital Center, Sousse, Tunisia from 1st January 2000 to 31st December 2019 was performed. The diagnosis of LHC was established by clinical history, physical examination and abdominal ultrasonography (USG) in all patients";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/10> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients with a diagnosis for appendicitis undergoing appendectomy during the same admission during the period 2000-15~Exclusion Criteria:~None";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 10;
+  ex:nct_id 33;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "All patients in Denmark with a diagnosis for appendicitis undergoing appendectomy during the same admission during the period 2000-15";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/100> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~End stage osteoarthritis of the knee joint who require total knee arthroplasty with bilateral lesions.~Exclusion Criteria:~Inflammatory disease~patient with other Lower extremity disease which may affect functional outcome~Neurologic disease effecting patients lower extremity~Revision surgery~Patient not medically cleared for bilateral surgery";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 100;
+  ex:maximum_age "88 Years";
+  ex:minimum_age "49 Years";
+  ex:nct_id 61;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/101> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Patients with 1-4 sites of brain metastases Confirmed by MRI with gadolinium texaphyrin scan within two weeks of study If solitary metastases, diameter must be 40 mm or less If multiple metastases, one site may be greater than 30 mm, while all others must be less than 30 mm No metastases in the brainstem or within 5 mm of optic nerves or chiasm Prior surgical resection of metastases allowed if radiographically visible residual disease No prior cranial radiotherapy Patients must be over 65 years of age OR Over 18 years of age with Karnofsky performance status 40-60% All primary histologies allowed except the following: Lymphomas Leukemia Multiple myeloma Small cell lung cancer Germ cell tumors Extracranial disease allowed~PATIENT CHARACTERISTICS: Age: See Disease Characteristics Performance status: See Disease Characteristics Life expectancy: Not specified Hematopoietic: Hemoglobin greater than 8 g/dL Absolute neutrophil count greater than 1,000/mm3 Platelet count greater than 50,000/mm3 Hepatic: Not specified Renal: Not specified~PRIOR CONCURRENT THERAPY: Biologic therapy: Not specified Chemotherapy: Prior chemotherapy allowed Endocrine therapy: Not specified Radiotherapy: See Disease Characteristics Prior or concurrent radiotherapy to noncranial sites allowed Surgery: See Disease Characteristics";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 101;
+  ex:maximum_age "120 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 140;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/102> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Diagnosis of Non-Hodgkin's lymphoma, Hodgkin's disease, acute myelogenous leukemia, acute lymphoblastic leukemia, chronic myelogenous leukemia, chronic lymphocytic leukemia, or multiple myeloma Eligible for total body irradiation plus high dose chemotherapy followed by autologous peripheral blood stem cell transplantation At least 1,500,000 CD34+ cells/kg cryopreserved No prior treatment on this study~PATIENT CHARACTERISTICS: Age: 12 to 65 Performance status: Karnofsky 70-100% SWOG 0 or 1 Life expectancy: Not specified Hematopoietic: Absolute neutrophil count greater than 1000/mm3 Platelet count greater than 100,000/mm3 If conditioning regimen scheduled soon after apheresis, platelet count of greater than 50,000/mm3 but less than 100,000/mm3 allowed Hepatic: Bilirubin no greater than 2 mg/dL Renal: Creatinine no greater than 2 mg/dL Cardiovascular: No congestive heart failure No New York Heart Association class III or IV heart disease Pulmonary: DLCO at least 50% predicted Other: No prior or concurrent second malignancy No active infection or oral mucositis No insulin dependent diabetes mellitus HIV negative No sensitivity to E. coli derived products Not pregnant or nursing Fertile patients must use effective contraception one month before, during, and one month after study~PRIOR CONCURRENT THERAPY: Biologic therapy: No prior bone marrow or peripheral blood stem cell transplantation, unless undergoing second transplant of a tandem transplant regimen, with no complications after first transplant No concurrent interleukin-11 Chemotherapy: No other concurrent cytotoxic chemotherapy, except intrathecal methotrexate for CNS involvement Endocrine therapy: Not specified Radiotherapy: No prior extensive radiotherapy that would preclude total body irradiation Surgery: Not specified Other: At least 30 days since prior investigational devices or drugs, except Baxter Isolex i column No other concurrent investigational agents No concurrent prophylactic oral cryotherapy during chemotherapy";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 102;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "12 Years";
+  ex:nct_id 216;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/103> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~ST elevated myocardial infarction~Exclusion Criteria:~Treatment with fibrinolytic drugs in the previous 24 hours Active infection Previously documented history of a systemic inflammatory process Known malignancy End-stage liver disease Renal failure";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 103;
+  ex:maximum_age "90 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 172;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "STEMI patients who were admitted within 6 hours from symptom onset and who underwent primary PCI were prospectively included in this study";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/104> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~four or more previous consecutive abortion,~failed previous treatment with intravenous immunoglobulins~negative to all clinical investigation for recurrent miscarriage~Exclusion Criteria:~in the last abortion a fetal karyotype showing chromosomal abnormality~previous successful pregnancy";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 104;
+  ex:maximum_age "39 Years";
+  ex:minimum_age "25 Years";
+  ex:nct_id 135;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/105> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~All brain dead patients whatever the cause (cardiac arrest, stroke, head trauma)~Exclusion Criteria:~Age < 18years";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 105;
+  ex:minimum_age "18 Years";
+  ex:nct_id 79;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Any brain dead patients diagnosed in three different ICUs";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/106> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically or cytologically confirmed intermediate- or high-grade primary CNS lymphoma by brain biopsy or cerebrospinal fluid or vitrectomy analysis~No more than 90 days since diagnosis~No systemic lymphoma NOTE: A new classification scheme for adult non-Hodgkin's lymphoma has been adopted by PDQ. The terminology of indolent or aggressive lymphoma will replace the former terminology of low, intermediate, or high grade lymphoma. However, this protocol uses the former terminology.~PATIENT CHARACTERISTICS:~Age~16 to 75~Performance status~ECOG 0-3 OR~Karnofsky 40-100%~Life expectancy~Not specified~Hematopoietic~Hematocrit at least 25% (transfusion allowed)~WBC at least 2,500/mm^3~Absolute granulocyte count at least 1,200/mm^3~Platelet count at least 100,000/mm^3 OR at least lower limit of normal (transfusion independent)~Hepatic~Bilirubin no greater than 2.0 times upper limit of normal~Renal~Creatinine clearance at least 30 mL/min~Cardiovascular~Adequate cardiac function to tolerate general anesthesia~Pulmonary~Adequate pulmonary function to tolerate general anesthesia~Other~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception for 2 months before and during study participation~No other uncontrolled clinically significant confounding medical condition within the past 30 days~No known allergy to study agents~HIV negative~PRIOR CONCURRENT THERAPY:~Biologic therapy~Not specified~Chemotherapy~More than 4 weeks since prior chemotherapy (6 weeks for nitrosoureas)~Single-agent methotrexate administered within the past 14 days allowed~Endocrine therapy~Not specified~Radiotherapy~No prior cranial or spinal radiotherapy~Surgery~Prior surgery or biopsy allowed";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 106;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "16 Years";
+  ex:nct_id 109;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/107> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Normal subjects and those with diagnosed mesenteric ischemia~Exclusion Criteria:~Subjects who report a tendency toward claustrophobia";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 107;
+  ex:maximum_age "80 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 131;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "primary care clinic";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/108> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~primary elective open non-mesh sutured umbilical or epigastric hernia repair~Exclusion Criteria:~mesh repair, acute repair, repair secondary to other operation, recurrent hernia repair, combined hernia repair, laparoscopic hernie repair, trocar hernia repair, incompensated liver cirrhosis, age < 18 years, pregnancy";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 108;
+  ex:minimum_age "18 Years";
+  ex:nct_id 159;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Consecutive patients undergoing primary elective open non-mesh sutured umbilical or epigastric hernia repair during a five years period";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/109> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Less 70 years~ECOG 0-2~Symptomatic MM (pain, anemia, infection, haemorrhage, loss of weight, hypercalcemia, extramedulary plasmocytoma, creatinine >2 mg/dl).~No previous chemotherapy~Exclusion Criteria:~>70 years~ECOG 3-4~myeloma quiescent~cardiopathy~liver disfunction~HIV+~Hepatitis B-C +~Previous chemotherapy";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 109;
+  ex:maximum_age "69 Years";
+  ex:nct_id 129;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/11> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~bilateral end-stage hip arthrosis~Exclusion Criteria:~inflammatory arthritis, foot and ankle disorders, dementia, stroke history, high dislocation of hip, patients older than 55 years";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 11;
+  ex:maximum_age "55 Years";
+  ex:minimum_age "20 Years";
+  ex:nct_id 17;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/110> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~ALL BCR/ABL+ patients Age < 65 years No previous treatment~Exclusion Criteria:~Other LLA variability~Previous history of coronary valvular, hypertensive cardiopathy illness~Chronic hepatic illness~Chronic respiratory insufficiency~Renal insufficiency not caused by LLA~Severe neurological problems not caused by LLA~Severe affection of the performance status (grade 3-4 OMS gradation) not caused by LLA";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 110;
+  ex:maximum_age "65 Years";
+  ex:nct_id 122;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/111> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~- Women selected for the study were diagnosed with pre-eclampsia in the second half of pregnancy.~i.) an elevation of blood pressure to levels in excess of 140 systolic over 90 diastolic ii.) proteinuria determined by a urine dipstick value ? 2+, or quantitated at ? 0.5 g either per gram of creatinine or in a 24 hour urine collection.~Exclusion Criteria:~Women with a history of underlying renal disease defined as a pre-pregnancy azotemia (serum creatinine ? 1.2 mg/dl) or proteinuria";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 111;
+  ex:minimum_age "18 Years";
+  ex:nct_id 104;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/112> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Best corrected visual acuity of at least +0.7 ETDRS~Six month history of dry eye disease~Mild severity in two out of five symptoms~Unanesthetized Schirmer score of less than or equal to 7mm~Corneal fluorescein staining greater than or equal to 4 out of 15 or lissamine green conjunctival staining of greater than or equal to 5 out of 18~Exclusion Criteria:~Nasal stimulated Schirmer score of less than 3mm~Have ongoing ocular infection~Have congenitally absent meibomian or lacrimal glands~Have had punctal occlusion within a specified time prior to study~Wear contact lens and refuse to remove them~Have other excluded eye conditions.";
+  ex:id 112;
+  ex:nct_id 75;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/113> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically or cytologically confirmed non-small cell lung cancer Stage IV disease OR Recurrent unresectable disease No other conventional curative or significant palliative therapies available Measurable disease At least one lesion a minimum of one dimension in diameter of at least 20 mm No symptomatic and/or untreated CNS metastases~PATIENT CHARACTERISTICS: Age: 65 and over Performance status: ECOG 0-2 Life expectancy: At least 12 weeks Hematopoietic: Absolute neutrophil count at least 1,500/mm3 Platelet count at least 100,000/mm3 Hepatic: AST no greater than 3 times upper limit of normal Renal: Creatinine clearance at least 40 mL/min Other: No uncontrolled infection No uncontrolled seizure disorder No uncontrolled diabetes mellitus No other malignancies within the past 3 years except adequately treated basal or squamous cell skin cancer or noninvasive carcinomas~PRIOR CONCURRENT THERAPY: Biologic therapy: No prior biologic or immunotherapy for recurrent or metastatic disease No concurrent biologic therapy Chemotherapy: No prior chemotherapy for recurrent or metastatic disease except as radiosensitizer No other concurrent chemotherapy Endocrine therapy: Not specified Radiotherapy: No prior radiotherapy for recurrent or metastatic disease except as adjuvant therapy At least 4 weeks since prior radiotherapy to greater than 25% of bone marrow No concurrent radiotherapy except for CNS therapy Surgery: See Disease Characteristics At least 3 weeks since prior major surgery";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 113;
+  ex:minimum_age "65 Years";
+  ex:nct_id 161;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/114> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Insulin naïve subjects with type 2 diabetes treated with oral hypoglycemic agents~Body mass index between 26 and 40 kg/m2~HbA1c between 7.5% and 10.0%~Fasting plasma glucose >7.8 mmol/L and fasting C-peptide > or =0.25 nmol/L";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 114;
+  ex:maximum_age "70 Years";
+  ex:minimum_age "30 Years";
+  ex:nct_id 55;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/115> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~First primary breast cancer~pT1-2~pN0-3a~Surgery performed at European Institute of Oncology between 2000 and 2008~Exclusion Criteria:~pT>=3~Neoadjuvant treatment~Presence of metastatic breast disease at the time of admission or within 3 months";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 115;
+  ex:nct_id 81;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Retrospectively analysis of patients who received treatment for invasive breast cancer at the European Institute of Oncology between January 1, 2000, and December 31, 2008.~The original cohort comprised 9710 eligible patients with breast cancer, of whom 2289 (23.6%) underwent breast conserving surgery + whole breast irradiation and 7421 (76.4%) underwent mastectomy alone.~After propensity score matching, 1970 of the 2289 patients who underwent mastectomy (86.1%) were successfully matched to 1970 patients who underwent breast conserving surgery.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/116> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Clinical diagnosis of asthma~Exclusion Criteria:~Habitual cigarette smoking";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 116;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 108;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/117> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Institutionalized patients with Alzheimer's Disease";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 117;
+  ex:maximum_age "95 Years";
+  ex:minimum_age "55 Years";
+  ex:nct_id 128;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/118> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~All patients with fulminant hepatic failure~Exclusion Criteria:~Age below 18 years~Pregnancy~Not obtained informed consent~Suspicion of cancer disease~No pupil reaction to light";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 118;
+  ex:minimum_age "18 Years";
+  ex:nct_id 192;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "consecutive patients with fulminant hepatic failure";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/119> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients diagnosed with COPD (FEV1<75% of expected) who have the ability to conversation and active participation will be included.~Exclusion Criteria:~-";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 119;
+  ex:maximum_age "99 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 54;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/12> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients who presented to the Department of Internal Medicine at the Medical University in Innsbruck between 01.01.2000 and 31.07.2022 and received an ECG recording as part of routine clinical practice.~Age ? 18 years~Residence in Austria~Exclusion Criteria:~Insuffizient ECG Recording quality";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 12;
+  ex:minimum_age "18 Years";
+  ex:nct_id 23;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients who presented to the Department of Internal Medicine at the Medical University in Innsbruck between 01.01.2000 and 31.07.2022 and received an ECG recording as part of routine clinical practice.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/120> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Normal Subjects and those diagnosed with mesenteric ischemia~Exclusion Criteria:~Subjects who report a tendency toward claustrophobia";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 120;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 146;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Primary Care Clinic";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/121> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Age > 18 years~Genetically proven myopathy~Admission in our institutions from January 2000 to November 2014~Exclusion Criteria:~Patient refusal";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 121;
+  ex:minimum_age "18 Years";
+  ex:nct_id 188;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Adult patients with genetically proven myopathy";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/122> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Low-risk (healthy) pregnant women~At 16-20 weeks of gestation~Seen at the Prenatal Care Service for Low-risk Pregnancies of Botucatu Medical School-UNESP~Exclusion Criteria:~Twin pregnancy~Clinical or obstetric disorder contraindicating an exercise program~Withdrawal from prenatal care at our service~Loss to follow-up; and failure to attend three (or more) exercise sessions, which was considered non-compliance to the aerobic water exercise program";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 122;
+  ex:maximum_age "26 Years";
+  ex:minimum_age "15 Years";
+  ex:nct_id 152;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/123> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Fasting blood low density lipoprotein cholesterol level as defined by the protocol~Diagnosed carotid arterial stenosis~Exclusion Criteria:~The use of lipid lowering drugs or dietary supplements after Visit 1.~Heavy or total occlusion of the carotid artery or recent stroke~Uncontrolled hypertension, hypothyroidism, alcohol or drug abuse";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 123;
+  ex:minimum_age "18 Years";
+  ex:nct_id 100;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/124> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically confirmed recurrent medulloblastoma or supratentorial primitive neuroectodermal and pineal tumor~Nodular/desmoplastic medulloblastoma~Medullomyoblastoma~Melanotic medulloblastoma~Ependymoblastoma~Pinealoblastoma~Received prior craniospinal radiotherapy OR~Relapse in site of prior localized radiotherapy (e.g., relapse after baby brain protocol)~PATIENT CHARACTERISTICS:~Age:~Under 21~Performance status:~Lansky 40-100% for ages 1-16 years~Karnofsky 40-100% for ages over 16 years~Life expectancy:~At least 8 weeks~Hematopoietic:~Neutrophil count at least 1,000/mm^3~Platelet count at least 100,000/mm^3~Hepatic:~Bilirubin less than upper limit of normal (ULN)~AST less than 2 times ULN~Renal:~Glomerular filtration rate at least 60 mL/min~Other:~Not pregnant or nursing~Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY:~Biologic therapy~Not specified~Chemotherapy~Not specified~Endocrine therapy~Not specified~Radiotherapy~See Disease Characteristics~Surgery~Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 124;
+  ex:maximum_age "20 Years";
+  ex:nct_id 200;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/125> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically confirmed squamous cell carcinoma or adenocarcinoma of the upper, middle, or lower third esophagus Stage I, II, or III disease Measurable disease No distant metastases Negative liver biopsy Negative bone scan unless due to benign disease No tracheobronchial involvement No vocal cord paralysis No phrenic nerve involvement No celiac axis lymph node involvement unless due to primary cancer at gastroesophageal junction No evidence of disseminated cancer~PATIENT CHARACTERISTICS: Age: Not specified Performance status: ECOG 0-2 Life expectancy: Not specified Hematopoietic: Absolute neutrophil count at least 1,500/mm3 Platelet count at least 100,000/mm3 Hemoglobin at least 10 g/dL Hepatic: Bilirubin no greater than 1.5 mg/dL SGOT/SGPT no greater than 2 times upper limit of normal (ULN) Alkaline phosphatase no greater than 2 times ULN Renal: Creatinine no greater than 1.5 mg/dL Creatinine clearance at least 60 mL/min Cardiovascular: No uncontrolled or severe cardiovascular disease No congestive heart failure No myocardial infarction within the past 6 months No severe or uncontrolled hypertension (systolic greater than 150 mmHg and diastolic greater than 100 mmHg) Pulmonary: FEV1/FVC at least 75% predicted Arterial blood saturation at least 92% Other: Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception No other malignancy except curatively treated nonmelanoma skin cancer or carcinoma in situ of the cervix No other serious medical illness that would limit survival to fewer than 2 years No active uncontrolled bacterial, viral, or fungal infection No active uncontrolled duodenal ulcer No psychiatric disorder that would preclude study~PRIOR CONCURRENT THERAPY: Biologic therapy: Not specified Chemotherapy: No prior chemotherapy Endocrine therapy: Not specified Radiotherapy: No prior chest radiotherapy Surgery: No prior surgical resection of tumor Other: No prior therapy for esophageal cancer";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 125;
+  ex:maximum_age "120 Years";
+  ex:nct_id 168;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/126> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria~55 years or older~primary source of drinking water used at home is supplied by Sonoma County Water Agency without use of home filtration device or bottled water~all individuals living in the home must sign informed consent and agree to have the water treatment device installed~no known immunocompromising conditions (including HIV/AIDS, active cancer, or transplant recipients).~Exclusion criteria:~persons with immunocompromising condition (including HIV/AIDS, active cancer, or transplant recipients)~employees and family members of the Sonoma County Water Agency or a Sonoma County Water District";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 126;
+  ex:minimum_age "55 Years";
+  ex:nct_id 215;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/127> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~unilateral multinodular goiter with normal appearing on ultrasound of the neck contralateral thyroid lobe, in a patient in euthyroid state~Exclusion Criteria:~bilateral multinodular goiter, enlargement of contralateral thyroid lobe (volume on ultrasound >10 ml), suspicion of thyroid cancer, previous thyroid surgery, thyroiditis, subclinical or clinically overt hypothyroidism or hyperthyroidism, pregnancy or lactation, age < 18 years or > 65 years, ASA 4 grade (American Society of Anesthesiology), and inability to comply with the follow-up protocol";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 127;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 92;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "primary care clinic";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/128> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Renal or renal/pancreas transplant patients who are diagnosed with symptomatic CMV infection~receiving no more than 48 hrs of therapy prior to study enrollment~Exclusion Criteria:~serum creatinine <2.2 at the time of enrollment~no prior use of CMV IgG";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 128;
+  ex:minimum_age "18 Years";
+  ex:nct_id 124;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/129> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients must have severe chronic EBV infection as manifested by 6 months of symptoms Either elevated peripheral blood EBV DNA (>4000 genomes per ug PBMC DNA) or free EBV DNA in serum or CSF or VCA antibody titer > 1/640~Seronegative for HIV~Not on investigational agents in the last 4 weeks~Signed informed consent obtained from patient/guardian~CTLs available~Performance status; Karnofsky >60~Creatinine < 3X normal~Bilirubin < 5X normal~Normal electrolytes, calcium, phosphorus, nutritional status~Females with child-bearing potential must utilize effective birth control.~Exclusion Criteria:~Patients with a severe intercurrent infection~Patients that recently received high dose steroids within the last week or other immunosuppressive drugs within a week (or longer as indicated by the half life of the agent)~Patients with life expectancy of less than 6 weeks~Pregnant or lactating females";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 129;
+  ex:nct_id 222;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/13> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria: patient having gastric GIST~-~Exclusion Criteria:~patient operated for other gastric tumors";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 13;
+  ex:maximum_age "90 Years";
+  ex:minimum_age "10 Years";
+  ex:nct_id 3;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "There were 34 patients with the mean age of 58.2 years and male predominance. The disease was localized, locally advanced and metastatic in 26, 6 and 2 cases, respectively. Complete surgical resection was performed in 32 cases.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/130> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Diagnosis of panic disorder, with or without agoraphobia according to the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, text revision (DSM-IV-TR) criteria, as determined by a structured clinical interview.~At least two panic attacks in the week preceding their inclusion in the study.~Exclusion Criteria:~Patients unable or unwilling to provide written informed consent.~Did not complete all the evaluations before study initiation.~Had comorbidities that could affect clinical evaluation including drug abuse, neurological disorders, or severe personality disorder.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 130;
+  ex:maximum_age "60 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 51;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/131> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Intermediate or high grade non-Hodgkin's lymphoma (NHL) or Hodgkin's disease (HD)~Chemotherapy sensitive, initial partial remission OR~Relapse after initial complete or partial remission~Low grade NHL eligible provided progression following initial partial or complete remission~Ineligible for ongoing allogeneic marrow donor transplant protocols or elected not to participate in such protocols~No chemotherapy resistant NHL or HD NOTE: A new classification scheme for adult non-Hodgkin's lymphoma has been adopted by PDQ. The terminology of indolent or aggressive lymphoma will replace the former terminology of low, intermediate, or high grade lymphoma. However, this protocol uses the former terminology.~PATIENT CHARACTERISTICS:~Age:~18 to 70~Performance status:~Karnofsky 90-100%~Life expectancy:~Not specified~Hematopoietic:~Not specified~Hepatic:~AST less than 2.5 times upper limit of normal (ULN)~Bilirubin less than 2.5 times ULN~Renal:~Creatinine less than 2.0 mg/dL~Cardiovascular:~Resting LVEF at least 40%~No unstable ischemic heart disease~Pulmonary:~Spirometry and DLCO greater than 50% predicted~Other:~No active uncontrolled infection~HIV negative~PRIOR CONCURRENT THERAPY:~Biologic therapy:~See Disease Characteristics~Chemotherapy:~See Disease Characteristics~At least 4 weeks since prior chemotherapy (6 weeks for nitrosoureas)~Endocrine therapy:~Not specified~Radiotherapy:~Not specified~Surgery:~Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 131;
+  ex:maximum_age "70 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 198;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/132> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~chest pain without a cardiac cause~diagnosed with panic disorder and or depression according to Diagnostic and statistical Manual (DSM) IV criteria~Living < 50 km from the hospital~informed consent~Exclusion Criteria:~other primary DSM IV diagnosis~known sensitivity to sertraline~using other anti-depressive agents~not speaking dutch language~living in a nursery home or having dementia~other severe, acute or progressive disease, kidney or liver-function disturbances, pregnancy or breastfeeding";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 132;
+  ex:minimum_age "18 Years";
+  ex:nct_id 195;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/133> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically confirmed non-morpheaform basal cell skin cancer~Primary disease OR~Recurrent disease after prior therapy (e.g., surgical excision, electrodesiccation, cryosurgery, or radiotherapy)~At least 4 lesions, no greater than 2 cm in diameter and no greater than 5 mm in depth~No lesions located on the eyelid, nose, ear, periauricular area, genitals, or digits, or any other lesions thought to be deep and/or aggressive~PATIENT CHARACTERISTICS:~Age:~Over 18~Performance status:~Not specified~Life expectancy:~Not specified~Hematopoietic:~WBC at least 2,000/mm^3~Platelet count at least 120,000/mm^3~Hepatic:~PT/PTT no greater than 1.5 times upper limit of normal (ULN)~Bilirubin no greater than 3.0 mg/dL~Liver enzymes no greater than 2 times ULN~No impaired hepatic function~Renal:~No impaired renal function~Cardiovascular:~No myocardial infarction within the past 6 months~Other:~No porphyria~No known hypersensitivity to porphyrins~No systemic lupus erythematosus~No history of positive antinuclear antibody~No history of degenerative disease of the retina~No xeroderma pigmentosum~No pancreatic disease~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY:~Biologic therapy:~Not specified~Chemotherapy:~At least 3 months since prior combination doxorubicin and radiotherapy~Endocrine therapy:~Not specified~Radiotherapy:~See Disease Characteristics~See Chemotherapy~Surgery:~See Disease Characteristics";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 133;
+  ex:minimum_age "18 Years";
+  ex:nct_id 64;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/134> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Has a cervix~Never been screened for cervical cancer~Not currently pregnant~Exclusion Criteria:~Has previously had a Pap smear~Has previously undergone treatment for cervical squamous intraepithelial lesion (SIL)~Have lesions suspicious for cancer, have large acetowhite lesions extending over 70% of the cervix or into endocervical canal, are unsuitable for cryotherapy because of severe atrophy, polyps, cervix distorted, cervix cannot be adequately visualized~Is unable to cooperate with study procedures or tolerate the insertion of a speculum";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 134;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "35 Years";
+  ex:nct_id 115;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/135> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Hemodialysis vintage 2+ months";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 135;
+  ex:maximum_age "88 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 214;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Hemodialysis patients";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/136> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~probing depth of 7mm or greater at baseline~following debridement, 4mm or greater vertical bone defect depth with at least one intact bony wall~sufficient keratinized tissue to allow complete tissue coverage of the defect~a radiographic base of the defect at least 3mm coronal to the apex of the tooth~no evidence of localized aggressive periodontitis~smoke less than 1 pack of cigarettes per day~Exclusion Criteria:~failure to maintain adequate oral hygiene~pregnant women or women intending to become pregnant~history of oral cancer within last 6 months or HIV~history within last year of periodontal surgery on study tooth~study tooth mobility greater than 2~study tooth exhibiting a class 3 furcation defect~signs of untreated acute infection at the surgical site, apical pathology, root fracture, severe root irregularities, cemental pearls, cementoenamel junction (CEJ) projections not easily removed, untreated carious lesions at the CEJ or on the root surface, subgingival restorations or restorations with open margins at or below CEJ~history within 6 months of weekly or more frequent use of smokeless chewing tobacco, pipe or cigar smoking, or more than 20 cigarettes a day~allergy to yeast derived products~investigational therapy within 30 days of surgery";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 136;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "25 Years";
+  ex:nct_id 118;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/137> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Diagnosis of schizophrenia according to the Diagnostic and Statistical Manual of Mental Diseases, 4th edition (DSM-IV) criteria~total score on the PANSS at study entry of >=50~before trial entry, results of clinical hematology, biochemistry, and urinalysis tests performed at screening visit are within normal ranges~women of child-bearing age must use adequate birth control methods, have a negative pregnancy test before the start of risperidone treatment, and not be breast feeding~patients' schizophrenia symptoms are stable for the last 4 weeks of the run-in period.~Exclusion Criteria:~Patients with a DSM-IV Axis I diagnosis other than schizophrenia~documented disease of the central nervous system that can interfere with the trial assessments, for example stroke, tumor, Parkinson's Disease, Alzheimer's Disease~moderate or severe symptoms at screening of tardive dyskinesia, a condition of uncontrollable movements of the tongue, lips, face, trunk, hands and feet that is seen in patients receiving long-term medication with certain types of antipsychotic drugs~history of neuroleptic malignant syndrome, a rare condition in patients receiving antipsychotic medication in which patients may develop fever, sweating, unstable blood pressure, rigid muscles, and other symptoms, including changes in their normal mental state~acute, unstable or other significant and untreated medical conditions, such as infections, unstable diabetes, or unstable hypertension.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 137;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 166;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/138> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically proven prostate cancer at high risk for relapse as determined by either of the following:~Prostate-specific antigen (PSA) 20-100 ng/mL and Gleason score at least 7 (any T stage)~Clinical stage at least T2, Gleason score at least 8, and PSA no greater than 100 ng/mL~Negative lymph nodes~No metastatic disease~PATIENT CHARACTERISTICS:~Age:~Over 18~Performance status:~Zubrod 0 or 1~Life expectancy:~Not specified~Hematopoietic:~White blood cell (WBC) count of at least 3,000/mm^3~Platelet count at least 130,000/mm^3~Hemoglobin at least 11.4 g/dL~Hepatic:~Aspartate aminotransferase (AST) no greater than 2 times upper limit of normal~Renal:~Creatinine no greater than 2.5 mg/dL~Other:~No other invasive cancer within the past 5 years except superficial nonmelanomatous skin cancer~No major medical or psychiatric illness that would preclude study participation~Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY:~Biologic therapy:~Not specified~Chemotherapy:~At least 5 years since prior chemotherapy~Endocrine therapy:~At least 60 days since prior finasteride for prostatic hypertrophy~At least 90 days since prior testosterone~No more than 30 days since initiation of prior pharmacologic androgen ablation for prostate cancer~Radiotherapy:~No prior pelvic radiotherapy~No concurrent intensity-modulated radiotherapy~Surgery:~No prior radical prostatectomy~No prior cryosurgery for prostate cancer~No prior orchiectomy";
+  ex:gender "Male";
+  ex:healthy_volunteers "No";
+  ex:id 138;
+  ex:minimum_age "18 Years";
+  ex:nct_id 134;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/139> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically confirmed advanced or recurrent squamous cell carcinoma of the cervix not curable by surgery or radiotherapy~Measurable disease~No known brain metastases~PATIENT CHARACTERISTICS:~Age:~18 and over~Performance status:~ECOG 0-2~Life expectancy:~At least 12 weeks~Hematopoietic:~Absolute neutrophil count at least 1,500/mm3~Platelet count at least 100,000/mm3~Hepatic:~Bilirubin no greater than 1.5 mg/dL~SGOT or SGPT no greater than 2 times upper limit of normal (ULN) (5 times ULN if liver metastases present)~Renal:~Creatinine no greater than 2.0 mg/dL~Cardiovascular:~No active congestive heart failure~No uncontrolled angina~No myocardial infarction within the past 6 months~Other:~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception~No concurrent serious infection~No other malignancy within the past 5 years except nonmelanomatous skin cancer~No other life threatening illness~No psychosis, mental disability, or incompetence~PRIOR CONCURRENT THERAPY:~Biologic therapy:~No concurrent biologic therapy~Chemotherapy:~At least 4 weeks since prior chemotherapy~No more than 1 prior chemotherapy regimen (except chemotherapy for radiosensitization)~No prior camptothecin~No other concurrent chemotherapy~Endocrine therapy:~Not specified~Radiotherapy:~At least 4 weeks since prior radiotherapy~No concurrent radiotherapy~Surgery:~At least 4 weeks since prior surgery~No concurrent surgery~Other:~At least 4 weeks since other prior investigational drugs (including analgesics or antiemetics)~No other concurrent investigational drugs during or within 28 days after final dose of study drug~No concurrent drugs that induce or inhibit CYP3A enzyme";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 139;
+  ex:minimum_age "18 Years";
+  ex:nct_id 93;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/14> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Malignant hemopathies (acute leukemia, non-Hodgkin's lymphoma, Hodgkin's lymphoma) in primary care between 2000 and 2016.~Exclusion Criteria:~Not applicable";
+  ex:gender "All";
+  ex:id 14;
+  ex:maximum_age "30 Years";
+  ex:minimum_age "15 Years";
+  ex:nct_id 0;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "cohort of young adult patients and adolescents aged 15 to 30, carriers of hematological malignancies, and supported between 2000 and 2016";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/140> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Postmenopausal.~If premenopausal at diagnosis, eligible if undergoes treatment with luteinising hormone-releasing hormone (LHRH) agonist or surgical ovarian ablation before initiating treatment (tx).~Tumor cell expression of ER and/or PR and ErbB2. Expression can be ascertained on either primary or metastatic site.~Patient may have received adjuvant and/or neoadjuvant chemotherapy.~Patient who received adjuvant/neoadjuvant chemotherapy, tx. must have been discontinued for 4 weeks and patient must have recovered from all acute toxicities, except alopecia.~Prior radiotherapy is permitted as long as it was planned before start of study medication and is completed within 3 weeks of starting trial medication.~Prior megestrol acetate or raloxifene therapy is permitted, but must be stopped prior to trial entry.~Prior tamoxifen therapy.~At least one bidimensionally measurable lesion.~ECOG performance status 0-2.~Patient should have life expectancy of 6 months.~Patient must have adequate hematologic function: absolute neutrophil count (ANC) 1000/mm3; platelets 75,000/mm3.~Patient must have adequate renal and liver function, defined as: serum creatinine less than or equal to 1.5 times the upper limit of normal; serum bilirubin less than or equal to 1.5 times the upper limit of normal (three times the upper limit of normal for patients with hereditary benign hyperbilirubinaemia); transaminases (ALT, AST) less than or equal to 2.5 times the upper limit of normal in patients without liver metastasis, or less than or equal to 5 times the upper limit of normal in patients with liver metastasis.~Ejection fractions by multiple-gated acquisition (MUGA) scan or echocardiogram greater than 50%~Patient must give written informed consent prior to initiation of any invasive study-related procedures that would otherwise not be performed, and must be able to comply with scheduled visits and evaluations.~Treatment with bisphosphonates during the trial is permitted.~Exclusion Criteria:~Prior exposure to any aromatase inhibitor (aminoglutethimide, formestane anastrozole, letrozole or exemestane) for more than 28 days. Patients that have already started on aromatase inhibitors (AIs) will be eligible for the protocol if they meet all other eligibility requirements and receive loading dose of trastuzumab not more than 28 days after starting AI therapy. Patients who initially received anastrozole or exemestane will be switched to letrozole.~Prior treatment with trastuzumab~Prior anthracycline exposure in adjuvant setting > 360 mg/m2.~Patients with central nervous system (CNS) involvement with metastatic breast cancer or life threatening lymphangitic or large volume lung or liver disease.~Patient's only qualifying lesions have been previously irradiated or are scheduled for irradiation following study entry.~Severe or uncontrolled concomitant disease from other causes.~More than 1 prior course of chemotherapy for metastatic disease. If patient has received one course of palliative chemotherapy, acute toxicities must have resolved and patient must be experiencing progressive disease at time of enrollment.~ECOG performance status 3 or 4.~Patient has previous malignancies other than breast cancer except:~adequately treated in situ carcinoma of cervix;~localized basal or squamous cell carcinoma of skin; or~any previous malignancy treated with curative intent with recurrence risk of less than 30%.~Patient is unable to understand informed consent or is unlikely to be compliant with protocol.";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 140;
+  ex:minimum_age "18 Years";
+  ex:nct_id 91;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/141> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients with PD/HHD 90 days after RRT initiation between January 1, 2000 and December 31, 2012 reported in ANZDATA~? 18 years~Exclusion Criteria:~Less than 90 days of dialysis~< 18 years~Patients transferred to Australia/New Zealand after initiation of dialysis in another country";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 141;
+  ex:minimum_age "18 Years";
+  ex:nct_id 130;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients with home dialysis as the first renal replacement therapy [RRT] modality (defined by the dialysis modality at 90 days) in Australia and New Zealand as reported in Australia and New Zealand Dialysis and Transplant Registry [ANZDATA]";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/142> a ex:eligibilities;
+  ex:criteria "Inclusion Criteria:~planned thyroid surgery for clinically, biochemically and immunologically diagnosed Graves' disease in patients with mild active ophthalmopathy and the posterior aspects of both thyroid lobes appearing normal on ultrasound of the neck.~Exclusion Criteria:~previous thyroid or parathyroid surgery,~recurrent hyperthyroidism after radioiodine ablation,~history of Graves' disease longer than 24 months,~thyroid nodules within the posterior aspect/s of thyroid lobe/s,~suspicion of thyroid cancer,~inactive Graves' ophthalmopathy,~moderate to severe active Graves' ophthalmopathy,~preoperative recurrent laryngeal nerve palsy,~preg";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 142;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 123 .
+
+<http://example.org/eligibilities/15> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients who underwent hepatectomy between 2000 and 2012.~Exclusion Criteria:~Patients younger than 20 years of age~Patients diagnosed with coagulation defects or had a pre-existing bleeding episode before the earliest date that patients underwent hepatectomy.";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 15;
+  ex:minimum_age "20 Years";
+  ex:nct_id 1;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients who underwent hepatectomy (ICD-9-CM procedure code: 50.2, 50.22, 50.3 and 50.4) between 2000 and 2012, and without past history of coagulation defects and bleeding episodes.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/16> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients who underwent primary total joint arthroplasty during the study period (January 1, 2000 to December 31, 2015).~Exclusion Criteria:~Patients with total joint arthroplasty before the index date,~Patients with existing pathologic fracture, nonunion of fracture and partial joint replacement,~Patients who were lost to follow-up~Patients < 40 years old";
+  ex:gender "All";
+  ex:id 16;
+  ex:minimum_age "40 Years";
+  ex:nct_id 25;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) was used to identify diagnoses and related procedures. The target cohort in NHIRD were those who underwent primary total joint arthroplasty during the study period (January 1, 2000 to December 31, 2015).";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/17> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Have a diagnosis of AML according to World Health Organization (WHO) classification~Are at least 70 years of age~Exclusion Criteria:~- Patients with M3 AML of FAB classification (APL, Acute Promyelocytic Leukemia)";
+  ex:id 17;
+  ex:nct_id 13;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Have a diagnosis of AML according to World Health Organization (WHO) classification~Are at least 70 years of age~Gender male and female";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/18> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Born in Denmark between 1900-2015~Resided in Denmark during the study period (2000-2016)~Exclusion Criteria:~Excluded from analyses for each specific GMC, if considered a prevalent case of that GMC (i.e. ascertained to have a diagnosis for the GMC during the washout period of 1995-1999)";
+  ex:gender "All";
+  ex:id 18;
+  ex:minimum_age "1 Year";
+  ex:nct_id 29;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "All individuals born in Denmark between 1900-2015 and who resided there between 2000-2016";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/19> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Clinical diagnoses of fibromyalgia, osteoarthritis, or rheumatoid arthritis -~Exclusion Criteria:~Congestive heart failure, stomach ulceration, unstable diabetes, and bipolar disorder~-";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 19;
+  ex:minimum_age "18 Years";
+  ex:nct_id 22;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/2> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients with urothelial high risk non-muscle invasive bladder cancer (high grade stage Ta, T1 and/or carcinoma in situ) after intravesical BCG failure;~adequate bone marrow reserve;~normal renal function;~normal liver function;~Karnofsky performance score of 50 to 100;~Exclusion Criteria:~Non-urothelial carcinomas of the bladder;~known allergy to mitomicyn ;~previous or concomitant urothelial carcinoma of the upper urinary tract and urethra, or both;~bladder capacity less than 200 mL;~untreated urinary-tract infection; severe systemic infection (ie, sepsis);~urethral strictures that would prevent endoscopic procedures and catheterisation;~other concurrent chemotherapy, radiotherapy, and treatment with biological response modifiers;~other malignant diseases within 5 years of start of EMDA MMC (except for adequately treated basal-cell or squamous-cell skin cancer, in situ cervical cancer);~pregnancy;~psychological, familial, sociological, or geographical factors that would preclude study participation.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 2;
+  ex:maximum_age "90 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 15;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/20> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients aged between 4 months and 17 years~Diagnosis of oncohaematological disease subjected to hematopoietic stem cell transplantation~Allogeneic or autologous bone marrow transplantation from January 2000 to October 2018~Consent acquired for the processing of data for research purposes";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 20;
+  ex:maximum_age "17 Years";
+  ex:minimum_age "4 Months";
+  ex:nct_id 20;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Population of pediatric patients undergoing hematopoietic stem cell transplantation";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/21> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "NCWS Inclusion Criteria:~NCWS was diagnosed after CD or WA had been ruled out in all the studied patients according to the following criteria:~(1) negative serum assays for serum CD-anti-tissue transglutaminase (anti-tTG) immunoglobulin (Ig) A and anti-deamidated gliadin peptide (anti-DGP) IgG antibodies; (2) absence of intestinal villous atrophy, documented in all the patients carrying the DQ2 and/or the DQ8 HLA haplotypes (thus irrespective of CD-specific serum antibody negativity), evaluated when patients had a minimum intake of 100 g of wheat daily since at least 2 weeks; (3) negative IgE-mediated immune-allergy tests to wheat (skin prick tests and/or specific serum IgE detection); (4) resolution of symptoms on a standard elimination diet, without wheat, cow's milk, yeast, and other food(s) causing self-reported symptoms, followed by symptom reappearance on a DBPC wheat challenge. Additional inclusion criteria were: age older than 18 years, follow-up duration longer than 12 months after the initial diagnosis, and at least 2 outpatient visits during the follow-up period.~NCWS Exclusion Criteria:~(1) positive anti-endomysial antibodies (EmA) in the culture medium of the duodenal biopsies, also in the case of normal villi/crypts ratio in the duodenal mucosa; (2) self-exclusion of wheat from the diet and refusal to reintroduce it before entering the study; (3) other previously diagnosed gastrointestinal disorders; (4) nervous system disease and/or major psychiatric disorder; (5) physical impairment limiting physical activity.~CD Inclusion Criteria:~(1) positive serum anti-tTG and EmA IgA and IgG antibodies; (2) presence of intestinal villous atrophy.~CD Exclusion Criteria:~(1) self-exclusion of wheat from the diet and refusal to reintroduce it before entering the study; (2) other previously diagnosed gastrointestinal disorders; (3) nervous system disease and/or major psychiatric disorder; (4) physical impairment limiting physical activity.~IBS Inclusion Criteria:~IBS diagnosis was made in accordance with the Rome IV criteria. None of these patients improved on the same standard elimination diet followed by the patients with NCWS for 4 weeks, thus confirming that the IBS diagnosis was unrelated to NCWS or other food allergies/intolerances. The patients kept a food diary during the elimination diet period to monitor their adherence to the diet; patients who did not strictly adhere to the elimination diet were not included in this study group. In patients with a diarrhea-predominant IBS presentation, the exclusion of other diagnoses was based on the assays recently suggested by the American Gastroenterology Association~IBS Exclusion Criteria:~(1) self-exclusion of wheat from the diet and refusal to reintroduce it before entering the study; (2) other previously diagnosed gastrointestinal disorders; (3) nervous system disease and/or major psychiatric disorder; (4) physical impairment limiting physical activity.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 21;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 27;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "The researchers evaluated the extraintestinal manifestations in 3 groups of patients: (1) 100 patients with a definitive diagnosis of NCWS, based on DBPC gluten/wheat challenge; (2) 50 patients affected with CD, sex- (± 5%) and age-matched (± 2 years) with the NCWS patients, selected at random during the study period; (3) 50 patients affected with IBS, according to the Rome IV criteria, not related to NCWS or other food allergies/intolerances, sex- (± 5%) and age-matched (± 2 years) with the NCWS patients, selected at random during the study period.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/22> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~end stage knee OA necessitating TKR surgeries~Exclusion Criteria:~autoimmune diseases, malignancies, previous knee surgery or post-traumatic arthritis";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 22;
+  ex:nct_id 30;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients necessitating TKA surgery due to advanced degenerative osteoarthritis of the knee visited the outpatient department initially and were then scheduled for admission for TKA surgery. The patients were self-separated into two groups when they visited the outpatient department. The patients visiting professor CJ Wang would undergo conventional TKA, and those visiting Dr. JY Ko would undergo navigation TKA. Both senior authors had performed more than 1,000 TKAs using the conventional and navigation method respectively before recruiting the patients of our study.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/23> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Follicular thyroid carcinoma~Hurthle cell carcinoma~Lobectomy~Exclusion Criteria:~Completion thyroidectomy~Total thyroidectomy";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 23;
+  ex:nct_id 11;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients in FTC and HCC who underwent thyroid lobectomy";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/24> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Living or deceased donor kidney recipient transplanted between 01/01/2000 and 01/01/2021.~Men or women over 18 years of age.~Written informed consent at the time of transplantation for the center database.~Exclusion Criteria:~• Combined transplantation";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 24;
+  ex:minimum_age "18 Years";
+  ex:nct_id 32;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "The development cohort consisted of kidney transplant recipients from 3 centres in France. The validation cohorts consisted kidney transplant recipients from 6 centers in Europe and 1 in the Unites states.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/25> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients who present with vulvar or vaginal dysplasias or condylomas that require surgical intervention will be informed of the study by the treating physician~Pre-operative biopsies to confirm presence of dysplasia / condyloma. Patients with dysplasias of grade 3 / CIS will be included at the discretion of the treating surgeon and will have had invasion confidently excluded by clinical exam and biopsy.~Exclusion Criteria:~Patients under the age of eighteen or who are pregnant will be excluded";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 25;
+  ex:minimum_age "18 Years";
+  ex:nct_id 12;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/26> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~diagnosis of lesion of pancreatic head or peri-ampullary organs~Exclusion Criteria:~< 18 years old";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 26;
+  ex:minimum_age "18 Years";
+  ex:nct_id 34;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Indications for surgery were benign or malignant lesions of the pancreatic head or peri-ampullary organs. All patients of ?18 years old diagnosed with suspicious lesions located in the pancreas, ampulla, duodenum or distal bile duct were presented at the multidisciplinary oncological team. In case of biopsy-proven malignancy or clinical and radiological suspicion without confirmed malignancy, surgical resection was considered in accordance with contemporary guidelines";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/27> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~MFS patient, clinical diagnosis according to revised Ghent criteria, confirmed by FBN1 mutation.~Relatives of MFS patients with none of the clinical features of MFS and in whom testing for the familial FBN1 mutation was negative.~Exclusion Criteria:~Patients who had surgery for ectopia lentis~Patients for whom dilation was not optimal.";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 27;
+  ex:nct_id 7;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "MFS patient or Relatives of MFS patients";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/28> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Age of the patients between 0 and 17~Diagnosis of hematological or oncological disease undergoing allogeneic bone marrow transplantation~Patients undergoing myeloablative conditioning~Patients that received ATG as GVHD prophylaxis~Patients whose consent has already been acquired for the processing of data for research purposes~Minimum follow-up of 12 months~Exclusion Criteria:~Bacterial and / or fungal infection present at the time of bone marrow transplantation~Use of Thymoglobulin in the 3 months prior to transplantation~Allergy and / or intolerance to the active substances or excipients contained in Thymoglobulin";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 28;
+  ex:maximum_age "17 Years";
+  ex:minimum_age "1 Day";
+  ex:nct_id 26;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Pediatric recipients of hematopoietic stem cells transplantation";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/29> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~patients who were pathologically diagnosed with DLBCL~patients under 18 years of age.~Exclusion Criteria:~Was administered prior chemotherapy;~Patients who could not receive chemotherapy due to severe immunodeficiency or other diseases.~Patients with primary central nervous system lymphomas.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 29;
+  ex:maximum_age "18 Years";
+  ex:nct_id 2;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "DLBCL patients aged 0-18 year-old";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/3> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~- all the patients who underwent curative resection for rectal adenocarcinoma between January 2000 and December 2015 at the Department of Digestive and Visceral Surgery of Sahloul Hospital, Sousse, Tunisia~Exclusion Criteria:~patients who underwent palliative surgery~patients with microscopically or macroscopically positive resection margin~patients with tumors other than adenocarcinoma~patients who died in the postoperative period due to complications.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 3;
+  ex:nct_id 16;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients with rectal adenocarcinoma who underwent curative resection";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/30> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Inclusion in internal trauma database~Exclusion Criteria:~Comprised age < 65 years, ISS < 9, and transfers from other hospitals.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 30;
+  ex:minimum_age "65 Years";
+  ex:nct_id 6;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Trauma patients admitted via the resuscitation room with need for intensive care treatment after the resuscitation room phase were included in the internal trauma database";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/31> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~All consecutive patients who have undergone complete resection of their pancreatic SPN were included. Inclusion criterion was the definite diagnosis of SPN on the pathological examination of the complete tumor resection specimen.~Exclusion Criteria:~No";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 31;
+  ex:nct_id 10;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "This European multicenter study was conducted in 22 digestive units from the GRAPHE (French taskforce of gastroenterologists working on digestive endoscopy: Groupe de Réflexion et d'Action des Praticiens Hépatogastroentérologues en Endoscopie Digestive), and retrospectively included all patients who have undergone complete resection of their pancreatic SPN from 2000 to 2018. The use of the diagnostic filing software of each unit of cytopathology, endoscopy and digestive surgery allowed the completeness of the prospection in each center.~The data were retrospectively collected by extraction from our medical patient management softwares.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/32> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion criteria:~Exclusion Criteria:~Any biologist who performed less than 100 embryo transfers was excluded from the analysis.";
+  ex:gender "Female";
+  ex:id 32;
+  ex:maximum_age "43 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 18;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "All the fresh, IOC (insemination of in vitro matured oocytes) and frozen embryo transfer performed between January 2000 and December 2019 at Humanitas Fertility Center.~A total of 28 biologist operators were eligible to participate in the study.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/33> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~All patients undergone pancreatoduodenectomy~No preoperative radiological suspicion of lymph node metastases.~Exclusion Criteria:~- Age < 18";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 33;
+  ex:minimum_age "18 Years";
+  ex:nct_id 24;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "A total of 2,034 patients were included in the study.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/34> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Any coronary artery perforation during percutaneous coronary intervention~Exclusion Criteria:~Nil";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 34;
+  ex:nct_id 21;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Adult patients undergoing invasive coronary angiography with planned myocardial revascularisation using percutaneous coronary intervention.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/35> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion criteria:~Newly diagnosed patients (< 3years) with type 2 diabetes.~Fasting plasma glucose (FPG) range of 126-240 mg/dL at Screening.~No previous treatment with oral or parenteral glucose-lowering therapy.~Exclusion criteria:~History of lactic acidosis.~Anemia (<11g for males, <10 g for females).~Unstable or severe NY Heart Association-class 3 or 4.~Any NY Heart Association congestive heart failure.~Patients with chronic diseases requiring periodic or intermittent treatment with oral or intravenous corticosteroids.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 35;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "30 Years";
+  ex:nct_id 35;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/36> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Treatment-naive postmenopausal women~Diagnosed hypertension (grade 1 or 2 according to ESH/ESC 2013 guidelines)~Exclusion Criteria:~breast cancer in a first-degree relative~hyperplasia diagnosed by endometrial biopsy,~history of thromboembolic diseases,~current or history of use of estrogen-progestin therapy or contraceptives~diabetes,~kidney failure,~thyroid disease,~heart and other chronic diseases (secondary hypertension, atrial fibrillation)";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 36;
+  ex:maximum_age "53 Years";
+  ex:minimum_age "49 Years";
+  ex:nct_id 36;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/37> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion~Age range 40-80 years~Corneal disease: Presence of a condition associated with endothelial dysfunction, including pseudophakic/aphakic corneal edema, Fuchs' dystrophy, posterior polymorphous dystrophy, interstitial keratitis (nonherpetic) or perforating corneal injury~Willingness to be followed for 5 years and life expectancy at least 5 years (in investigator's judgement)~Exclusion~Patients are to be excluded when there is:~a high risk of graft failure, including failed prior penetrating keratoplasty in the eye to be transplanted, chemical burns or other significant cicatricial conjunctivitis (ocular surface disease), herpes simplex/zoster, temporary keratoprosthesis, iridocorneal endothelial syndrome or any corneal condition in which there are two or more quadrants of stromal neovascularization~A quadrant is considered vascularized if there is at least one patent stromal vessel >2.0 mm in length crossing the limbus within a quadrant. Two quadrants are considered vascularized if there are at least two stromal vessels 90º or more apart. Enrollment will be restricted to no more than 20% of the total cohort having stromal neovascularization.~Patients should be excluded if there are PAS or other abnormalities that, in the view of the investigator, place the patient at high risk for graft failure.~a very high probability of success including keratoconus, stromal dystrophies, stromal scars without edema or post-refractive surgery with healthy endothelium~Uncontrolled glaucoma or prior filtering surgery with placement of a shunt in the eye to be grafted (Note: eyes requiring a filtering procedure combined with the PK are considered to have uncontrolled glaucoma and are ineligible. Eyes which have undergone filtering surgery (without a shunt) in which glaucoma is currently considered under control are eligible)~Uncontrolled uveitis in the eye to be grafted~Fellow eye visual acuity <20/200~Fellow eye already included in the study";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 37;
+  ex:maximum_age "80 Years";
+  ex:minimum_age "40 Years";
+  ex:nct_id 37;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/38> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~*Adult male or female, age 18 to 75 years~HCV RNA positive by PCR~Previous treatment with at least three months of interferon or interferon / Ribavirin. Patients should have had no interferon for at least 2 months prior to enrollment.~Non-responders are identified by failure to clear virus by PCR after a minimum 3-month course of treatment and who have been off treatment for at least 2 months with a positive PCR for HCV prior to entry into the current study, 2) Partial responders have a reduction of 1 long in HCV RNA, but the virus is still detectable, 3) Breakthrough patients have been negative on treatment, but virus appeared while still on treatment, 4) Relapsers are defined as negative PCR at some point during treatment, but virus reoccurred or was detectable by HCV PCR when treatment stopped.~Patients should have had a liver biopsy showing at least Stage 3 disease prior to being considered for this study. A baseline liver biopsy is necessary for inclusion in the study. Baseline liver biopsies can be performed within six months of entering the study.~In patients with cirrhosis and endoscopic evidence of portal hypertension, a biopsy within the last 2 years is acceptable as the baseline biopsy. For patients with established cirrhosis on liver biopsy and no portal hypertension, a biopsy within 12 months can be used as the baseline biopsy if it is available for evaluation by the Pathology core. All these patients will still require liver biopsy at 2 years and 4 years. The decision to biopsy at 2 and 4 years is also a clinical decision and in the presence of clinical progression or coagulopathy, or where there may be a risk from liver biopsy, the Investigator should call the PI, Dr. Afdhal for a waiver of biopsy. Patients with Ishak Stage 3 and 4 require a biopsy within 6 months of randomization.~Hemoglobin >= 11 g/dl in males and 10 g/dl in females~Neutrophil count > 1,500/mm3~Platelets > 50, 000/mm3~Platelet count: For standard dose of PEG-Intron 0.5mcg/kg platelet count must be greater than 70,000. Patients with platelet count 50 - 70,000 can start at 0.25mcg/kg for weeks 0 - 4. If platelets fall to less than 30,000, stop treatment. If platelets remain > 50,000 at week 4, PEG-Intron can be increased to 0.5mcg/kg. Patients randomized to Colchicine with platelets 50,000 - 70,000 can be started at standard dose 0.6mg bid po with standard dose reduction.~Prothrombin time <= 3secs prolonged compared to control or an equivalent INR < 1.5~Total bilirubin < 3gm/dL~Fasting blood sugar <= 115 mg/dl or within 20% of the upper limit of normal for non-diabetic patients~Albumin (> 2.8mg/dl)~Serum creatinine < 1.4 mg/dL~TSH within the normal range (Patients with thyroid disease who are well controlled are eligible if the remainder of the inclusion/exclusion criteria are met)~HIV negative.~HBsAg negative~Childs Pugh score of less than or equal to 7~Serum positive for anti-hepatitis C antibodies or HCV RNA.~Alpha-fetoprotein < 100ng/ml with ultrasound negative for focal mass or HCC. For any patient with an Alpha-fetoprotein >100 ng/ml either a triple phase contrast CT scan or MRI with gadolinium must show no focal mass or evidence of HCC~Ultrasound with no evidence of focal mass suggestive of hepatoma (within 6 months of informed consent).~Documentation that sexually active female patients of childbearing potential are practicing adequate contraception during the treatment period. A urine pregnancy test obtained at entry prior to the initiation of treatment must be negative. Female patients must not be breast-feeding. Documentation that sexually active male patients are practicing acceptable methods of contraception during the treatment period.~Written informed consent specific for this protocol has been obtained prior to entry.~Exclusion Criteria:~Any cause of liver disease based on patient history and biopsy (where applicable) other than chronic hepatitis C including but not limited to:~Co-infection with hepatitis B or HIV~Hemochromatosis (confirmed by genetic testing)~Alpha-1 antitrypsin deficiency~Wilson's disease~Renal or liver transplant patients~Autoimmune hepatitis~Alcoholic liver disease~Obesity induced liver disease~Drug related liver disease~In addition:~Evidence of decompensated liver disease such as a history or presence of ascites, and spontaneous encephalopathy. Patients with past bleeding esophageal varices that have not bled for more than 1 year can be included.~Hypersensitivity to alpha interferon~Drug related liver disease~Hemoglobinopathies (e.g. Thalassaemia, sickle cell disease).~Patients with clinically significant retinal abnormalities.~Substance abuse, such as alcohol (·> 80 gm/day), I.V. drugs and inhaled drugs. If the patient has a history of substance abuse, to be considered for inclusion into the protocol, the patient must have abstained from using the abused substance for at least 6 months. Patients on methadone will be allowed in the study with no restrictions as is now standard of care in HCV therapy.~Patients with a history of organ transplantation will be excluded.~Preexisting psychiatric conditions, especially depression, or a history of severe psychiatric disorder, such as major psychoses, suicidal ideation and/or suicidal attempt are excluded. Patients with a history of mild depression may enter the protocol if they meet the following eligibility criterion and are monitored more intensively.~Mild depression: to include either situational depression of a limited period or depressive symptoms, which do not significantly interfere with the patient's work or daily functions.~Any patient with an active manic element to his/her previous symptom complex will be excluded.~Any known pre-existing medical condition that could interfere with the patient's participation in and completion of the study such as:~Pre-existing psychiatric condition, especially severe depression, or a history of severe psychiatric disorder~CNS trauma or seizure disorder requiring therapy~Significant cardiac dysfunction in the previous 6 months e.g. angina, CCF, hypertension or arrhythmia Patients on treatment are eligible as long as they have been symptom free for the previous 6 months.~Poorly controlled diabetes mellitus~Chronic pulmonary disease (e.g. COAD)~Immunologically mediated diseases (e.g. inflammatory bowel disease, SLE, ITP, autoimmune hemolytic anemia, scleroderma, rheumatoid arthritis, severe psoriasis)~Clinical gout~Patients with clinically significant retinal abnormalities~Patients with organ transplants~Any other condition, which in the view of the investigator, would make the patient unsuitable for enrolment, or could interfere with the patient participating in and completing the protocol are included as well.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 38;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 38;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/39> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically proven, recurrent or metastatic, adenocarcinoma or adenosquamous carcinoma of the endometrium not curable by surgery and/or radiotherapy Failed one prior progestin therapy for advanced/metastatic disease OR Considered for letrozole as first line therapy of advanced/metastatic disease No clear cell or papillary serous histology, uterine sarcomas, mixed muellerian tumors, and/or adenosarcomas At least one site of measurable disease by clinical exam, CT, or MRI scan Bone lesion(s) are not considered measurable No CNS metastases~PATIENT CHARACTERISTICS: Age: 18 and over Performance status: ECOG 0-2 Menopausal status: Postmenopausal (surgical or natural) Life expectancy: At least 12 weeks Hematopoietic: Absolute granulocyte count at least 1,500/mm3 Platelet count at least 100,000/mm3 Hepatic: Bilirubin less than upper limit of normal (ULN) AST or ALT no greater than 2 times ULN Alkaline phosphatase less than 2 times ULN Renal: Creatinine no greater than 2 times ULN Other: No other malignancy within the past 5 years, except: Adequately treated basal or squamous cell skin cancer Carcinoma in situ of the cervix No other concurrent medical illness that would preclude compliance~PRIOR CONCURRENT THERAPY: Biologic therapy: Not specified Chemotherapy: No prior chemotherapy for advanced/metastatic disease At least 4 weeks since prior adjuvant chemotherapy Endocrine therapy: See Disease Characteristics No more than one prior progestational hormone therapy regimen for advanced/metastatic disease At least 1 week since prior hormonal therapy No prior tamoxifen or other aromatase inhibitor therapy Radiotherapy: See Disease Characteristics At least 4 weeks since prior radiotherapy Concurrent radiotherapy for symptomatic metastatic lesions allowed Surgery: See Disease Characteristics Other: No other concurrent anticancer therapy No other concurrent investigational therapy";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 39;
+  ex:maximum_age "120 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 39;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/4> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~all children referred with abdominal pain from January 2000 to June 2006 to one surgeon on the pediatric general surgery service at the Health Sciences Centre (HSC)-Children's Hospital in Winnipeg.~Exclusion Criteria:~children with abdominal pain > 7 days~children with abdominal pain due to other surgical or medical conditions";
+  ex:gender "All";
+  ex:id 4;
+  ex:maximum_age "17 Years";
+  ex:minimum_age "2 Years";
+  ex:nct_id 9;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "-included participants have had acute abdominal pain ? 7 days, and suspected appendicitis based on standard history and physical exam; consecutive participant sampling";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/40> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically or cytologically confirmed mantle cell lymphoma (at initial diagnosis) nonrefractory to prior therapy or with no prior therapy~No documented disease progression while receiving prior chemotherapy~CD20 and CD5 positive~Presence of clinically and/or radiologically documented disease~At least 1 site of disease must be bidimensionally measurable~Bone lesions not considered bidimensionally measurable~Minimum indicator lesions must be:~Lymph nodes at least 1.5 cm x 1.5 cm by physical exam or spiral CT scan OR~Other nonnodal lesions at least 1 cm x 1 cm by MRI, CT scan, or physical exam~No known CNS involvement by lymphoma~PATIENT CHARACTERISTICS:~Age:~18 and over~Performance status:~ECOG 0-2~Life expectancy:~At least 12 weeks~Hematopoietic:~Absolute granulocyte count at least 1,500/mm3~Platelet count at least 75,000/mm3~Hepatic:~Bilirubin no greater than 1.5 times upper limit or normal (ULN)~AST no greater than 2.5 times ULN~Renal:~Creatinine no greater than 1.5 times ULN OR~Creatinine clearance at least 60 mL/min~Cardiovascular:~No clinically significant cardiac symptomatology~If history of cardiac disease, cardiac ejection fraction greater than 50%~Pulmonary:~No clinically significant pulmonary symptomatology~If history of symptomatic pulmonary disease:~FEV1, FVC, and TLC greater than 60% predicted~DLCO greater than 50% predicted~Other:~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception~Must be accessible for treatment and follow-up (i.e., no geographical limitations)~No uncontrolled bacterial, fungal, or viral infection~No other serious concurrent disease~PRIOR CONCURRENT THERAPY:~Biologic therapy:~No prior radioactive monoclonal antibody therapy~Prior rituximab allowed~Chemotherapy:~See Disease Characteristics~No more than 2 prior chemotherapy regimens allowed~Same chemotherapy combination given for first line and second line therapy considered 2 regimens~At least 6 weeks since prior chemotherapy~No prior high-dose chemotherapy and stem cell transplantation~No other concurrent cytotoxic chemotherapy~Endocrine therapy:~No concurrent corticosteroids~Radiotherapy:~No prior radiotherapy to greater than 25% of functioning bone marrow~At least 4 weeks since prior radiotherapy (except low-dose, non-myelosuppressive radiotherapy) and recovered~No concurrent radiotherapy to sole site of measurable disease~Surgery:~At least 2 weeks since prior major surgery~Other:~No other concurrent investigational anticancer agents";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 40;
+  ex:maximum_age "120 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 40;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/41> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~born<30 weeks gestational age~who had aEEGs in first 2 weeks of life~who were assessed for outcome at 3 years of age~Exclusion Criteria:~born>30 weeks gestational age~had no aEEGs in first 2 weeks of life~lost for follow-up at 3 years";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 41;
+  ex:maximum_age "30 Weeks";
+  ex:minimum_age "24 Weeks";
+  ex:nct_id 139;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "preterms born < 30 weeks gestational age who had aEEG measurements within the first 2 weeks of life who had assessment of outcome at 3 years corrected age";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/42> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion criteria:~At least 1 year of enrollment in the study for medical and pharmacy benefits after their cohort (group) entry (the day of their first ophthalmologist visit) for case-control design~Oral fluoroquinolone like levofloxacin or ciprofloxacin must be dispensed to participants for cohort design~At least one visit to an ophthalmologist and enrolled at least for 1 year in the study for medical and pharmacy benefits prior to the date of first occurrence of the exposure of levofloxacin or ciprofloxacin for cohort design~At least one visit to an ophthalmologist and enrolled at least for 1 year in the study for medical and pharmacy benefits prior to the diagnosis of their first retinal detachment (separation of the retina [the innermost layer of the eyeball] from its connection at the back of the eye) for case-only design~Exclusion criteria:~- Prior diagnosis of retinal detachment , prior diagnosis or procedure for inflammatory conditions of the eyeball, or hospital admission between cohort entry and the date of the retinal detachment";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 42;
+  ex:nct_id 72;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Participants with exposure to oral fluoroquinolones";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/43> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Documentation of Disease:~1.1 Diagnosis of Chronic Myelogenous Leukemia (CML) in chronic phase. Patients in either accelerated or blastic phases are not eligible. Clonal cytogenetic evolution alone does not exclude patients. See Appendix I for definitions of accelerated and blastic phases of CML.~1.2 Patients in whom a Philadelphia chromosome [t(9;22)] is not detectable by cytogenetic studies are eligible if they meet one of the following criteria:~BCR/ABL protein detectable by immunoblotting~BCR/ABL rearrangement detectable by Southern blot analysis~Polymerase chain reaction (PCR) positive fusion transcripts for BCR/ABL~BCR/ABL translocation present by fluorescence in situ hybridization (FISH).~Prior Treatment:~2.1 No previous therapy with homoharringtonine (HHT)~2.2 No more than six months cumulative (<180 days) of prior hydroxyurea (HU) therapy. However, patients may not have received more than 60 days of HU treatment after failing interferon. Patients with previous intolerance or failure to respond to HU are not eligible.~2.3 Patients must have failed an adequate trial (5M units/m2/day) of alpha-Interferon (IFN) or IFN/ara-C to be eligible, as defined below (any ONE of the following):~Failure to achieve a complete hematologic response after 6 months of IFN therapy.~Failure to achieve any cytogenetic response (i.e., still 100% Ph+) after 12 months of IFN therapy.~Intolerable adverse effects of IFN therapy after at least one month of IFN treatment. Significant documented toxicity of ? grade 3 (using NCI Common Toxicity Criteria guidelines) due to IFN is required.~Loss of a prior hematologic remission or cytogenetic response to IFN.~A two-fold increase in WBC count when compared to WBC count when IFN therapy was initiated.~Age ? 16 years~Patients with uncontrolled tachyarrhythmias (such as, atrial fibrillation, paroxysmal supraventricular tachycardia, and ventricular tachycardias not adequately controlled) are not eligible.~Non-pregnant and non-nursing. Treatment under this protocol would expose an unborn child to significant risks. Women and men of reproductive potential should agree to use an effective means of birth control.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 43;
+  ex:minimum_age "16 Years";
+  ex:nct_id 182;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/44> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~70 years or older~community dwelling~functional vulnerability/HRCA vulnerability index= >1 problem area~Exclusion Criteria:~Mini-Mental Status Examination (MMSE) score of less than or equal to 23~legal blindness~bed bound~nursing home placement or relocation expected within 12 months of study eligibility";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 44;
+  ex:minimum_age "70 Years";
+  ex:nct_id 173;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/45> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients age 12 years or older with a diagnosis of Ph-positive or bcr-positive CML in early chronic phase CML (diagnosis < 12 months).~Serum bilirubin less than 2mg%, serum creatinine less than 2mg%, and a performance status of 2 or less on Zubrod scale.~Patients under age 55 years should have HLA A,B,C, and DR typing performed on themselves and their siblings. Patients under age 20 years and patients with late chronic phase, accelerated phase or blastic phase will be offered allogeneic bone marrow transplantation from a matched sibling as the first priority.~Exclusion Criteria:~Severe heart disease (Class III, IV) Psychiatric disability (psychosis) Pregnant or lactating females~Women of pregnancy potential must practice birth control methods because of the potential risk of fetal teratogenecity with these agents.~Patients must sign an informed consent indicating they are aware of the investigational nature of this study, in keeping with the policies of the hospital.~Definition of CML Phases: a. Early chronic phase: time from diagnosis to therapy < 12 months Late chronic phase: time from diagnosis to therapy > 12 months b. Blastic phase: presence of 30% blasts or more in the peripheral blood or bone marrow. c. Accelerated phase CML: presence of any of the following features: - Peripheral or marrow blasts 15% or more - Peripheral or marrow basophils 20% or more - Thrombocytopenia < 100 x 109L unrelated to therapy - Documented extramedullary blastic disease outside liver or spleen~Continuation of # 4 d. Clonal evolution defined as the presence of additional clones other than the Ph chromosome is part of accelerated phase CML. Ph chromosome variants or complex Ph chromosome translocations are not considered to indicate disease acceleration. We have recently found clonal evolution to have a variable prognostic impact and may be suppressed with IFN-A therapy (22,23). Hence these patients will be eligible if no other therapy (22,23). Hence these patients will be eligible if no other accelerated phase signs are present.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 45;
+  ex:minimum_age "12 Years";
+  ex:nct_id 190;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/46> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Histologically confirmed newly diagnosed non-small cell bronchogenic carcinoma~Squamous cell~Adenocarcinoma~Large cell undifferentiated~Bronchoalveolar~Non-small cell carcinoma not otherwise stated~Unresectable stage IIIA~Mediastinal lymph node enlargement of at least 1 cm but less than 2 cm on computed tomography (CT) scans must have mediastinotomy or thoracoscopy to rule out resectability~OR~Stage IIIB disease without significant pleural effusion~Seen on CT scan only (not seen on chest x-ray) or does not reaccumulate after 1 thoracentesis and is cytologically negative~Metastases to contralateral, mediastinal, or supraclavicular nodes allowed~Bidimensionally measurable or evaluable disease~18 and over~ECOG performance status 0-1~Adequate hematopoietic, hepatic, and renal function obtained <=4 weeks prior to registration:~Platelet count at least 100,000/mm^3~White Blood Cell (WBC) count at least 4,000/mm^3 OR absolute neutrophil count at least 2,000/mm^3~Bilirubin normal~Serum glutamic oxaloacetic transaminase (SGOT) no greater than 2.5 times upper limit of normal~Creatinine no greater than 1.5 mg/dL OR creatinine clearance at least 60 mL/min~Fertile patients must use 2 methods of effective contraception for 4 weeks prior to, during, and for 4 weeks after study therapy~Concurrent filgrastim (G-CSF) allowed for persistent neutropenia~Exclusion Criteria:~Positive pregnancy test,pregnant or nursing~Uncontrolled high blood pressure, unstable angina, congestive heart failure, or myocardial infarction within the prior year~Serious cardiac arrhythmias requiring medication~Prior radiotherapy to only area of measurable or active tumor~Less than 5 years since prior chemotherapy~Other active malignancies~Serious uncontrolled active infection~Evidence of greater than grade 1 neuropathy by history or physical examination~History of seizure disorders~Contraindication to daily low-dose (81 mg/day) aspirin";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 46;
+  ex:minimum_age "18 Years";
+  ex:nct_id 178;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/47> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~patients were pathologically confirmed as primary gastric cancer~patients underwent gastrectomy with curative intent.~Exclusion Criteria:~Patients underwent minimally invasive surgery~patients with any distant metastases including peritoneal seeding and para-aortic LNs metastasis)~when the location of lymph nodes were not divided~patients underwent chemotherapy preoperatively~patients had metastatic lymph nodes with unclear location";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 47;
+  ex:minimum_age "18 Years";
+  ex:nct_id 191;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "patients who underwent gastrectomy with lymph node dissection for gastric cancer in Yonsei University Hospital, Seoul";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/48> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria: respiratory symptoms suggestive for asthma -~Exclusion Criteria:COPD~-";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 48;
+  ex:maximum_age "45 Years";
+  ex:minimum_age "15 Years";
+  ex:nct_id 138;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Population based asthma study";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/49> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Meets DSM-IV criteria for anorexia nervosa (except the requirement for amenorrhea)~Successfully completed treatment at one of the study sites in an inpatient or day-program setting immediately prior to study entry (BMI remained at least 19 kg/m2 for two weeks)~Exclusion Criteria:~Currently taking any medications other than occasional lorazepam or zopiclone for anxiety or sleep disturbance~Previous serious adverse reactions to fluoxetine (e.g., allergy)~Currently at risk for suicide~Any medical condition requiring treatment with other psychotropic medication (except the occasional use of anti-anxiety medication)~Pregnant~Any serious medical illness besides the eating disorder~History of continuous illness (at a low weight with no periods of remission or return to normal functioning for more than 15 years)";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 49;
+  ex:maximum_age "45 Years";
+  ex:minimum_age "16 Years";
+  ex:nct_id 77;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/5> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Having applied to the Gulhane Training and Research Hospital Geriatrics Polyclinic Being diagnosed with Alzheimer or Lewy Body Dementia or Vascular Dementia or Fronto-Temporal Dementia or Parkinson Disease Dementia Being at the age of 60 years or older~Exclusion Criteria:~Being under the age of 60 Patients with insufficient recorded data and follow-up for the study Patients who either have diagnosis or follow-up in another center. Patients who have severe dementia that prevents applying for outpatient clinic";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 5;
+  ex:minimum_age "60 Years";
+  ex:nct_id 14;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "All patients diagnosed with any kind of dementia and being older than 60 years would be included in the study";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/50> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "INCLUSION CRITERIA:~The patient must have histologically proven peritoneal carcinomatosis from the following histologies: primary peritoneal mesothelioma; low grade mucinous adenocarcinoma (including low grade mucinous neoplasms of borderline malignant potential); adenocarcinoma of gastrointestinal tract origin (other than low grade mucinous, excluding pancreatic cancer).~Radiologic workup must demonstrate that the disease is confined to the peritoneal cavity.~Radiologic workup or prior abdominal exploration must be consistent with disease which can be debulked to a residual size of less that 1 cm in diameter per tumor deposit.~Patients must have an Eastern Cooperative Onocology Group (ECOG) performance status of less than or equal to 2.~Patients must have a minimum expected duration of survival of greater than 8 weeks.~Patients must have recovered from any toxicity from all prior chemotherapy, immunotherapy or radiotherapy and be at least 30 days past the date of their last treatment.~EXCLUSION CRITERIA:~Patients will be excluded if they have concomitant medical problems that would place them at unacceptable risk for a major surgical procedure.~Patients at increased risk for coronary artery disease or cardiac dysfunction (e.g., age greater than 65, history of hypertension, first degree relative with atherosclerotic coronary artery disease) will undergo cardiac evaluation and will not be eligible if they demonstrate significant irreversible ischemia on a stress thallium study or an injection fraction of less than 40 percent.~Patients who have shortness of breath with minimal exertion and who are at risk for pulmonary disease (e.g., chronic smokers) will undergo pulmonary function testing and will not be eligible if their forced expiratory volume 1 (FEV1) is less than 1.2 liters or their maximum voluntary ventilation is less than 50 percent of expected.~Patients who have a baseline neurological toxicity of Grade 3 or greater will be excluded because of the potential neurotoxicity associated with platinum and paclitaxel therapy.~Patients will be ineligible if they have a creatinine of greater than 1.5 or a creatinine clearance of less 70 mL/min.~Patients will be ineligible if the white blood cell (WBC) is less than 3000/microliters or platelets are less than 75,000mL/mm(3).~Patients must have a serum aspartate aminotransferase (AST) and alanine aminotransferase (ALT) within 5 times the upper limit of normal and a total serum bilirubin of less than 3 times the upper limit of normal, both of which define the upper limit of grade 2 treatment related toxicities.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 50;
+  ex:minimum_age "18 Years";
+  ex:nct_id 60;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/51> ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  a ex:eligibilities;
+  ex:criteria "Inclusion Criteria:~unilateral inguinal hernia~age between 2 years and 17 years~no history of abdominal or inguinal operations~the age range was based on the day surgery criteria of our hospital~of male patients, only those with completely descended testes were included~Exclusion Criteria:~the bilateral hernia~the recurrence hernia";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 51;
+  ex:maximum_age "17 Years";
+  ex:minimum_age "2 Years";
+  ex:nct_id 127;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "All patients between 2 years and 17 years of age undergoing laparoscopic inguinal hernia repair at our institution by a single surgeon from January, 2000 to August, 2005 were prospectively followed for outcome.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/52> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~The patient underwent coronary angiography and subsequent angioplasty with deployment of a bare metal stent within de novo stenotic lesion.~The patient underwent a second coronary procedure, more then six month from the first procedure, in which patency of the previously deployed bare metal stent was demonstrated, provided that no intervention was performed within this stent in the six month interim. In lieu, either bare metal stent or drug eluting stent were deployed within another stenotic lesion (another de novo lesion).~The patient underwent a third coronary angiography procedure within the 12 month interim from the second coronary procedure, in which in-stent restenosis was demonstrated within the stent deployed in the second procedure~If no in-stent restenosis was demonstrated within the stent, deployed in the second procedure within the 12 month interim from the second procedure, the patient underwent coronary angiography at least 12 month from the second procedure in which patency of the bare metal stent or drug eluting stent was determined~Exclusion Criteria:~Patients in whom a stent, in either the first or second procedure was deployed within previously stent treated stenotic lesion.~Patients in whom a stent, in either the first or second procedure, was deployed within a graft.~Patient suffering from in-stent restenosis within the bare metal stent, during the six month interim between the first procedure and second procedure or at the time of the second coronary angiography~Patients who underwent a coronary intervention within the bare metal stent in interim between the first and second procedures.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 52;
+  ex:nct_id 164;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "all patients who underwent percutaneous coronary intervention in Rambam Medical Center between 2000 -2010.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/53> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Postmenopausal women, Stage III or axillary node positive~Currently disease free of breast cancer and other invasive malignancies at the time of registration~No concurrent use of bisphosphonates~Exclusion Criteria:~Metastatic disease";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 53;
+  ex:minimum_age "18 Years";
+  ex:nct_id 137;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/54> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically confirmed stage II or III adenocarcinoma of the breast~High-risk disease~At least 4 positive lymph nodes~Fewer than 4 positive lymph nodes considered high-risk if one of the following is present:~HER2/neu-positive disease~Enlarged axillary nodes~Extra capsular extension of tumor from lymph node~Dermal lymphatic invasion~Vascular invasion~Bilateral disease~Familial breast cancer~T4 locally advanced disease~Clinically chemosensitive to prior paclitaxel (or other taxane), doxorubicin, and cyclophosphamide~No relapse after chemotherapy~No clinical evidence of brain metastases~Hormone receptor status:~Estrogen and progesterone receptor status known~PATIENT CHARACTERISTICS:~Age:~18 and over~Sex:~Female~Menopausal status:~Not specified~Performance status:~Karnofsky 70-100% OR~ECOG 0-2~Life expectancy:~At least 3 months~Hematopoietic:~Granulocyte count at least 1,500/mm^3~Platelet count at least 50,000/mm^3~Hemoglobin greater than 8 g/dL~Hepatic:~Bilirubin less than 1.5 times normal~SGOT less than 1.5 times normal~Renal~Creatinine less than 1.8 mg/dL~Creatinine clearance at least 60 mL/min~BUN less than 1.5 times normal~Cardiovascular:~Ejection fraction at least 45% by MUGA~No uncontrolled or significant cardiovascular disease~No myocardial infarction within the past year~No significant congestive heart failure~Pulmonary:~FEV_1 at least 60% predicted~DLCO at least 60% predicted~FVC at least 60% predicted~Other:~No other malignancy except curatively treated squamous cell carcinoma in situ of the cervix or basal cell skin cancer~No other serious medical or psychiatric illness that would preclude study participation~HIV negative~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY:~Biologic therapy:~Not specified~Chemotherapy:~See Disease Characteristics~Prior standard chemotherapy with anthracyclines or combination chemotherapy involving a combination of taxanes, doxorubicin, and/or cyclophosphamide allowed~Endocrine therapy:~No concurrent hormonal therapy for breast cancer~Concurrent hormonal therapy for nondisease-related conditions (e.g., insulin for diabetes) allowed~Concurrent steroids for adrenal failure, septic shock, or pulmonary toxicity allowed~Radiotherapy:~Not specified~Surgery:~Prior complete resection of tumor allowed~Other:~Prior successful neoadjuvant therapy allowed";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 54;
+  ex:minimum_age "18 Years";
+  ex:nct_id 189;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/55> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~postmenopausal female~regular controls of CPAP treatment in pulmonary clinic and regular use of CPAP device~Exclusion Criteria:~severe or unstable chronic illnesses~heavy current smoking (over 10 cigarettes per day)~medication which effects on the central nervous system~contraindications to progesterone therapy and current participation in any other clinical study";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 55;
+  ex:maximum_age "77 Years";
+  ex:minimum_age "42 Years";
+  ex:nct_id 68;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/56> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Pregnancy~Exclusion Criteria:~-";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 56;
+  ex:nct_id 83;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/57> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria: Registered in CPUP Sweden (Follow up surveillance program for people with verebral palsy), treated with isolated surgical lengthening of the gastrocsoleus complex and born 2000-2011.~Exclusion Criteria: Children treated with other surgical procedures (soft tissue surgery to the foot, leg, knee and hamstrings and osteotomies or arthrodesis to all lower extremity) or where the type of gastrocsoleus lengthening could not be verified, will be excluded from the analysis but described using summary statistics.~-";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 57;
+  ex:maximum_age "17 Years";
+  ex:minimum_age "1 Year";
+  ex:nct_id 78;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Children registered in CPUP Sweden (Follow up surveillance program for people with verebral palsy), treated with isolated surgical lengthening of the gastrocsoleus complex and born 2000-2011.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/58> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~patients with ocular hypertension or glaucoma, defined by SmPC~Exclusion Criteria:~defined by SmPC";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 58;
+  ex:nct_id 117;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "patients with glaucoma or ocular hypertension treated by office-based ophthalmologists";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/59> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Endoscopically confirmed localized tumor as the cause of colonic obstruction~All primary tumor types are eligible~No prior colonic Wallstents~Must have symptoms of gastrointestinal obstruction, including:~Inability to move bowels, absence of flatus, nausea/vomiting, abdominal pain, or diarrhea~PATIENT CHARACTERISTICS:~Age:~18 and over~Performance status:~ECOG 0-3~Life expectancy:~Not specified~Hematopoietic:~Platelet count greater than 50,000/mm^3~Hepatic:~INR no greater than 1.5 times upper limit of normal~Renal:~Not specified~Cardiovascular:~No cardiac condition~Other:~Not pregnant or nursing~Fertile patients must use effective contraception~No significant active infection (e.g., pneumonia, peritonitis, wound abscess) that would preclude endoscopy~No other serious concurrent illness~No uncontrolled metabolic disease (e.g., diabetes or hypothyroidism)~No dementia, psychiatric disorder, or altered mental status that would preclude compliance~History of other neoplastic disease allowed~Veterans Administration patients are not eligible~PRIOR CONCURRENT THERAPY:~Biologic therapy:~Not specified~Chemotherapy:~Prior or concurrent chemotherapy allowed~Endocrine therapy:~Not specified~Radiotherapy:~Prior or concurrent radiotherapy allowed~Surgery:~At least 3 weeks since prior surgery and recovered";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 59;
+  ex:minimum_age "18 Years";
+  ex:nct_id 199;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/6> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients with Creutzfeldt Jakob disease~Exclusion Criteria:~none";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 6;
+  ex:nct_id 28;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Patients with Creutzfeldt Jakob disease";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/60> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~below 70 years of age~biopsy proven systemic AL amyloidosis~no more than 2 prior courses of chemotherapy~ECOG performance status < 3~Informed written consent~Exclusion Criteria:~localized amyloidosis~HIV seropositivity~previous myelodysplasia~concomitant serious disease";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 60;
+  ex:maximum_age "70 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 89;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/61> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically or cytologically confirmed adenocarcinoma of the lower esophagus, esophagogastric junction, or gastric cardia that is considered unresectable and for which no curative therapy exists No other conventional forms of therapy available that would offer a reasonable chance of cure or significant palliation Gastric cardia is defined as no greater than 5 cm from the esophagogastric junction into the stomach Measurable disease At least 1 lesion that can be accurately measured in at least 1 dimension as at least 20 mm No nonmeasurable lesions only, including: Bone lesions Leptomeningeal disease Ascites Pleural/pericardial effusion Inflammatory breast disease Lymphangitis cutis/pulmonis Abdominal masses not confirmed and followed by imaging techniques Cystic lesions No known untreated or treated symptomatic CNS metastases~PATIENT CHARACTERISTICS: Age: 18 and over Performance status: ECOG 0-2 Life expectancy: At least 12 weeks Hematopoietic: Absolute neutrophil count at least 1,500/mm3 Platelet count at least 100,000/mm3 Hepatic: Bilirubin no greater than upper limit of normal (ULN) AST no greater than ULN (less than 2.5 times ULN if alkaline phosphatase no greater than ULN) Alkaline phosphatase no greater than ULN (4 times ULN if AST no greater than ULN) Renal: Creatinine no greater than 1.5 times ULN Cardiovascular: No New York Heart Association class III or IV heart disease Neurologic: No grade 2 or greater peripheral neuropathy of any etiology No uncontrolled seizure disorder Other: Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception Ability to complete questionnaires alone or with assistance No uncontrolled infection No chronic debilitating disease No other prior malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or other noninvasive carcinoma~PRIOR CONCURRENT THERAPY: Biologic therapy: No prior immunotherapy or biologic therapy for recurrent or metastatic disease No concurrent biologic therapy No concurrent filgrastim (G-CSF) as primary prophylaxis Chemotherapy: Prior adjuvant chemotherapy after complete resection of original tumor allowed Prior neoadjuvant chemotherapy allowed No prior chemotherapy for recurrent or metastatic disease No other concurrent chemotherapy Endocrine therapy: Not specified Radiotherapy: Prior adjuvant radiotherapy after complete resection of original tumor allowed Prior neoadjuvant radiotherapy allowed At least 4 weeks since prior radiotherapy No prior radiotherapy for recurrent or metastatic disease No prior radiotherapy to more than 25% of bone marrow No concurrent radiotherapy except to CNS Surgery: See Disease Characteristics Prior surgical resection of primary tumor allowed At least 4 weeks since prior abdominal exploration with resection (3 weeks without resection)";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 61;
+  ex:minimum_age "18 Years";
+  ex:nct_id 219;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/62> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Patients may be of either sex or age. Children and newborn infants are specifically included in this study.~Patient must have documented congenital Factor XIII deficiency~Patient or legal guardian must sign informed consent~Patients who have negative serology for hepatitis B should receive Hepatitis B vaccination.~Exclusion Criteria:~Patient has acquired Factor XIII deficiency";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 62;
+  ex:nct_id 113;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/63> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Diagnosis of advanced solid tumor No lymphomas Measurable disease~PATIENT CHARACTERISTICS: Age: 18 and over Performance status: ECOG 0-2 Life expectancy: Not specified Hematopoietic: Neutrophil count at least 1,000/mm3 Platelet count at least 100,000/mm3 Hepatic: Bilirubin no greater than upper limit of normal (ULN) AND SGOT no greater than 2.5 times ULN AND Alkaline phosphatase no greater than ULN OR SGOT no greater than ULN AND Alkaline phosphatase no greater than 5 times ULN Renal: Creatinine no greater than 2.0 mg/dL Other: No pre-existing peripheral neuropathy greater than grade 2 Not pregnant or nursing Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY: No more than 2 prior treatments for metastatic disease Biologic therapy: Not specified Chemotherapy: No prior high dose (pre transplant) chemotherapy Prior paclitaxel allowed Endocrine therapy: Not specified Radiotherapy: No prior pelvic radiotherapy Surgery: Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 63;
+  ex:minimum_age "18 Years";
+  ex:nct_id 220;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/64> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Over 18 years of age~In third trimester of pregnancy when recruited~Negative for the following drugs detected by a urine drug screen:~Amphetamines~Barbiturates~Benzodiazepines~Cocaine~Opiates~Phencyclidine metabolites (PCP), and tricyclic antidepressants~Vaginal delivery~Screened negative for major depressive disorder on the Edinburgh Postnatal Depression Scale (EPDS) at her prenatal enrollment in the study~Receiving a score of 12 or lower out of a possible 30~Exclusion Criteria:~Under age 18~Positive for any of the following drugs:~Amphetamines~Barbiturates~Benzodiazepines~Cocaine~Opiates~Phencyclidine metabolites (PCP), and tricyclic antidepressants~Cesarean delivery~EPDS score over 12 at prenatal screening test";
+  ex:gender "Female";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 64;
+  ex:maximum_age "50 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 208;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Subjects were patients from two Oklahoma State University Center for Health Sciences (OSUCHS) clinics in Tulsa, Oklahoma.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/65> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically confirmed metastatic renal cell cancer Bidimensionally measurable disease No brain metastases~PATIENT CHARACTERISTICS: Age: Not specified Performance status: Karnofsky 70-100% Life expectancy: Greater than 3 months Hematopoietic: WBC at least 3,000/mm3 Absolute neutrophil count at least 1,500/mm3 Platelet count at least 100,000/mm3 Hepatic: Bilirubin normal ALT or AST no greater than 2.5 times upper limit of normal (ULN) Renal: Creatinine no greater than 1.5 times ULN (no greater than 1.95 mg/dL at MSKCC) Other: Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception during and for 4 months after study No other prior malignancy unless curatively treated and disease free for the past 5 years and considered low risk for recurrence~PRIOR CONCURRENT THERAPY: Biologic therapy: At least 4 weeks since prior biologic therapy and recovered No concurrent biologic therapy Chemotherapy: At least 4 weeks since prior cytotoxic chemotherapy and recovered No other concurrent cytotoxic chemotherapy Endocrine therapy: At least 4 weeks since prior hormonal therapy and recovered No concurrent hormonal therapy Radiotherapy: At least 4 weeks since prior radiotherapy No concurrent radiotherapy Surgery: At least 4 weeks since prior major surgery";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 65;
+  ex:nct_id 206;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/66> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Good physical and mental health:~Absence of a clinically relevant medical history~Clinically acceptable hematology and clinical chemistry results~Hemoglobin > 13.5 g/dl~Normal ECG~Diastolic blood pressure 60 to 90 mmHg inclusive~Normal cardiac morphology demonstrated by echocardiography~Satisfactory cardiovascular response to exercise, measured by the Bruce Protocol, subjects must have completed Bruce stage 5~Aged 18 to 35 years inclusive~Body mass index (BMI) 19 to 27 inclusive, weight 65 to 100 kg inclusive~Negative hepatitis screen~Non-smoker for at least 6 months~Previous experience of general anesthesia with no problems reported -~Willingness to give written informed consent~Ability to communicate well with the Investigators.~Exclusion Criteria:~Females~History or evidence of clinically significant cardiovascular, respiratory, endocrine, renal, hepatic, neurological or psychiatric disease.~History of or familial presence of malignant hyperthermia.~Presence of any condition likely to affect the normal kinetics of the study drug.~Requirement for prescribed medication.~Use of concomitant medication in the 5 days prior to dosing.~General anaesthesia within the previous 3 months.~History of clinically significant allergy or hypersensitivity to any drug.~History of clinically significant head injury.~History of febrile convulsion.~Known history of human immunodeficiency virus (HIV) infection.~Use of investigational drug within previous three months.~Previous administration of an investigational intravenous anaesthetic drug.~Previous administration of Org 25435 within this study.~History of alcohol / drug abuse.~Average consumption of more than 20 units of alcohol a week.~Subjects who smoke or who have smoked within the past 6 months.~Inability to communicate with the Investigators for any reason.~Donation of blood within one month of the study, or the intention to donate blood within one month following the study.";
+  ex:gender "Male";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 66;
+  ex:maximum_age "35 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 218;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/67> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically proven adenocarcinoma of the prostate Previously treated with radical prostatectomy at least 3 months ago HLA-A2 positive PSA greater than 0.5 ng/mL and rising At least 0.3 ng/mL greater than post-prostatectomy nadir Confirmed by at least 2 additional PSA levels at least 2 weeks apart No bone metastases by bone scan within past 3 months No clinical evidence of local disease recurrence (no palpable mass or induration in prostatic fossa)~PATIENT CHARACTERISTICS: Age: Over 18 Performance status: ECOG 0-1 OR Karnofsky 70-100% Life expectancy: More than 1 year Hematopoietic: WBC at least 3,000/mm3 Hepatic: Bilirubin normal AST and ALT no greater than 2.5 times upper limit of normal Renal: Creatinine normal Cardiovascular: No symptomatic congestive heart failure No unstable angina pectoris No cardiac arrhythmia Other: Fertile patients must use effective contraception HIV negative No clinical immune dysfunction illness (e.g., rheumatoid arthritis) No ongoing or active infection No other concurrent uncontrolled illness that would preclude study No concurrent psychiatric illness or social situation that would preclude study~PRIOR CONCURRENT THERAPY: Biologic therapy: Not specified Chemotherapy: No prior chemotherapy Endocrine therapy: Neoadjuvant hormonal therapy prior to prostatectomy allowed No concurrent hormonal therapy for recurrent prostate cancer Radiotherapy: No prior radiotherapy to the prostate No prior radiotherapy to the pelvis Surgery: See Disease Characteristics Other: No other concurrent investigational agents No concurrent commercial agents intended to treat the malignancy No concurrent immunosuppressive therapy";
+  ex:gender "Male";
+  ex:healthy_volunteers "No";
+  ex:id 67;
+  ex:maximum_age "120 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 65;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/68> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~patients undergoing embryo transfer in our IVF program between 2000 and 2005~Exclusion Criteria:~patients not giving consent were excluded";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 68;
+  ex:minimum_age "18 Years";
+  ex:nct_id 63;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/69> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Males, non-smokers, between 18-55 years of age~Subjects' weight will be within 15% of their ideal weight based on the Table of Desirable Weight of Adults, Metropolitan Life Insurance Company, 1983.~Subjects should read, sign, and date an Informed Consent Form prior to any study procedures~Subjects must complete all screening procedures within 28 days prior to the administration of the study medication.~Exclusion Criteria:~Clinically significant abnormalities found during medical screening~Any clinically significant history of ongoing gastrointestinal problems or problems known to interfere with the absorption, distribution, metabolism or excretion of drugs (e.g. chronic diarrhea, inflammatory bowel diseases).~Clinically significant illnesses within 4 weeks of the administration of study medication.~Abnormal laboratory test judged clinically significant.~ECG or vital signs abnormalities (clinically significant).~History of allergic reactions to doxycycline or other related drugs (e.g., chlortetracycline, demeclocycline, minocycline and tetracycline).~History of allergic reactions to heparin.~Any food allergies, intolerances, restrictions, or special diet which in the opinion of the medical sub-investigator, contraindicates the subject's participation in this study.~Positive urine drug screen (see section VIII) at screening~Positive testing for hepatitis B, hepatitis C or HIV screening.~Use of an investigational drug or participation in an investigational study, within 30 days prior to administration of the study medication.~Recent donation of plasma (500 mL) within 7 days or recent donation or significant loss of whole blood (450 mL) with 56 days prior to administration of the study medication.~History of significant alcohol abuse within six months of the screening visit or any indication of the regular use of more than two units of alcohol per day (1 Unit = 150 mL of wine or 360 mL of beer or 45 mL of alcohol 40%)~Recent history of drug abuse or use of illegal drugs: use of soft drugs (such as marijuana, pot) within 3 months of the screening visit or hard drugs (such as cocaine, phencyclidine (PCP), crack) within 1 year of the screening visit.~Subjects who have taken prescription medication 14 days preceding administration of study medication or over the counter products 7 days preceding administration of study medication, except for topical products without systemic absorption.~Subjects who have taken any drugs known to induce or inhibit hepatic drug metabolism within 30 days prior to administration of the study medication (examples of inducers: barbiturates, carbamazepine, phenytoin, glucocorticoids, rifampin/rifabutin; examples of inhibitors: antidepressants, cimetidine, diltiazem, erythromycin, ketoconazole, MAO inhibitors, neuroleptics, verapamil, quinidine).~Subjects who have undergone clinically significant surgery 4 weeks prior to the administration of the study medication.~Any reason which, in the opinion of the medical sub-investigator, would prevent the subject from participating in the study.";
+  ex:gender "Male";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 69;
+  ex:maximum_age "55 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 59;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/7> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Clinical diagnosis of botulism~Admission in an intensive care or high dependancy unit~Exclusion Criteria:~None";
+  ex:gender "All";
+  ex:id 7;
+  ex:minimum_age "15 Years";
+  ex:nct_id 19;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "All patients 15 years of age or older with a clinical diagnosis of botulism.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/70> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~above 18 years~macromastia on clinical examination~fulfilled Breast Q Questionnaire prior to surgery and after surgery~signed informed consent~Exclusion Criteria:~failed to sign informed consent~failed to fill the Breast Q Questionnaire~patients with altered mental status and behaviour~patients with concomitant breast disease, or with previous breast interventions as are radiotherapy, surgery, or breast cancer";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 70;
+  ex:maximum_age "63 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 171;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "Females with macromastia undergoing elective reduction surgery.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/71> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~men with clinical varicoceles underwent microsurgical varicocelectomy due to causes other than infertility such as testicular pain, discomfort or scrotal mass~Exclusion Criteria:~adolescents~men with proven fertility or azoospermia~men with preoperative normal sperm analysis~available data to compare between preoperative and postoperative semen analyses";
+  ex:gender "Male";
+  ex:healthy_volunteers "No";
+  ex:id 71;
+  ex:maximum_age "45 Years";
+  ex:minimum_age "20 Years";
+  ex:nct_id 132;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "men with clinical varicoceles underwent microsurgical varicocelectomy due to causes other than infertility such as testicular pain, discomfort or scrotal mass";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/72> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Meets 1 of the following criteria at the City of Hope National Medical Center:~Patient who has undergone a matched-related or matched-unrelated allogeneic bone marrow or peripheral blood stem cell transplantation (SCT) for a hematological malignancy (e.g., aplastic anemia or myelodysplastic syndromes)~At risk for cytomegalovirus (CMV) infection and disease due to 1 of the following risk factors:~CMV-seropositive prior to transplantation~Received SCT from a CMV-seropositive donor~Donor for matched-related SCT~Healthy volunteer evaluated concurrently with SCT recipients to establish normal values for both CMV-seronegative and CMV-seropositive persons~Any HLA serotypes allowed~PATIENT CHARACTERISTICS:~See Disease Characteristics~PRIOR CONCURRENT THERAPY:~See Disease Characteristics";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 72;
+  ex:minimum_age "18 Years";
+  ex:nct_id 119;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/73> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~pseudoxanthoma elasticum confirmed by the Department of Genetics according to the usual clinical, histological or genetic criterion.~Exclusion Criteria:~No pseudoxanthoma elasticum";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 73;
+  ex:nct_id 184;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "patients with pseudoxanthoma elasticum confirmed by the Department of Genetics according to the usual clinical, histological or genetic criterion.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/74> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Any type of lung transplant incl single, double, combined and re-do~> 18 years of age~LTx or HLTx ? 6mts post Tx~Stable health condition at study entry (pt stays within home environment)~Sufficient language skills for AMOS training~Successful AMOS training~Follow-up at our center (?6 mts post LTx)~Willingness to participate by informed consent~Exclusion Criteria:~Refused consent~BOS diagnosis before study inclusion~Malignancy before study inclusion~Loss for follow-up (? 6 mts after study inclusion";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 74;
+  ex:maximum_age "70 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 116;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "lung transplant recipients surviving to outpatient follow-up >6 months in Hannover Medical School";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/75> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Normal thoracic aorta";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 75;
+  ex:maximum_age "80 Years";
+  ex:minimum_age "1 Day";
+  ex:nct_id 170;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/76> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~double amputated patients~minimum of 3 months and maximum of 3 years interval between amputation and graft~adult aged 20 to 40 years~psychological maturity~written informed consent~Exclusion Criteria:~mono amputated patients~previous history of malignant tumor in remission for less than 5 years,~malignant tumor~previous psychiatric history~American Society of Anesthesiology (ASA) score >2~New York Heart Association (NYHA) >1~nenal insufficiency~severe hypertension";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 76;
+  ex:maximum_age "40 Years";
+  ex:minimum_age "20 Years";
+  ex:nct_id 154;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/77> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Known diabetic patients enrolled in the four primary care clinics~Age 30 years and older.~Exclusion Criteria:~Below age 30 years~Type 1 diabetes~Spoke neither Hebrew nor Russian~Bedridden or confined to home.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 77;
+  ex:minimum_age "30 Years";
+  ex:nct_id 169;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/78> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Participants with less than (<) 18 years of age at index~Continuously enrolled for greater than (>) 6 months prior to index (baseline period)~One diagnosis of JIA (714.3) on a non-diagnostic claim either during the baseline period (the complete participant record prior to the episode index will be defined as the episode baseline period) or within the first 30 days following the index date~Had both medical and pharmacy benefit plus complete data availability during both baseline and follow-up periods~Exclusion Criteria:~For biologic DMARD cohorts, prior use of any qualifying biologic belonging to the biologic DMARD of interest (using all available claims history)~For non-biologic DMARD cohort, prior use of any non-biologic DMARD or biologic DMARD~Any record of rituximab use in complete participant record~A prior safety event during the baseline period";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 78;
+  ex:maximum_age "18 Years";
+  ex:nct_id 125;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "JIA participants treated with biologic and non-biologic DMARDs from the Thomson Reuters MarketScan® Commercial Claims and Medicare Supplemental Databases";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/79> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Scheduled to undergo lung volume reduction surgery (LVRS)~Exclusion Criteria:~Does not sign a study consent form";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 79;
+  ex:minimum_age "18 Years";
+  ex:nct_id 153;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/8> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Diagnosed lower limb osteosarcoma patients under the age of 14;~Performing tumor resection treatment in our hospital;~There is complete clinical registration data available.~Exclusion Criteria:~Not undergoing surgical treatment in our hospital;~Age older than 14 years old;~No available clinical registration data or lost follow-up patients;~Non lower limb osteosarcoma patients.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 8;
+  ex:maximum_age "14 Years";
+  ex:minimum_age "4 Years";
+  ex:nct_id 8;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "A retrospective analysis of 345 pediatric patients with lower-limb osteosarcoma admitted to our department between 2000 and 2019 was conducted.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/80> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Data are obtained via The Netherlands Perinatal Registry (PRN) (6). All registered stillbirths and livebirths occurring in the Netherlands between 1 January 2000 and 31 December 2011 are included.~Inclusion Criteria:~Singleton birth occurring in the Netherlands between January 1st, 2000 and December 31st, 2011~Liveborn (for all outcomes other than stillbirth and congenital anomalies)~Exclusion Criteria:~No chromosomal anomalies";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 80;
+  ex:maximum_age "1 Week";
+  ex:nct_id 133;
+  ex:older_adult "f"^^xsd:boolean;
+  ex:population "All singleton births in the Netherlands. Stillbirths are excluded from the denominator for all outcomes other than stillbirths and congenital anomalies.";
+  ex:sampling_method "Probability Sample" .
+
+<http://example.org/eligibilities/81> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Histologically confirmed stage IV melanoma~Partial response, minor response, or stable disease after no more than 2 regimens of chemotherapy, immunotherapy, or chemoimmunotherapy~Bidimensionally measurable disease by palpation on clinical exam or radiographic imaging~HLA genotypically identical sibling donor available~Not an identical twin~Age 12 to 74~No ocular melanoma~No active or untreated brain metastases or transmural gastrointestinal metastases~PATIENT CHARACTERISTICS:~Age:~18 to 64~Performance status:~Karnofsky 80-100%~Life expectancy:~Not specified~Hematopoietic:~Not specified~Hepatic:~Bilirubin no greater than 2 times upper limit of normal (ULN)~SGOT and SGPT less than 2 times ULN~Renal:~Creatinine clearance at least 40 mL/min~Cardiovascular:~LVEF at least 40% if history of congestive heart failure~No uncontrolled hypertension~Pulmonary:~DLCO at least 50% of predicted~No continuous supplementary oxygen~Other:~Not pregnant~Fertile patients must use effective contraception during and for 1 year after study participation~HIV negative~PRIOR CONCURRENT THERAPY:~Biologic therapy:~See Disease Characteristics~No concurrent growth factors during mycophenolate mofetil administration~Chemotherapy:~See Disease Characteristics~Endocrine therapy:~Not specified~Radiotherapy:~Not specified~Surgery:~Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 81;
+  ex:maximum_age "64 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 62;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/82> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Type 1 diabetes~A1C <9%~Mild neuropathy~Mild retinopathy~Mild nephropathy~Exclusion Criteria:~History of drug or alcohol dependence, heart disease, viral illness, liver disease, advanced kidney disease~Pregnant or nursing~Severely overweight";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 82;
+  ex:maximum_age "65 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 73;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/83> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Diagnosis of any of the following hematologic malignancies: Multiple myeloma Non-Hodgkin's lymphoma Indolent OR Relapsed or primary refractory high grade or intermediate grade in complete remission (CR) or partial remission (PR) after salvage chemotherapy or autologous bone marrow transplantation Hodgkin's disease Relapsed or primary refractory in CR or PR after salvage chemotherapy or autologous bone marrow transplantation Chronic lymphocytic leukemia Chronic myeloid leukemia Myelodysplastic syndrome Acute myeloid leukemia with high risk CR1 or second or greater CR Acute lymphocytic leukemia with high risk CR1 or second or greater CR Must have a 6 antigen HLA identical sibling donor Must have one of the following conditions that confer an increased risk for undergoing allogeneic bone marrow transplantation after myeloablative preparative regimen: Over 55 years of age AST or ALT greater than 2.5 times upper limit of normal (ULN) Bilirubin greater than 1.8 times ULN Renal dysfunction with creatinine greater than 1.5 mg/dL (after 12 courses of prior cytotoxic therapy) Undergone one or more prior autologous bone marrow transplantations Refuse to undergo allogeneic bone marrow transplantation using a myeloablative preparative regimen A new classification scheme for adult non-Hodgkin's lymphoma has been adopted by PDQ. The terminology of indolent or aggressive lymphoma will replace the former terminology of low, intermediate, or high grade lymphoma. However, this protocol uses the former terminology.~PATIENT CHARACTERISTICS: Age: Over 18 Performance status: ECOG 0-2 Life expectancy: Not specified Hematopoietic: Not specified Hepatic: See Disease Characteristics Renal: See Disease Characteristics Other: Fertile patients must use effective contraception~PRIOR CONCURRENT THERAPY: Biologic therapy: See Disease Characteristics Chemotherapy: See Disease Characteristics Endocrine therapy: Not specified Radiotherapy: Not specified Surgery: Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 83;
+  ex:maximum_age "120 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 103;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/84> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~with moderate to chronic periodontal disease~(at least two sites with loss of clinical attachment > 4mm~alveolar bone loss of 30-50%, as judged by radiography~received initial periodontal therapy, including scaling and root planning, as well as oral hygiene instruction less than six weeks before study commencement.~Exclusion Criteria:~history of cardiovascular disease, renal disease, bleeding in the upper gastrointestinal tract, gastrointestinal ulcers, asthma, hypersensitivity to diclofenac or other NSAIDs, prosthetic joint replacement, or other chronic disease affecting compliance~received antibiotics or antibacterial agents less than 6 months before study commencement~received NSAIDs within 1 month, or phenytoin or calcium antagonists within 3 months~history of pregnancy, lactation, or inadequate birth control";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 84;
+  ex:maximum_age "60 Years";
+  ex:minimum_age "32 Years";
+  ex:nct_id 80;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/85> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS:~Diagnosis of multiple myeloma requiring treatment~Must have at least 2 x 10^6 CD34+ cells collected for peripheral blood stem cell transplantation~PATIENT CHARACTERISTICS:~Inclusion criteria:~ECOG performance status (PS) 0-2 (ECOG PS > 2 allowed if secondary to neuropathy or acute bone event)~Direct bilirubin ? 2.0 mg/dL~Alkaline phosphatase ? 750 ?/L~Creatinine ? 3.0 mg/dL~Ejection fraction ? 45%~Not pregnant or nursing~Negative pregnancy test~Fertile patients must use effective contraception for 6 months after the completion of study therapy~Exclusion criteria:~DLCO < 50%~FVC < 50%~FEV_1 < 50%~Active malignancy with the exception of nonmelanoma skin cancer~Uncontrolled infection~NYHA class III-IV cardiac disease~PRIOR CONCURRENT THERAPY:~May or may not have received prior chemotherapy~At least 3 weeks since prior chemotherapy~Cyclophosphamide pulsing for stem cell collection allowed~At least 4 weeks since prior biologic therapy~At least 2 weeks since prior bisphosphonates and bisphosphonates maybe resumed 1 month post-study treatment";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 85;
+  ex:minimum_age "18 Years";
+  ex:nct_id 160;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/86> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Newborn infants were considered for the study if the following criteria were met:~Age < 24 hours;~Birthweight between 700 and 1,300 grams;~Gestational age greater than or equal to 24 weeks;~Diagnosis of neonatal RDS based on clinical and radiographic criteria;~Requiring intubation and mechanical ventilation for treatment of RDS;~Received at least one dose of surfactant 100 mg/kg (Survanta; Ross Laboratories);~Written informed consent from the infant's parent or legal guardian prior to enrollment of the patient and agrees to all study-related procedures and evaluations, including those required after hospital discharge.~Exclusion Criteria:~• Major congenital abnormalities (chromosomal, genetic, cardiac, pulmonary, or renal);";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 86;
+  ex:maximum_age "29 Weeks";
+  ex:minimum_age "24 Weeks";
+  ex:nct_id 69;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/87> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~patients with a diagnosis of Si-NEN;~resection of the primary tumor with or without concomitant cholecystectomy;~absence of a history of a biliary stone disease or cholecystectomy before Si-NEN diagnosis~Exclusion Criteria:~- presence of a history of a biliary stone disease or cholecystectomy before Si-NEN diagnosis";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 87;
+  ex:minimum_age "18 Years";
+  ex:nct_id 142;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "For each patient sex, age, comorbidity, presence of symptoms, type of surgery (emergency or elective), ENETS TNM stage, WHO 2019 grading of the primary tumor, type of resection (R0/1 vs. R2), administration of SSA therapy, duration of follow-up, were collected";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/88> a ex:eligibilities;
+  ex:adult "f"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~In the opinion of the investigator, is a candidate for treatment with nasal steroids based on a history of either a) inadequate control of symptoms with antihistamines, decongestants and/or immunotherapy, or b) prior successful treatment with nasal steroids.~A documented history of at least one year of perennial allergic rhinitis.~A positive response to a skin prick test for perennial allergens that must be present in the subject's environment.~Height and weight within normal limits.~Exclusion Criteria:~Any disease which may affect growth~Sexual development later than Tanner stage I.~Nasal candidiasis, rhinitis medicamentosa, acute or chronic sinusitis, influenza, upper respiratory tract infection or structural abnormalities of the nose (e.g., septal deviation, nasal polyps) symptomatic enough to cause significant nasal obstruction as judged by the investigator.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 88;
+  ex:maximum_age "10 Years";
+  ex:minimum_age "4 Years";
+  ex:nct_id 87;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/89> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~at least three-year follow-up following the surgical procedure~signed Informed Consent~Exclusion Criteria:~patient lost during follow-up~patients in critical condition (ASA IV)";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 89;
+  ex:minimum_age "18 Years";
+  ex:nct_id 158;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/9> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Adult patients~American Society of Anesthesiologists (ASA) distribution I to III~Patients scheduled for major liver resection (?3 segments)~Exclusion Criteria:~patients with extrahepatic disease~patients with metastatic liver tumors";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 9;
+  ex:maximum_age "90 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 31;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "retrospective analysis of an internal hepatectomy database";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/90> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Age: 6 to 18 years old.~Active subject at St. Jude Children's Research Hospital, or is an age-matched sibling control subject.~If a subject, received treatment for brain tumor or ALL with either radiation therapy and/or chemotherapy directed at the brain.~If a subject, at least 12 months post-completion of antineoplastic therapies~If a subject, no evidence of malignancy, or continuously stable disease since completion of therapy~English as a primary language~Informed consent~Exclusion Criteria:~Glaucoma~Patient or immediate family member with a history of Tourette's syndrome~Current antidepressant, anxiolytic, antipsychotic or stimulant therapy~History of substance abuse~Recent history of uncontrolled seizures~Uncorrected hypothyroidism~Previously or currently randomized on COGRM1 intervention arm~Previously diagnosed with ADHD, or, if a patient, diagnosed with ADHD prior to diagnosis of malignancy";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 90;
+  ex:maximum_age "18 Years";
+  ex:minimum_age "6 Years";
+  ex:nct_id 49;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/91> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~postmenopausal osteoporosis~Exclusion Criteria:~Insulin dependent diabetes";
+  ex:gender "Female";
+  ex:healthy_volunteers "No";
+  ex:id 91;
+  ex:maximum_age "70 Years";
+  ex:minimum_age "45 Years";
+  ex:nct_id 167;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/92> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~FL patients~patients recorded as deceased~Exclusion Criteria:~-Other diagnosis than FL";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 92;
+  ex:minimum_age "18 Years";
+  ex:nct_id 111;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "This retrospective analysis was performed in 3 reference center where patients were treated and regularly followed for FL between January 2000 and December 2015. All patients were initially staged according to the conventional recommendations, including a clinical examination and blood tests, a bone marrow biopsy, and a computerized tomography body scan. The treatment modalities have evolved over time and were chosen according to the institutional guidelines.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/93> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~A new diagnosis of lipoprotein glomerulopathy proved by histology and serology~Age 15~60 years, sex free~Exclusion Criteria:~Serum creatinine > 500 umol/l~Severe viral infection(HBV, HCV, CMV) within 3 months of first randomization or known HIV infection~Congenital or acquired immunodeficiency~Patients with severe infection or central nervous system symptoms~Immediately life-threatening organ manifestations (e.g. lung haemorrhage or massive gastro-intestinal bleeding, heart failure due to pericarditis or myocarditis, liver dysfunction measured on at least 2 separate occasion)";
+  ex:gender "All";
+  ex:healthy_volunteers "Accepts Healthy Volunteers";
+  ex:id 93;
+  ex:maximum_age "60 Years";
+  ex:minimum_age "15 Years";
+  ex:nct_id 205;
+  ex:older_adult "f"^^xsd:boolean .
+
+<http://example.org/eligibilities/94> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria~HIV-1 infected~Enrolled in an AIDS Clinical Trial Group (ACTG) parent study and has enrolled in this study on or before the Week 16 visit of the parent study, including the visit window of the parent study. More information on this criterion can be found in the protocol.~Willing to provide consent for the release and use of clinical data from the parent study~Life expectancy of at least 24 weeks~Parent or guardian willing to provide informed consent, if applicable~Exclusion Criteria~Active alcohol or drug abuse that may interfere with the study";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 94;
+  ex:minimum_age "13 Years";
+  ex:nct_id 212;
+  ex:older_adult "t"^^xsd:boolean;
+  ex:population "Participants in this study will be HIV-infected men and women who are enrolled in an ACTG parent study and are receiving HAART.";
+  ex:sampling_method "Non-Probability Sample" .
+
+<http://example.org/eligibilities/95> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~(a) age 18-75 years and refusal to undergo surgery; (b) a solitary HCC 7.0 cm in diameter or smaller or multiple (up to three) HCCs 3.0 cm in diameter or smaller; (c) lesions visible at ultrasonography (US), with an acceptable and safe path between the lesion and the skin seen on the US scan; (d) no extrahepatic metastasis; (e) no imaging evidence of tumor invasion into the major portal or hepatic vein branches; (f) no history of encephalopathy, ascites refractory to diuretics, or variceal bleeding; (g) a platelet count of more than 40 000 cells/mm3 and (h) no previous treatment for HCC except liver resection.~Exclusion Criteria:~Exclusion criteria included active thyroid disease, serious concurrent medical illnesses, extrahepatic diseases, previous anticancer treatment before surgery, histologically proved non-HCC tumors and women who were pregnant or breastfeeding.";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 95;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "18 Years";
+  ex:nct_id 150;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/96> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "t"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Chronic myelogenous leukemia with previously stored CD34 cells from FHCRC-928.00 Chronic phase: No evidence of a major response after 6-month course of interferon alfa OR Initially achieved a major cytogenetic response but subsequently failed interferon alfa OR Accelerated phase: At least 1 month after collection of peripheral blood stem cells No blast crisis No CNS involvement Ineligible for or refused allogeneic conventional or minitransplant protocol~PATIENT CHARACTERISTICS: Age: 70 and under Performance status: Karnofsky 80-100% Life expectancy: Not specified Hematopoietic: Not specified Hepatic: Bilirubin no greater than 2.0 mg/dL (unless history of Gilbert's disease) AST or ALT no greater than 2.5 times upper limit of normal No cirrhosis Hepatitis B and C negative Renal: Creatinine no greater than 2.0 mg/dL Cardiovascular: No myocardial infarction within past 12 months No unstable angina, poorly controlled arrhythmias, or hypertension LVEF greater than 50% Pulmonary: DLCO at least 50% Alveolar arterial gradient less than 30 at sea level Other: Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception HIV negative No active infection requiring systemic antibiotics No known allergy to gentamicin or murine or E. coli proteins or documented prior anaphylactic reaction to sargramostim (GM-CSF) or interleukin-2~PRIOR CONCURRENT THERAPY: Biologic therapy: See Disease Characteristics Chemotherapy: Not specified Endocrine therapy: No concurrent ongoing steroids Radiotherapy: Not specified Surgery: Not specified";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 96;
+  ex:maximum_age "70 Years";
+  ex:nct_id 183;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/97> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "DISEASE CHARACTERISTICS: Histologically proven metastatic, advanced, or locally recurrent fluorouracil (5-FU) refractory adenocarcinoma of the colon or rectum Progression of disease within 6 months of receiving adjuvant 5-FU based chemotherapy OR Progression of disease during or following completion of 5-FU based chemotherapy for metastatic disease No more than 1 failure with a 5-FU regimen for recurrent, advanced, or metastatic disease Failure on 5-FU adjuvant therapy must accompany failure on 5-FU therapy for metastatic disease Bidimensionally measurable disease CNS metastases allowed only with measurable disease in other sites Prior treatment for CNS metastases required~PATIENT CHARACTERISTICS: Age: 18 and over Performance status: ECOG 0-2 Life expectancy: At least 12 weeks Hematopoietic: WBC at least 3500/mm3 Absolute neutrophil count at least 1500/mm3 Platelet count at least 100,000/mm3 Hepatic: Bilirubin no greater than 1.5 mg/dL AST and ALT no greater than 3 times upper limit of normal Renal: Creatinine no greater than 1.5 mg/dL OR Creatinine clearance at least 60 mL/min Other: No other significant, uncontrolled underlying medical or psychiatric condition No serious active infection Not pregnant or nursing Negative pregnancy test Fertile patients must use effective contraception Neurologically stable No other prior malignancy within past 5 years except curatively treated nonmelanomatous skin cancer~PRIOR CONCURRENT THERAPY: Biologic therapy: No concurrent immunotherapy Chemotherapy: See Disease Characteristics Prior adjuvant fluorouracil (5-FU) allowed No more than 2 prior 5-FU regimens (no more than 1 for recurrent or metastatic disease) No other concurrent chemotherapy Endocrine therapy: No concurrent hormonal therapy (except contraceptives or replacement steroids) No concurrent IV steroids Radiotherapy: Prior radiotherapy allowed if measurable disease outside radiation port At least 4 weeks since prior radiotherapy and recovered No concurrent radiotherapy Surgery: Not specified Other: No concurrent anticonvulsant therapy No other concurrent experimental medications";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 97;
+  ex:minimum_age "18 Years";
+  ex:nct_id 175;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/98> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Visually impaired";
+  ex:gender "All";
+  ex:healthy_volunteers "No";
+  ex:id 98;
+  ex:minimum_age "18 Years";
+  ex:nct_id 144;
+  ex:older_adult "t"^^xsd:boolean .
+
+<http://example.org/eligibilities/99> a ex:eligibilities;
+  ex:adult "t"^^xsd:boolean;
+  ex:child "f"^^xsd:boolean;
+  ex:criteria "Inclusion Criteria:~Age 30-75 years~Men~Primary inguinal hernia~ASA I-III~Exclusion Criteria:~> 75 years~Females~ASA IV~Previous ipsi-lateral hernia surgery~Drug or alchol abuse~Severe illness";
+  ex:gender "Male";
+  ex:healthy_volunteers "No";
+  ex:id 99;
+  ex:maximum_age "75 Years";
+  ex:minimum_age "30 Years";
+  ex:nct_id 85;
+  ex:older_adult "t"^^xsd:boolean .

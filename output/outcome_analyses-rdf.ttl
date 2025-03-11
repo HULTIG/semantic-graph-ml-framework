@@ -1,0 +1,3666 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/ns#> .
+@prefix example: <http://example.org/study/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/outcome_analyses/0> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.96"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.45"^^xsd:float;
+  ex:id 0;
+  ex:nct_id 646;
+  ex:outcome_id 7;
+  ex:param_type "Ratio of the mean";
+  ex:param_value "97.94" .
+
+<http://example.org/outcome_analyses/1> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.85"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.48"^^xsd:float;
+  ex:id 1;
+  ex:nct_id 646;
+  ex:outcome_id 6;
+  ex:param_type "Ratio of the mean";
+  ex:param_value "100.36" .
+
+<http://example.org/outcome_analyses/10> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 10;
+  ex:nct_id 2254;
+  ex:outcome_id 57;
+  ex:param_type "Ratio of the Least Squares Mean";
+  ex:param_value "96.62" .
+
+<http://example.org/outcome_analyses/100> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 100;
+  ex:nct_id 3693;
+  ex:outcome_id 179;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "97.0" .
+
+<http://example.org/outcome_analyses/101> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 101;
+  ex:nct_id 3693;
+  ex:outcome_id 176;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "96.8" .
+
+<http://example.org/outcome_analyses/102> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.06"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.26"^^xsd:float;
+  ex:id 102;
+  ex:nct_id 3395;
+  ex:outcome_id 181;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "102.14" .
+
+<http://example.org/outcome_analyses/103> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.75"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.93"^^xsd:float;
+  ex:id 103;
+  ex:nct_id 3395;
+  ex:outcome_id 184;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "103.31" .
+
+<http://example.org/outcome_analyses/104> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.78"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.73"^^xsd:float;
+  ex:id 104;
+  ex:nct_id 3395;
+  ex:outcome_id 175;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "103.23" .
+
+<http://example.org/outcome_analyses/105> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.99"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.47"^^xsd:float;
+  ex:id 105;
+  ex:nct_id 3519;
+  ex:outcome_id 180;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "104.14" .
+
+<http://example.org/outcome_analyses/106> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.4"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.55"^^xsd:float;
+  ex:id 106;
+  ex:nct_id 3660;
+  ex:outcome_id 188;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "99.94" .
+
+<http://example.org/outcome_analyses/107> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.09"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.55"^^xsd:float;
+  ex:id 107;
+  ex:nct_id 3660;
+  ex:outcome_id 187;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.78" .
+
+<http://example.org/outcome_analyses/108> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.32"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "98.07"^^xsd:float;
+  ex:id 108;
+  ex:nct_id 3851;
+  ex:outcome_id 185;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "91.47" .
+
+<http://example.org/outcome_analyses/109> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.15"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "98.26"^^xsd:float;
+  ex:id 109;
+  ex:nct_id 3851;
+  ex:outcome_id 193;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "91.47" .
+
+<http://example.org/outcome_analyses/11> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 11;
+  ex:nct_id 2254;
+  ex:outcome_id 52;
+  ex:param_type "Ratio of the Least Squares Mean";
+  ex:param_value "96.43" .
+
+<http://example.org/outcome_analyses/110> a ex:outcome_analyses;
+  ex:ci_lower_limit "80.15"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "96.53"^^xsd:float;
+  ex:id 110;
+  ex:nct_id 3851;
+  ex:outcome_id 194;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "87.96" .
+
+<http://example.org/outcome_analyses/111> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.97"^^xsd:float;
+  ex:id 111;
+  ex:nct_id 3684;
+  ex:outcome_id 191;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.76" .
+
+<http://example.org/outcome_analyses/112> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.88"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.6"^^xsd:float;
+  ex:id 112;
+  ex:nct_id 3684;
+  ex:outcome_id 195;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.23" .
+
+<http://example.org/outcome_analyses/113> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.82"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.85"^^xsd:float;
+  ex:id 113;
+  ex:nct_id 3660;
+  ex:outcome_id 186;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.31" .
+
+<http://example.org/outcome_analyses/114> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.9"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 114;
+  ex:nct_id 3873;
+  ex:outcome_id 190;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "99.7" .
+
+<http://example.org/outcome_analyses/115> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 115;
+  ex:nct_id 3873;
+  ex:outcome_id 196;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "97.8" .
+
+<http://example.org/outcome_analyses/116> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 116;
+  ex:nct_id 3873;
+  ex:outcome_id 192;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "97.9" .
+
+<http://example.org/outcome_analyses/117> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.18"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.63"^^xsd:float;
+  ex:id 117;
+  ex:nct_id 3684;
+  ex:outcome_id 189;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.87" .
+
+<http://example.org/outcome_analyses/118> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "115.0"^^xsd:float;
+  ex:id 118;
+  ex:nct_id 3954;
+  ex:outcome_id 206;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "107.0" .
+
+<http://example.org/outcome_analyses/119> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "114.0"^^xsd:float;
+  ex:id 119;
+  ex:nct_id 3954;
+  ex:outcome_id 205;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "106.0" .
+
+<http://example.org/outcome_analyses/12> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 12;
+  ex:nct_id 2254;
+  ex:outcome_id 49;
+  ex:param_type "Ratio of the Least Squares Mean";
+  ex:param_value "93.01" .
+
+<http://example.org/outcome_analyses/120> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.27"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.03"^^xsd:float;
+  ex:id 120;
+  ex:nct_id 4434;
+  ex:outcome_id 215;
+  ex:param_type "Ratio of the LS mean (test/ref x 100)";
+  ex:param_value "99.5" .
+
+<http://example.org/outcome_analyses/121> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.01"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.12"^^xsd:float;
+  ex:id 121;
+  ex:nct_id 4434;
+  ex:outcome_id 216;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "101.53" .
+
+<http://example.org/outcome_analyses/122> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.72"^^xsd:float;
+  ex:id 122;
+  ex:nct_id 4434;
+  ex:outcome_id 214;
+  ex:param_type "Ratio of the LS mean (test/ref x 100)";
+  ex:param_value "100.13" .
+
+<http://example.org/outcome_analyses/123> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.0"^^xsd:float;
+  ex:id 123;
+  ex:nct_id 4519;
+  ex:outcome_id 210;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.5" .
+
+<http://example.org/outcome_analyses/124> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.9"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.0"^^xsd:float;
+  ex:id 124;
+  ex:nct_id 4519;
+  ex:outcome_id 213;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.4" .
+
+<http://example.org/outcome_analyses/125> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.0"^^xsd:float;
+  ex:id 125;
+  ex:nct_id 4519;
+  ex:outcome_id 211;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.2" .
+
+<http://example.org/outcome_analyses/126> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.88"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.05"^^xsd:float;
+  ex:id 126;
+  ex:nct_id 4449;
+  ex:outcome_id 264;
+  ex:param_type "Ratio of the LS Mean (Test/Ref x 100)";
+  ex:param_value "102.92" .
+
+<http://example.org/outcome_analyses/127> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 127;
+  ex:nct_id 4441;
+  ex:outcome_id 309;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "103.66" .
+
+<http://example.org/outcome_analyses/128> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "114.0"^^xsd:float;
+  ex:id 128;
+  ex:nct_id 4667;
+  ex:outcome_id 323;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/129> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 129;
+  ex:nct_id 4441;
+  ex:outcome_id 311;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "102.35" .
+
+<http://example.org/outcome_analyses/13> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 13;
+  ex:method "Fisher Exact";
+  ex:nct_id 1509;
+  ex:outcome_id 48;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/130> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.4"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "114.0"^^xsd:float;
+  ex:id 130;
+  ex:nct_id 4667;
+  ex:outcome_id 321;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/131> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "120.0"^^xsd:float;
+  ex:id 131;
+  ex:nct_id 4667;
+  ex:outcome_id 304;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/132> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.36"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.59"^^xsd:float;
+  ex:id 132;
+  ex:nct_id 4449;
+  ex:outcome_id 266;
+  ex:param_type "Ratio of the LS Mean (Test/Ref x 100)";
+  ex:param_value "98.39" .
+
+<http://example.org/outcome_analyses/133> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.24"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.14"^^xsd:float;
+  ex:id 133;
+  ex:nct_id 4449;
+  ex:outcome_id 262;
+  ex:param_type "Ratio of the LS Mean (Test/Ref x 100)";
+  ex:param_value "102.63" .
+
+<http://example.org/outcome_analyses/134> a ex:outcome_analyses;
+  ex:ci_lower_limit "-11.82"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "5.21"^^xsd:float;
+  ex:groups_description "The change in the muscle spasm visual analogue scale score was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 134;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 273;
+  ex:p_value "0.443"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-3.3" .
+
+<http://example.org/outcome_analyses/135> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 135;
+  ex:nct_id 4441;
+  ex:outcome_id 317;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "104.27" .
+
+<http://example.org/outcome_analyses/136> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.77"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.43"^^xsd:float;
+  ex:groups_description "The proportion of subjects with better/much better assessments was compared between groups using a Fisher's Exact Test.";
+  ex:id 136;
+  ex:method "Fisher Exact";
+  ex:nct_id 2071;
+  ex:outcome_id 289;
+  ex:p_value "0.293"^^xsd:float;
+  ex:param_type "Odds Ratio (OR)";
+  ex:param_value "1.36" .
+
+<http://example.org/outcome_analyses/137> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.11"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.5"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean Beck's Depression Inventory score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 137;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 287;
+  ex:p_value "0.45"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.69" .
+
+<http://example.org/outcome_analyses/138> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.43"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.18"^^xsd:float;
+  ex:groups_description "The change baseline in the mean Fatigue Severity Scale Questionnaire score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 138;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 316;
+  ex:p_value "0.427"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.12" .
+
+<http://example.org/outcome_analyses/139> a ex:outcome_analyses;
+  ex:ci_lower_limit "-2.38"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "3.82"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean total 28-item General Health Questionnaire score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 139;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 310;
+  ex:p_value "0.647"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.72" .
+
+<http://example.org/outcome_analyses/14> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 14;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1509;
+  ex:outcome_id 45;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/140> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.0"^^xsd:float;
+  ex:id 140;
+  ex:nct_id 4367;
+  ex:outcome_id 300;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "102.0" .
+
+<http://example.org/outcome_analyses/141> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.77"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.54"^^xsd:float;
+  ex:dispersion_type "Standard Error of the Mean";
+  ex:dispersion_value "0.83";
+  ex:groups_description "The change from baseline in the mean total bladder control test score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 141;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 326;
+  ex:p_value "0.889"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.12" .
+
+<http://example.org/outcome_analyses/142> a ex:outcome_analyses;
+  ex:ci_lower_limit "-14.11"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.08"^^xsd:float;
+  ex:groups_description "The from baseline in the mean sleep quality 100 mm visual analogue scale score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 142;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 303;
+  ex:p_value "0.047"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-7.1" .
+
+<http://example.org/outcome_analyses/143> a ex:outcome_analyses;
+  ex:ci_lower_limit "-11.45"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.4"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean sleep amount 100 mm visual analogue scale score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 143;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 314;
+  ex:p_value "0.198"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-4.53" .
+
+<http://example.org/outcome_analyses/144> a ex:outcome_analyses;
+  ex:ci_lower_limit "-8.8"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "6.07"^^xsd:float;
+  ex:groups_description "The from baseline in the mean feeling upon wakening 100 mm visual analogue scale score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 144;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 315;
+  ex:p_value "0.717"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.36" .
+
+<http://example.org/outcome_analyses/145> a ex:outcome_analyses;
+  ex:ci_lower_limit "-20.31"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "6.6"^^xsd:float;
+  ex:groups_description "The change in the tremor visual analogue scale score was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 145;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 291;
+  ex:p_value "0.311"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-6.85" .
+
+<http://example.org/outcome_analyses/146> a ex:outcome_analyses;
+  ex:ci_lower_limit "-14.9"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.38"^^xsd:float;
+  ex:dispersion_type "Standard Error of the Mean";
+  ex:dispersion_value "4.36";
+  ex:groups_description "The change in bladder problems visual analogue scale score was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 146;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 290;
+  ex:p_value "0.154"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "-6.26" .
+
+<http://example.org/outcome_analyses/147> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.02"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "3.6"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean Guy's Neurological Disability Scale score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 147;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 306;
+  ex:p_value "0.048"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "1.81" .
+
+<http://example.org/outcome_analyses/148> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.0"^^xsd:float;
+  ex:id 148;
+  ex:nct_id 4459;
+  ex:outcome_id 313;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/149> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.85"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.64"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean Atkinson Morley Information Processing Battery test score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 149;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 307;
+  ex:p_value "0.904"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.11" .
+
+<http://example.org/outcome_analyses/15> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.42"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.25"^^xsd:float;
+  ex:id 15;
+  ex:nct_id 2253;
+  ex:outcome_id 50;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "93.91" .
+
+<http://example.org/outcome_analyses/150> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "116.0"^^xsd:float;
+  ex:id 150;
+  ex:nct_id 4367;
+  ex:outcome_id 285;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "107.0" .
+
+<http://example.org/outcome_analyses/151> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.0"^^xsd:float;
+  ex:id 151;
+  ex:nct_id 4459;
+  ex:outcome_id 312;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.7" .
+
+<http://example.org/outcome_analyses/152> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.5"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 152;
+  ex:nct_id 4459;
+  ex:outcome_id 318;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.8" .
+
+<http://example.org/outcome_analyses/153> a ex:outcome_analyses;
+  ex:ci_lower_limit "-12.73"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "8.96"^^xsd:float;
+  ex:groups_description "The change in the pain visual analogue scale score was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 153;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 281;
+  ex:p_value "0.731"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.88" .
+
+<http://example.org/outcome_analyses/154> a ex:outcome_analyses;
+  ex:ci_lower_limit "-14.56"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.37"^^xsd:float;
+  ex:groups_description "The change in the spasticity visual analogue scale score was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 154;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 270;
+  ex:p_value "0.062"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-7.1" .
+
+<http://example.org/outcome_analyses/155> a ex:outcome_analyses;
+  ex:ci_lower_limit "-13.52"^^xsd:float;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.65"^^xsd:float;
+  ex:groups_description "The change in the primary impairment was compared between treatment groups using analysis of covariance (ANCOVA) with baseline primary impairment score as the covariate.";
+  ex:id 155;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 269;
+  ex:p_value "0.124"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-5.93" .
+
+<http://example.org/outcome_analyses/156> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.01"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.07"^^xsd:float;
+  ex:groups_description "The change from baseline in the mean Barthel Activities for Daily Living scale score at the end of treatment was compared between treatment groups using ANCOVA with baseline primary impairment score as the covariate.";
+  ex:id 156;
+  ex:method "ANCOVA";
+  ex:nct_id 2071;
+  ex:outcome_id 320;
+  ex:p_value "0.087"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.47" .
+
+<http://example.org/outcome_analyses/157> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.42"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.1"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Total Brief Pain Inventory (Short Form) score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Total Brief Pain Inventory (Short Form) Score = Baseline Total Brief Pain Inventory (Short Form) Score + Treatment";
+  ex:id 157;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 369;
+  ex:p_value "0.233"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.66" .
+
+<http://example.org/outcome_analyses/158> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 158;
+  ex:nct_id 4947;
+  ex:outcome_id 371;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "93.0" .
+
+<http://example.org/outcome_analyses/159> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.36"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.91"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Total Spitzer Quality of Life Index score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Total Spitzer Quality of Life Index Score = Baseline Total Spitzer Quality of Life Index Score + Treatment";
+  ex:id 159;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 359;
+  ex:p_value "0.387"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.28" .
+
+<http://example.org/outcome_analyses/16> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.64"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "101.87"^^xsd:float;
+  ex:id 16;
+  ex:nct_id 2253;
+  ex:outcome_id 55;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "98.19" .
+
+<http://example.org/outcome_analyses/160> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.18"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.4"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using analysis of covariance (ANCOVA). The significance of the treatment effect, after adjusting for baseline pain score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Box Scale-11 Pain Score = Baseline Pain Score + Treatment";
+  ex:id 160;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 376;
+  ex:p_value "0.332"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.39" .
+
+<http://example.org/outcome_analyses/161> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.73"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.71"^^xsd:float;
+  ex:id 161;
+  ex:nct_id 4950;
+  ex:outcome_id 383;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "101.48" .
+
+<http://example.org/outcome_analyses/162> a ex:outcome_analyses;
+  ex:ci_lower_limit "-8.14"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.56"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Pain Disability Index score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Pain Disability Index Score = Baseline Pain Disability Index Score + Treatment";
+  ex:id 162;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 352;
+  ex:p_value "0.3"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-2.79" .
+
+<http://example.org/outcome_analyses/163> a ex:outcome_analyses;
+  ex:ci_lower_limit "96.05"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.49"^^xsd:float;
+  ex:id 163;
+  ex:nct_id 4654;
+  ex:outcome_id 382;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.14" .
+
+<http://example.org/outcome_analyses/164> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.08"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.83"^^xsd:float;
+  ex:id 164;
+  ex:nct_id 4950;
+  ex:outcome_id 388;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "102.94" .
+
+<http://example.org/outcome_analyses/165> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.25"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.88"^^xsd:float;
+  ex:id 165;
+  ex:nct_id 4950;
+  ex:outcome_id 365;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "103.05" .
+
+<http://example.org/outcome_analyses/166> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.71"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.33"^^xsd:float;
+  ex:id 166;
+  ex:nct_id 4950;
+  ex:outcome_id 328;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "101.45" .
+
+<http://example.org/outcome_analyses/167> a ex:outcome_analyses;
+  ex:ci_lower_limit "84.77"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.04"^^xsd:float;
+  ex:id 167;
+  ex:nct_id 4654;
+  ex:outcome_id 384;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "94.81" .
+
+<http://example.org/outcome_analyses/168> a ex:outcome_analyses;
+  ex:ci_lower_limit "96.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.03"^^xsd:float;
+  ex:id 168;
+  ex:nct_id 4654;
+  ex:outcome_id 387;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.89" .
+
+<http://example.org/outcome_analyses/169> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.68"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.0"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline sleep disturbance score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Sleep Disturbance Score = Baseline Sleep Disturbance Score + Treatment";
+  ex:id 169;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 353;
+  ex:p_value "0.052"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.34" .
+
+<http://example.org/outcome_analyses/17> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.63"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.05"^^xsd:float;
+  ex:id 17;
+  ex:nct_id 2253;
+  ex:outcome_id 54;
+  ex:param_type "Ratio of the LS Mean (test/ref x 100)";
+  ex:param_value "98.27" .
+
+<http://example.org/outcome_analyses/170> a ex:outcome_analyses;
+  ex:ci_lower_limit "-48.08"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-11.02"^^xsd:float;
+  ex:groups_description "The proportions were compared between treatment groups using analysis of variance (ANOVA) with treatment as a factor.";
+  ex:id 170;
+  ex:method "ANOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 366;
+  ex:p_value "0.002"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-29.55" .
+
+<http://example.org/outcome_analyses/171> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.95"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.13"^^xsd:float;
+  ex:id 171;
+  ex:nct_id 4950;
+  ex:outcome_id 377;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "100.17" .
+
+<http://example.org/outcome_analyses/172> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.41"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.52"^^xsd:float;
+  ex:id 172;
+  ex:nct_id 4950;
+  ex:outcome_id 385;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "99.68" .
+
+<http://example.org/outcome_analyses/173> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 173;
+  ex:nct_id 4947;
+  ex:outcome_id 374;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "106.9" .
+
+<http://example.org/outcome_analyses/174> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.97"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.26"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using analysis of covariance (ANCOVA). The significance of the treatment effect, after adjusting for baseline pain score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Box Scale-11 Pain Score = Baseline Pain Score + Treatment";
+  ex:id 174;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 357;
+  ex:p_value "0.128"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.86" .
+
+<http://example.org/outcome_analyses/175> a ex:outcome_analyses;
+  ex:ci_lower_limit "-12.12"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-1.77"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 175;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 368;
+  ex:p_value "0.009"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-6.95" .
+
+<http://example.org/outcome_analyses/176> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 176;
+  ex:nct_id 4947;
+  ex:outcome_id 373;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "92.7" .
+
+<http://example.org/outcome_analyses/177> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 177;
+  ex:nct_id 4951;
+  ex:outcome_id 355;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "99.96" .
+
+<http://example.org/outcome_analyses/178> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.13"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.24"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 178;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 342;
+  ex:p_value "0.535"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.06" .
+
+<http://example.org/outcome_analyses/179> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.75"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.46"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 179;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 343;
+  ex:p_value "0.249"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.64" .
+
+<http://example.org/outcome_analyses/18> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 18;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 80;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/180> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.06"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.23"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 180;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 338;
+  ex:p_value "0.88"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.09" .
+
+<http://example.org/outcome_analyses/181> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 181;
+  ex:nct_id 4951;
+  ex:outcome_id 367;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "93.58" .
+
+<http://example.org/outcome_analyses/182> a ex:outcome_analyses;
+  ex:ci_lower_limit "-21.56"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "18.51"^^xsd:float;
+  ex:groups_description "The proportion of patients who considered their condition Very Much Improved or Much Improved was compared between treatment groups using a Fisher's Exact Test.";
+  ex:id 182;
+  ex:method "Fisher Exact";
+  ex:nct_id 3817;
+  ex:outcome_id 354;
+  ex:p_value "1.0"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.47" .
+
+<http://example.org/outcome_analyses/183> a ex:outcome_analyses;
+  ex:ci_lower_limit "-3.64"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.63"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 183;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 330;
+  ex:p_value "0.164"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.5" .
+
+<http://example.org/outcome_analyses/184> a ex:outcome_analyses;
+  ex:ci_lower_limit "-55.07"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-8.47"^^xsd:float;
+  ex:groups_description "The proportions were compared between treatment groups using ANOVA with treatment as a factor.";
+  ex:id 184;
+  ex:method "ANOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 363;
+  ex:p_value "0.009"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-31.77" .
+
+<http://example.org/outcome_analyses/185> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.85"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "112.97"^^xsd:float;
+  ex:id 185;
+  ex:nct_id 4949;
+  ex:outcome_id 339;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "104.06" .
+
+<http://example.org/outcome_analyses/186> a ex:outcome_analyses;
+  ex:ci_lower_limit "96.35"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "112.58"^^xsd:float;
+  ex:id 186;
+  ex:nct_id 4949;
+  ex:outcome_id 340;
+  ex:param_type "Ratio of the mean";
+  ex:param_value "104.15" .
+
+<http://example.org/outcome_analyses/187> a ex:outcome_analyses;
+  ex:ci_lower_limit "-2.11"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.39"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way analysis of covariance (ANCOVA). The significance of the treatment effect, after adjusting for baseline pain score, was assessed using the F-test from the ANCOVA. The model was as follows: Change in 0-10 Numerical Rating Scale Pain Score = Baseline Pain Score + Treatment";
+  ex:id 187;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 347;
+  ex:p_value "0.005"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.25" .
+
+<http://example.org/outcome_analyses/188> ex:ci_lower_limit "-2.01"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "7.37"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 188;
+  a ex:outcome_analyses;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 329;
+  ex:p_value "0.257"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "2.68" .
+
+<http://example.org/outcome_analyses/189> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.6"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "5.18"^^xsd:float;
+  ex:dispersion_type "Standard Error of the Mean";
+  ex:dispersion_value "2.44";
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 189;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 346;
+  ex:p_value "0.905"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "0.29" .
+
+<http://example.org/outcome_analyses/19> a ex:outcome_analyses;
+  ex:ci_lower_limit "1.09"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.95"^^xsd:float;
+  ex:dispersion_type "Standard Error of the mean";
+  ex:dispersion_value "0.2544";
+  ex:groups_description "H0: the odds of ineffective treatment is the same for subjects receiving placebo as for those receiving BTDS versus the alternative H1: the odds of ineffective treatment is different for subjects receiving placebo from those receiving BTDS.";
+  ex:id 19;
+  ex:method "Regression, Logistic";
+  ex:nct_id 1859;
+  ex:outcome_id 87;
+  ex:p_value "0.0217"^^xsd:float;
+  ex:param_type "Odds Ratio (OR)";
+  ex:param_value "1.79" .
+
+<http://example.org/outcome_analyses/190> a ex:outcome_analyses;
+  ex:ci_lower_limit "-5.22"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.15"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 190;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 381;
+  ex:p_value "0.064"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-2.53" .
+
+<http://example.org/outcome_analyses/191> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.28"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.2"^^xsd:float;
+  ex:id 191;
+  ex:nct_id 4949;
+  ex:outcome_id 370;
+  ex:param_type "Test/Reference Ratio of the Mean x 100";
+  ex:param_value "100.47" .
+
+<http://example.org/outcome_analyses/192> a ex:outcome_analyses;
+  ex:ci_lower_limit "-2.27"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.5"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline sleep score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in 0-10 Numerical Rating Scale sleep Score = Baseline Sleep Score + Treatment";
+  ex:id 192;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 362;
+  ex:p_value "0.003"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.39" .
+
+<http://example.org/outcome_analyses/193> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.62"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.93"^^xsd:float;
+  ex:id 193;
+  ex:nct_id 4949;
+  ex:outcome_id 378;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "102.75" .
+
+<http://example.org/outcome_analyses/194> a ex:outcome_analyses;
+  ex:ci_lower_limit "1.51"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "10.055"^^xsd:float;
+  ex:groups_description "The proportion of patients who considered their condition Very Much Improved or Much Improved was compared between treatment groups using a Fisher's Exact Test. Results were presented in terms of difference in percentages, and 95% CI based on the normal approximation to the binomial, and p-value.";
+  ex:id 194;
+  ex:method "Regression, Logistic";
+  ex:nct_id 3853;
+  ex:outcome_id 361;
+  ex:p_value "0.005"^^xsd:float;
+  ex:param_type "Odds Ratio (OR)";
+  ex:param_value "3.896" .
+
+<http://example.org/outcome_analyses/195> a ex:outcome_analyses;
+  ex:ci_lower_limit "-13.28"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.37"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 195;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 360;
+  ex:p_value "0.039"^^xsd:float;
+  ex:param_type "estimated mean treatment difference";
+  ex:param_value "-6.82" .
+
+<http://example.org/outcome_analyses/196> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.79"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.88"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Total Spitzer Quality of Life Index score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Total Spitzer Quality of Life Index Score = Baseline Total Spitzer Quality of Life Index Score + Treatment";
+  ex:id 196;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 386;
+  ex:p_value "0.915"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.04" .
+
+<http://example.org/outcome_analyses/197> a ex:outcome_analyses;
+  ex:ci_lower_limit "-7.17"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.36"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Total Brief Pain Inventory (Short Form) score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Total Brief Pain Inventory (Short Form) Score = Baseline Total Brief Pain Inventory (Short Form) Score + Treatment";
+  ex:id 197;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 345;
+  ex:p_value "0.031"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-3.77" .
+
+<http://example.org/outcome_analyses/198> a ex:outcome_analyses;
+  ex:ci_lower_limit "-21.85"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "27.47"^^xsd:float;
+  ex:groups_description "The proportion of patients who considered their condition Very Much Improved or Much Improved was compared between treatment groups using a Fisher's Exact Test.";
+  ex:id 198;
+  ex:method "Fisher Exact";
+  ex:nct_id 3817;
+  ex:outcome_id 380;
+  ex:p_value "1.0"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "3.95" .
+
+<http://example.org/outcome_analyses/199> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.64"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "6.71"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using a one way ANCOVA. The significance of the treatment effect, after adjusting for baseline score, was assessed using the F-test from the ANCOVA.";
+  ex:id 199;
+  ex:method "ANCOVA";
+  ex:nct_id 3853;
+  ex:outcome_id 335;
+  ex:p_value "0.23"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "2.54" .
+
+<http://example.org/outcome_analyses/2> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 2;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 757;
+  ex:outcome_id 12;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/20> a ex:outcome_analyses;
+  ex:ci_lower_limit "102.18"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "113.69"^^xsd:float;
+  ex:id 20;
+  ex:nct_id 2102;
+  ex:outcome_id 75;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "107.78" .
+
+<http://example.org/outcome_analyses/200> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 200;
+  ex:nct_id 4951;
+  ex:outcome_id 358;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "94.29" .
+
+<http://example.org/outcome_analyses/201> a ex:outcome_analyses;
+  ex:ci_lower_limit "-12.05"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.68"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline Pain Disability Index score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Pain Disability Index Score = Baseline Pain Disability Index Score + Treatment";
+  ex:id 201;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 356;
+  ex:p_value "0.134"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-5.18" .
+
+<http://example.org/outcome_analyses/202> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.69"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.94"^^xsd:float;
+  ex:id 202;
+  ex:nct_id 4949;
+  ex:outcome_id 372;
+  ex:param_type "Test/Reference Ratio of the mean x 100";
+  ex:param_value "102.79" .
+
+<http://example.org/outcome_analyses/203> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.8"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.16"^^xsd:float;
+  ex:groups_description "The change was compared between treatment groups using ANCOVA. The significance of the treatment effect, after adjusting for baseline sleep disturbance score, was assessed using the F-test from the ANCOVA. The model was as follows:~Change in Sleep Disturbance Score = Baseline Sleep Disturbance Score + Treatment";
+  ex:id 203;
+  ex:method "ANCOVA";
+  ex:nct_id 3817;
+  ex:outcome_id 364;
+  ex:p_value "0.184"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.32" .
+
+<http://example.org/outcome_analyses/204> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.82"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.26"^^xsd:float;
+  ex:id 204;
+  ex:nct_id 4949;
+  ex:outcome_id 375;
+  ex:param_type "Test/Reference Ratio of Means x 100";
+  ex:param_value "100.91" .
+
+<http://example.org/outcome_analyses/205> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.98"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.18"^^xsd:float;
+  ex:groups_description "Box Scale-11 pain scores were compared between treatment groups using an analysis of variance (ANOVA). The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Box Scale-11 Pain Score = Patient + Treatment + Period";
+  ex:id 205;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 397;
+  ex:p_value "0.005"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.58" .
+
+<http://example.org/outcome_analyses/206> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.03"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.24"^^xsd:float;
+  ex:groups_description "Box Scale-11 pain scores were compared between treatment groups using an ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Box Scale-11 Pain Score = Patient + Treatment + Period";
+  ex:id 206;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 397;
+  ex:p_value "0.002"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.64" .
+
+<http://example.org/outcome_analyses/207> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.37"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.04"^^xsd:float;
+  ex:groups_description "Sleep disturbance scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Sleep disturbance Score = Patient + Treatment + Period";
+  ex:id 207;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 400;
+  ex:p_value "0.017"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.2" .
+
+<http://example.org/outcome_analyses/208> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.49"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.16"^^xsd:float;
+  ex:groups_description "Sleep disturbance scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Sleep disturbance Score = Patient + Treatment + Period";
+  ex:id 208;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 400;
+  ex:p_value "0.001"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-0.33" .
+
+<http://example.org/outcome_analyses/209> a ex:outcome_analyses;
+  ex:ci_lower_limit "-2.97"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.56"^^xsd:float;
+  ex:groups_description "12-Item General Health Questionnaire scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: 12-Item General Health Questionnaire Score = Patient + Treatment + Period";
+  ex:id 209;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 402;
+  ex:p_value "0.178"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.21" .
+
+<http://example.org/outcome_analyses/21> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 21;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 94;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/210> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.09"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.01"^^xsd:float;
+  ex:groups_description "Sleep quality scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Sleep Quality Score = Patient + Treatment + Period";
+  ex:id 210;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 392;
+  ex:p_value "0.019"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.55" .
+
+<http://example.org/outcome_analyses/211> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.33"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.24"^^xsd:float;
+  ex:groups_description "Sleep quality scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Sleep Quality Score = Patient + Treatment + Period";
+  ex:id 211;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 392;
+  ex:p_value "0.001"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.79" .
+
+<http://example.org/outcome_analyses/212> a ex:outcome_analyses;
+  ex:ci_lower_limit "-3.64"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.55"^^xsd:float;
+  ex:groups_description "Total pain intensity scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Total Pain Intensity Score = Patient + Treatment + Period";
+  ex:id 212;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 393;
+  ex:p_value "0.146"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.55" .
+
+<http://example.org/outcome_analyses/213> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.29"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.1"^^xsd:float;
+  ex:groups_description "Total pain intensity scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Total Pain Intensity Score = Patient + Treatment + Period";
+  ex:id 213;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 393;
+  ex:p_value "0.04"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-2.2" .
+
+<http://example.org/outcome_analyses/214> a ex:outcome_analyses;
+  ex:ci_lower_limit "-15.78"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "1.21"^^xsd:float;
+  ex:groups_description "Intensity of Pain scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Intensity of Pain Score = Patient + Treatment + Period";
+  ex:id 214;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 398;
+  ex:p_value "0.092"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-7.28" .
+
+<http://example.org/outcome_analyses/215> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.5"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 215;
+  ex:nct_id 4981;
+  ex:outcome_id 399;
+  ex:param_type "Test/Ref Ratio of LS Mean x 100";
+  ex:param_value "98.4" .
+
+<http://example.org/outcome_analyses/216> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.01"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.45"^^xsd:float;
+  ex:groups_description "12-Item General Health Questionnaire scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: 12-Item General Health Questionnaire Score = Patient + Treatment + Period";
+  ex:id 216;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 402;
+  ex:p_value "0.015"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-2.23" .
+
+<http://example.org/outcome_analyses/217> a ex:outcome_analyses;
+  ex:ci_lower_limit "89.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "97.6"^^xsd:float;
+  ex:id 217;
+  ex:nct_id 4981;
+  ex:outcome_id 391;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "93.5" .
+
+<http://example.org/outcome_analyses/218> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "Pain at present was analysed using the Mann-Whitney test with a correction for ties. Results were presented in terms of the sums of the ranks for the two groups, the Mann-Whitney U statistic and the associated p-value.";
+  ex:id 218;
+  ex:method "Wilcoxon (Mann-Whitney)";
+  ex:nct_id 3215;
+  ex:outcome_id 396;
+  ex:p_value "0.328"^^xsd:float;
+  ex:param_type "Mann-Whitney U statistic";
+  ex:param_value "1222.0" .
+
+<http://example.org/outcome_analyses/219> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "Pain at present was analysed using the Mann-Whitney test with a correction for ties. Results were presented in terms of the sums of the ranks for the two groups, the Mann-Whitney U statistic and the associated p-value.";
+  ex:id 219;
+  ex:method "Wilcoxon (Mann-Whitney)";
+  ex:nct_id 3215;
+  ex:outcome_id 396;
+  ex:p_value "0.56"^^xsd:float;
+  ex:param_type "Mann-Whitney U statistic";
+  ex:param_value "1200.5" .
+
+<http://example.org/outcome_analyses/22> a ex:outcome_analyses;
+  ex:ci_lower_limit "108.03"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "118.96"^^xsd:float;
+  ex:id 22;
+  ex:nct_id 2102;
+  ex:outcome_id 79;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "113.36" .
+
+<http://example.org/outcome_analyses/220> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.32"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "0.83"^^xsd:float;
+  ex:groups_description "Pain Disability Index scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Pain Disability Index Score = Patient + Treatment + Period";
+  ex:id 220;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 401;
+  ex:p_value "0.181"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-1.75" .
+
+<http://example.org/outcome_analyses/221> a ex:outcome_analyses;
+  ex:ci_lower_limit "89.5"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "97.7"^^xsd:float;
+  ex:id 221;
+  ex:nct_id 4981;
+  ex:outcome_id 395;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "93.5" .
+
+<http://example.org/outcome_analyses/222> a ex:outcome_analyses;
+  ex:ci_lower_limit "-17.41"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "-0.57"^^xsd:float;
+  ex:groups_description "Intensity of Pain scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Intensity of Pain Score = Patient + Treatment + Period";
+  ex:id 222;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 398;
+  ex:p_value "0.037"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "-8.99" .
+
+<http://example.org/outcome_analyses/223> a ex:outcome_analyses;
+  ex:ci_lower_limit "-2.12"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "2.98"^^xsd:float;
+  ex:groups_description "Pain Disability Index scores were compared between treatment groups using ANOVA. The model included factors for patient, treatment and period. The significance of the overall treatment effect was assessed using the F-test from the ANOVA. The model used was as follows: Pain Disability Index Score = Patient + Treatment + Period";
+  ex:id 223;
+  ex:method "ANOVA";
+  ex:nct_id 3215;
+  ex:outcome_id 401;
+  ex:p_value "0.739"^^xsd:float;
+  ex:param_type "Estimated mean treatment difference";
+  ex:param_value "0.43" .
+
+<http://example.org/outcome_analyses/224> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.3"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.1"^^xsd:float;
+  ex:id 224;
+  ex:nct_id 5173;
+  ex:outcome_id 421;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.0" .
+
+<http://example.org/outcome_analyses/225> a ex:outcome_analyses;
+  ex:ci_lower_limit "81.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "93.8"^^xsd:float;
+  ex:id 225;
+  ex:nct_id 5173;
+  ex:outcome_id 416;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "87.2" .
+
+<http://example.org/outcome_analyses/226> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.54"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "113.54"^^xsd:float;
+  ex:id 226;
+  ex:nct_id 5112;
+  ex:outcome_id 405;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "106.84" .
+
+<http://example.org/outcome_analyses/227> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.37"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.55"^^xsd:float;
+  ex:id 227;
+  ex:nct_id 5112;
+  ex:outcome_id 406;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "105.34" .
+
+<http://example.org/outcome_analyses/228> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.34"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.35"^^xsd:float;
+  ex:id 228;
+  ex:nct_id 4972;
+  ex:outcome_id 412;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.63" .
+
+<http://example.org/outcome_analyses/229> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.8"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.73"^^xsd:float;
+  ex:id 229;
+  ex:nct_id 5112;
+  ex:outcome_id 407;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.12" .
+
+<http://example.org/outcome_analyses/23> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 23;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 94;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/230> a ex:outcome_analyses;
+  ex:ci_lower_limit "109.29"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "119.35"^^xsd:float;
+  ex:id 230;
+  ex:nct_id 5112;
+  ex:outcome_id 408;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "114.21" .
+
+<http://example.org/outcome_analyses/231> a ex:outcome_analyses;
+  ex:ci_lower_limit "104.84"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.79"^^xsd:float;
+  ex:id 231;
+  ex:nct_id 5112;
+  ex:outcome_id 410;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "108.26" .
+
+<http://example.org/outcome_analyses/232> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.92"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.85"^^xsd:float;
+  ex:id 232;
+  ex:nct_id 5112;
+  ex:outcome_id 414;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "97.75" .
+
+<http://example.org/outcome_analyses/233> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.95"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.21"^^xsd:float;
+  ex:id 233;
+  ex:nct_id 4972;
+  ex:outcome_id 413;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.37" .
+
+<http://example.org/outcome_analyses/234> a ex:outcome_analyses;
+  ex:ci_lower_limit "80.1"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "93.4"^^xsd:float;
+  ex:id 234;
+  ex:nct_id 5173;
+  ex:outcome_id 417;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "86.5" .
+
+<http://example.org/outcome_analyses/235> a ex:outcome_analyses;
+  ex:ci_lower_limit "89.96"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "99.96"^^xsd:float;
+  ex:id 235;
+  ex:nct_id 5275;
+  ex:outcome_id 420;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "94.83" .
+
+<http://example.org/outcome_analyses/236> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.22"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "98.89"^^xsd:float;
+  ex:id 236;
+  ex:nct_id 5275;
+  ex:outcome_id 404;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "94.46" .
+
+<http://example.org/outcome_analyses/237> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.67"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.35"^^xsd:float;
+  ex:id 237;
+  ex:nct_id 5275;
+  ex:outcome_id 403;
+  ex:param_type "Ratio of LS Means x 100";
+  ex:param_value "97.34" .
+
+<http://example.org/outcome_analyses/238> a ex:outcome_analyses;
+  ex:ci_lower_limit "87.96"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.78"^^xsd:float;
+  ex:id 238;
+  ex:nct_id 4972;
+  ex:outcome_id 423;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.0" .
+
+<http://example.org/outcome_analyses/239> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.74"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.92"^^xsd:float;
+  ex:id 239;
+  ex:nct_id 5787;
+  ex:outcome_id 453;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "99.7" .
+
+<http://example.org/outcome_analyses/24> a ex:outcome_analyses;
+  ex:ci_lower_limit "102.09"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "112.12"^^xsd:float;
+  ex:id 24;
+  ex:nct_id 2102;
+  ex:outcome_id 74;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "106.99" .
+
+<http://example.org/outcome_analyses/240> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.1"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.0"^^xsd:float;
+  ex:id 240;
+  ex:nct_id 5864;
+  ex:outcome_id 446;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "103.0" .
+
+<http://example.org/outcome_analyses/241> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.0"^^xsd:float;
+  ex:id 241;
+  ex:nct_id 5864;
+  ex:outcome_id 448;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/242> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.46"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.02"^^xsd:float;
+  ex:id 242;
+  ex:nct_id 5787;
+  ex:outcome_id 451;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.6" .
+
+<http://example.org/outcome_analyses/243> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.72"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "101.49"^^xsd:float;
+  ex:id 243;
+  ex:nct_id 5787;
+  ex:outcome_id 456;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "97.0" .
+
+<http://example.org/outcome_analyses/244> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.3"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.0"^^xsd:float;
+  ex:id 244;
+  ex:nct_id 5864;
+  ex:outcome_id 447;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/245> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.96"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "100.82"^^xsd:float;
+  ex:id 245;
+  ex:nct_id 5787;
+  ex:outcome_id 450;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.29" .
+
+<http://example.org/outcome_analyses/246> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 246;
+  ex:nct_id 5859;
+  ex:outcome_id 455;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "109.61" .
+
+<http://example.org/outcome_analyses/247> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.97"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "1.07"^^xsd:float;
+  ex:groups_description "Least-Squares Mean Ratio (B/A); A=FMI Formulation (20%), Final Market Image; B=URC Formulation (30%), Unmilled Roller Compaction";
+  ex:id 247;
+  ex:nct_id 5647;
+  ex:outcome_id 468;
+  ex:param_type "Least-Squares Mean Ratio";
+  ex:param_value "1.02" .
+
+<http://example.org/outcome_analyses/248> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 248;
+  ex:nct_id 5859;
+  ex:outcome_id 452;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "106.38" .
+
+<http://example.org/outcome_analyses/249> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 249;
+  ex:nct_id 5859;
+  ex:outcome_id 454;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "106.85" .
+
+<http://example.org/outcome_analyses/25> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 25;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 84;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/250> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 250;
+  ex:nct_id 5859;
+  ex:outcome_id 460;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "99.71" .
+
+<http://example.org/outcome_analyses/251> a ex:outcome_analyses;
+  ex:ci_lower_limit "0.95"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "1.11"^^xsd:float;
+  ex:groups_description "Least-Squares Mean Ratio (B/A); A=FMI Formulation (20%), Final Market Image; B=URC Formulation (30%), Unmilled Roller Compaction";
+  ex:id 251;
+  ex:nct_id 5647;
+  ex:outcome_id 469;
+  ex:param_type "Least-Squares Mean Ratio";
+  ex:param_value "1.03" .
+
+<http://example.org/outcome_analyses/252> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 252;
+  ex:nct_id 5859;
+  ex:outcome_id 459;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "99.73" .
+
+<http://example.org/outcome_analyses/253> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 253;
+  ex:nct_id 5859;
+  ex:outcome_id 470;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.73" .
+
+<http://example.org/outcome_analyses/254> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.3"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.84"^^xsd:float;
+  ex:id 254;
+  ex:nct_id 5787;
+  ex:outcome_id 467;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.52" .
+
+<http://example.org/outcome_analyses/255> a ex:outcome_analyses;
+  ex:ci_lower_limit "100.08"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.29"^^xsd:float;
+  ex:id 255;
+  ex:nct_id 5787;
+  ex:outcome_id 449;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "104.1" .
+
+<http://example.org/outcome_analyses/256> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 256;
+  ex:method "paired t-test";
+  ex:nct_id 3761;
+  ex:outcome_id 471;
+  ex:p_value "0.02"^^xsd:float .
+
+<http://example.org/outcome_analyses/257> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 257;
+  ex:method "paired t-test";
+  ex:nct_id 3761;
+  ex:outcome_id 474;
+  ex:p_value "0.785"^^xsd:float .
+
+<http://example.org/outcome_analyses/258> a ex:outcome_analyses;
+  ex:ci_lower_limit "-0.13"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "22.92"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 258;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 487;
+  ex:p_value "0.0551"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.1139" .
+
+<http://example.org/outcome_analyses/259> a ex:outcome_analyses;
+  ex:ci_lower_limit "89.5"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 259;
+  ex:nct_id 6529;
+  ex:outcome_id 483;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "95.9" .
+
+<http://example.org/outcome_analyses/26> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.54"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.76"^^xsd:float;
+  ex:id 26;
+  ex:nct_id 2102;
+  ex:outcome_id 73;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.57" .
+
+<http://example.org/outcome_analyses/260> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.8"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.0"^^xsd:float;
+  ex:id 260;
+  ex:nct_id 6529;
+  ex:outcome_id 480;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "95.2" .
+
+<http://example.org/outcome_analyses/261> a ex:outcome_analyses;
+  ex:ci_lower_limit "107.26"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "121.27"^^xsd:float;
+  ex:id 261;
+  ex:nct_id 6599;
+  ex:outcome_id 484;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "114.05" .
+
+<http://example.org/outcome_analyses/262> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 262;
+  ex:nct_id 6529;
+  ex:outcome_id 481;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "97.1" .
+
+<http://example.org/outcome_analyses/263> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.31"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.02"^^xsd:float;
+  ex:id 263;
+  ex:nct_id 6599;
+  ex:outcome_id 495;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "99.05" .
+
+<http://example.org/outcome_analyses/264> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.85"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "99.32"^^xsd:float;
+  ex:id 264;
+  ex:nct_id 6599;
+  ex:outcome_id 479;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.55" .
+
+<http://example.org/outcome_analyses/265> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.71"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "99.25"^^xsd:float;
+  ex:id 265;
+  ex:nct_id 6599;
+  ex:outcome_id 492;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.44" .
+
+<http://example.org/outcome_analyses/266> a ex:outcome_analyses;
+  ex:ci_lower_limit "-7.01"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "16.11"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 266;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 494;
+  ex:p_value "0.4411"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0455" .
+
+<http://example.org/outcome_analyses/267> a ex:outcome_analyses;
+  ex:ci_lower_limit "-1.1"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "22.91"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 267;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 488;
+  ex:p_value "0.0769"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.1091" .
+
+<http://example.org/outcome_analyses/268> a ex:outcome_analyses;
+  ex:ci_lower_limit "-14.67"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "8.04"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 268;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 497;
+  ex:p_value "0.5677"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "-0.0331" .
+
+<http://example.org/outcome_analyses/269> a ex:outcome_analyses;
+  ex:ci_lower_limit "-16.6"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "7.7"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 269;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 496;
+  ex:p_value "0.473"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "-0.0445" .
+
+<http://example.org/outcome_analyses/27> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 27;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 80;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/270> a ex:outcome_analyses;
+  ex:ci_lower_limit "-8.48"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "15.26"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 270;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 491;
+  ex:p_value "0.5761"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0339" .
+
+<http://example.org/outcome_analyses/271> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.32"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.48"^^xsd:float;
+  ex:id 271;
+  ex:nct_id 6599;
+  ex:outcome_id 482;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "101.36" .
+
+<http://example.org/outcome_analyses/272> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.59"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.76"^^xsd:float;
+  ex:id 272;
+  ex:nct_id 6599;
+  ex:outcome_id 478;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "100.63" .
+
+<http://example.org/outcome_analyses/273> a ex:outcome_analyses;
+  ex:ci_lower_limit "-11.67"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "12.69"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 273;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 486;
+  ex:p_value "0.9349"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0051" .
+
+<http://example.org/outcome_analyses/274> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.41"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "19.74"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 274;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 490;
+  ex:p_value "0.215"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0766" .
+
+<http://example.org/outcome_analyses/275> ex:ci_lower_limit "-8.18"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  a ex:outcome_analyses;
+  ex:ci_upper_limit "15.2"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 275;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 489;
+  ex:p_value "0.5569"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0351" .
+
+<http://example.org/outcome_analyses/276> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.66"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "19.43"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 276;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 485;
+  ex:p_value "0.2306"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0738" .
+
+<http://example.org/outcome_analyses/277> a ex:outcome_analyses;
+  ex:ci_lower_limit "-5.6"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "18.64"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 277;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 498;
+  ex:p_value "0.2931"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.0652" .
+
+<http://example.org/outcome_analyses/278> a ex:outcome_analyses;
+  ex:ci_lower_limit "-4.72"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "17.73"^^xsd:float;
+  ex:groups_description "It was assumed that the true rate of improvement for the 2.4 g/day treatment group is 40% and for the 4.8 g/day group is 60%. To detect a true difference of 20% between these 2 groups with a 2-sided test, type I error of 0.05 (? = 0.05), and power of 90%, 140 patients were required per group to complete the study. To account for a 10% dropout/withdrawal rate, approximately 308 patients were to be enrolled in the study.";
+  ex:id 278;
+  ex:method "Chi-squared";
+  ex:nct_id 1724;
+  ex:outcome_id 493;
+  ex:p_value "0.2583"^^xsd:float;
+  ex:param_type "Risk Difference (RD)";
+  ex:param_value "0.065" .
+
+<http://example.org/outcome_analyses/279> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.1"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "112.0"^^xsd:float;
+  ex:id 279;
+  ex:nct_id 6883;
+  ex:outcome_id 501;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "102.0" .
+
+<http://example.org/outcome_analyses/28> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 28;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 78;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/280> a ex:outcome_analyses;
+  ex:ci_lower_limit "96.8"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.0"^^xsd:float;
+  ex:id 280;
+  ex:nct_id 6883;
+  ex:outcome_id 506;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/281> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.3"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 281;
+  ex:nct_id 6883;
+  ex:outcome_id 502;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "103.0" .
+
+<http://example.org/outcome_analyses/282> a ex:outcome_analyses;
+  ex:ci_lower_limit "108.45"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "123.72"^^xsd:float;
+  ex:id 282;
+  ex:nct_id 6533;
+  ex:outcome_id 512;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "115.85" .
+
+<http://example.org/outcome_analyses/283> a ex:outcome_analyses;
+  ex:ci_lower_limit "103.68"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "116.63"^^xsd:float;
+  ex:id 283;
+  ex:nct_id 6533;
+  ex:outcome_id 511;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "109.97" .
+
+<http://example.org/outcome_analyses/284> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "103.0"^^xsd:float;
+  ex:id 284;
+  ex:nct_id 6633;
+  ex:outcome_id 507;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.5" .
+
+<http://example.org/outcome_analyses/285> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.0"^^xsd:float;
+  ex:id 285;
+  ex:nct_id 6633;
+  ex:outcome_id 508;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "102.0" .
+
+<http://example.org/outcome_analyses/286> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.0"^^xsd:float;
+  ex:id 286;
+  ex:nct_id 6633;
+  ex:outcome_id 504;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "101.0" .
+
+<http://example.org/outcome_analyses/287> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.35"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.41"^^xsd:float;
+  ex:id 287;
+  ex:nct_id 6978;
+  ex:outcome_id 500;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.25" .
+
+<http://example.org/outcome_analyses/288> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.93"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.97"^^xsd:float;
+  ex:id 288;
+  ex:nct_id 6978;
+  ex:outcome_id 503;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.64" .
+
+<http://example.org/outcome_analyses/289> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.95"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.91"^^xsd:float;
+  ex:id 289;
+  ex:nct_id 6978;
+  ex:outcome_id 499;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "102.81" .
+
+<http://example.org/outcome_analyses/29> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 29;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 78;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/290> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.45"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.71"^^xsd:float;
+  ex:id 290;
+  ex:nct_id 6533;
+  ex:outcome_id 514;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "106.46" .
+
+<http://example.org/outcome_analyses/291> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.44"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.78"^^xsd:float;
+  ex:id 291;
+  ex:nct_id 7370;
+  ex:outcome_id 516;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.52" .
+
+<http://example.org/outcome_analyses/292> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.18"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "100.0"^^xsd:float;
+  ex:id 292;
+  ex:nct_id 7370;
+  ex:outcome_id 520;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.01" .
+
+<http://example.org/outcome_analyses/293> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "100.21"^^xsd:float;
+  ex:id 293;
+  ex:nct_id 7370;
+  ex:outcome_id 515;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.33" .
+
+<http://example.org/outcome_analyses/294> a ex:outcome_analyses;
+  ex:ci_lower_limit "89.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "98.77"^^xsd:float;
+  ex:id 294;
+  ex:nct_id 7370;
+  ex:outcome_id 519;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "94.08" .
+
+<http://example.org/outcome_analyses/295> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.14"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.57"^^xsd:float;
+  ex:id 295;
+  ex:nct_id 7370;
+  ex:outcome_id 517;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.78" .
+
+<http://example.org/outcome_analyses/296> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.43"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.1"^^xsd:float;
+  ex:id 296;
+  ex:nct_id 7370;
+  ex:outcome_id 518;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.41" .
+
+<http://example.org/outcome_analyses/297> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.34"^^xsd:float;
+  ex:id 297;
+  ex:nct_id 7374;
+  ex:outcome_id 541;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "98.19" .
+
+<http://example.org/outcome_analyses/298> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.4"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "101.74"^^xsd:float;
+  ex:id 298;
+  ex:nct_id 7166;
+  ex:outcome_id 545;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "96.43" .
+
+<http://example.org/outcome_analyses/299> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.08"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.4"^^xsd:float;
+  ex:id 299;
+  ex:nct_id 7166;
+  ex:outcome_id 543;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "100.11" .
+
+<http://example.org/outcome_analyses/3> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 3;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 757;
+  ex:outcome_id 10;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/30> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 30;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 78;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/300> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.58"^^xsd:float;
+  ex:id 300;
+  ex:nct_id 7166;
+  ex:outcome_id 544;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "100.94" .
+
+<http://example.org/outcome_analyses/301> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.38"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.66"^^xsd:float;
+  ex:id 301;
+  ex:nct_id 7374;
+  ex:outcome_id 546;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "98.86" .
+
+<http://example.org/outcome_analyses/302> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.87"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.88"^^xsd:float;
+  ex:id 302;
+  ex:nct_id 7374;
+  ex:outcome_id 549;
+  ex:param_type "Ratio of Least Squares Means";
+  ex:param_value "99.22" .
+
+<http://example.org/outcome_analyses/303> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 303;
+  ex:method "ANCOVA";
+  ex:nct_id 4579;
+  ex:outcome_id 539;
+  ex:p_value "0.05"^^xsd:float .
+
+<http://example.org/outcome_analyses/304> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 304;
+  ex:method "ANCOVA";
+  ex:nct_id 4579;
+  ex:outcome_id 535;
+  ex:p_value "0.05"^^xsd:float .
+
+<http://example.org/outcome_analyses/305> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 305;
+  ex:method "ANCOVA";
+  ex:nct_id 4579;
+  ex:outcome_id 538;
+  ex:p_value "0.05"^^xsd:float .
+
+<http://example.org/outcome_analyses/306> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 306;
+  ex:method "ANCOVA";
+  ex:nct_id 4579;
+  ex:outcome_id 529;
+  ex:p_value "0.05"^^xsd:float .
+
+<http://example.org/outcome_analyses/307> a ex:outcome_analyses;
+  ex:ci_lower_limit "86.1"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 307;
+  ex:nct_id 7518;
+  ex:outcome_id 562;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "95.6" .
+
+<http://example.org/outcome_analyses/308> a ex:outcome_analyses;
+  ex:ci_lower_limit "86.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.0"^^xsd:float;
+  ex:id 308;
+  ex:nct_id 7518;
+  ex:outcome_id 561;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "97.6" .
+
+<http://example.org/outcome_analyses/309> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.5"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 309;
+  ex:nct_id 7518;
+  ex:outcome_id 560;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "98.3" .
+
+<http://example.org/outcome_analyses/31> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 31;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 77;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/310> a ex:outcome_analyses;
+  ex:ci_lower_limit "83.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.0"^^xsd:float;
+  ex:id 310;
+  ex:nct_id 7518;
+  ex:outcome_id 593;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "94.0" .
+
+<http://example.org/outcome_analyses/311> a ex:outcome_analyses;
+  ex:ci_lower_limit "82.8"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "114.0"^^xsd:float;
+  ex:id 311;
+  ex:nct_id 7518;
+  ex:outcome_id 559;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "97.3" .
+
+<http://example.org/outcome_analyses/312> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 312;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 4678;
+  ex:outcome_id 589;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/313> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "All data were collected and entered before the opening of the codes of blinding of researchers. We used t test for paired samples and test for repeated measures linear regression for variables with more than two measures.With an improvement of 40% in the tea group and of 20% in the placebo group, with a power (1-ß) of 80% and a alpha error 0.05, it was necessary to include 32 points of comparison, which would be achieved with at least 16 patients, since it's a crossover study.";
+  ex:id 313;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 4678;
+  ex:outcome_id 592;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/314> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.6"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.0"^^xsd:float;
+  ex:id 314;
+  ex:nct_id 7518;
+  ex:outcome_id 591;
+  ex:param_type "Geometric Test/Ref Ratio x 100";
+  ex:param_value "97.6" .
+
+<http://example.org/outcome_analyses/315> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 315;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 597;
+  ex:p_value "0.025"^^xsd:float .
+
+<http://example.org/outcome_analyses/316> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 316;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 598;
+  ex:p_value "0.0006"^^xsd:float .
+
+<http://example.org/outcome_analyses/317> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "Psychosocial category";
+  ex:id 317;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 599;
+  ex:p_value "0.0191"^^xsd:float .
+
+<http://example.org/outcome_analyses/318> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "Psychosocial category";
+  ex:id 318;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 599;
+  ex:p_value "0.1426"^^xsd:float .
+
+<http://example.org/outcome_analyses/319> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "Psychosocial category";
+  ex:id 319;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 599;
+  ex:p_value "0.1438"^^xsd:float .
+
+<http://example.org/outcome_analyses/32> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 32;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 77;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/320> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 320;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 600;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/321> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 321;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 600;
+  ex:p_value "0.0013"^^xsd:float .
+
+<http://example.org/outcome_analyses/322> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 322;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 598;
+  ex:p_value "0.0005"^^xsd:float .
+
+<http://example.org/outcome_analyses/323> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 323;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 600;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/324> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 324;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 595;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/325> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 325;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 598;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/326> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 326;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 595;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/327> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 327;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 596;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/328> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 328;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 596;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/329> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 329;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 596;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/33> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 33;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 77;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/330> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 330;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 597;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/331> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 331;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:nct_id 6070;
+  ex:outcome_id 595;
+  ex:p_value "0.0016"^^xsd:float .
+
+<http://example.org/outcome_analyses/332> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 332;
+  ex:method "ANCOVA";
+  ex:method_description "Employed Dunnett's adjustment for multiple pairwise comparisons. Corresponding baseline efficacy scores obtained were used as covariates.";
+  ex:nct_id 6070;
+  ex:outcome_id 597;
+  ex:p_value "0.035"^^xsd:float .
+
+<http://example.org/outcome_analyses/333> a ex:outcome_analyses;
+  ex:ci_lower_limit "91.44"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.19"^^xsd:float;
+  ex:id 333;
+  ex:nct_id 8452;
+  ex:outcome_id 601;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "99.0" .
+
+<http://example.org/outcome_analyses/334> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.87"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.15"^^xsd:float;
+  ex:id 334;
+  ex:nct_id 8525;
+  ex:outcome_id 613;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.45" .
+
+<http://example.org/outcome_analyses/335> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.57"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.32"^^xsd:float;
+  ex:id 335;
+  ex:nct_id 8452;
+  ex:outcome_id 605;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "99.05" .
+
+<http://example.org/outcome_analyses/336> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.65"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.18"^^xsd:float;
+  ex:id 336;
+  ex:nct_id 8452;
+  ex:outcome_id 602;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "99.49" .
+
+<http://example.org/outcome_analyses/337> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.22"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "100.1"^^xsd:float;
+  ex:id 337;
+  ex:nct_id 8525;
+  ex:outcome_id 608;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "97.63" .
+
+<http://example.org/outcome_analyses/338> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.84"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.69"^^xsd:float;
+  ex:id 338;
+  ex:nct_id 8255;
+  ex:outcome_id 615;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "99.52" .
+
+<http://example.org/outcome_analyses/339> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.21"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "100.11"^^xsd:float;
+  ex:id 339;
+  ex:nct_id 8525;
+  ex:outcome_id 609;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "97.63" .
+
+<http://example.org/outcome_analyses/34> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 34;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 80;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/340> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.76"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.65"^^xsd:float;
+  ex:id 340;
+  ex:nct_id 8331;
+  ex:outcome_id 612;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "100.59" .
+
+<http://example.org/outcome_analyses/341> a ex:outcome_analyses;
+  ex:ci_lower_limit "1.6"^^xsd:float;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:ci_upper_limit "20.06"^^xsd:float;
+  ex:id 341;
+  ex:method "Cochran-Mantel-Haenszel";
+  ex:method_description "Adjusted for baseline glomenular filtration rate (GFR) strata";
+  ex:nct_id 4389;
+  ex:outcome_id 624;
+  ex:p_value "0.006"^^xsd:float;
+  ex:param_type "Odds Ratio (OR)";
+  ex:param_value "5.67" .
+
+<http://example.org/outcome_analyses/342> a ex:outcome_analyses;
+  ex:ci_lower_limit "87.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.1"^^xsd:float;
+  ex:id 342;
+  ex:nct_id 8290;
+  ex:outcome_id 623;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.5" .
+
+<http://example.org/outcome_analyses/343> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.47"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.46"^^xsd:float;
+  ex:id 343;
+  ex:nct_id 8255;
+  ex:outcome_id 617;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "103.87" .
+
+<http://example.org/outcome_analyses/344> a ex:outcome_analyses;
+  ex:ci_lower_limit "86.9"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.2"^^xsd:float;
+  ex:id 344;
+  ex:nct_id 8290;
+  ex:outcome_id 607;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "95.6" .
+
+<http://example.org/outcome_analyses/345> a ex:outcome_analyses;
+  ex:ci_percent "9"^^xsd:float;
+  ex:id 345;
+  ex:nct_id 8331;
+  ex:outcome_id 614;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "98.17" .
+
+<http://example.org/outcome_analyses/35> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.66"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.12"^^xsd:float;
+  ex:id 35;
+  ex:nct_id 2102;
+  ex:outcome_id 72;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "105.8" .
+
+<http://example.org/outcome_analyses/36> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 36;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 86;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/37> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 37;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 94;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/38> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 38;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 83;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/39> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 39;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 84;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/4> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 4;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 757;
+  ex:outcome_id 11;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/40> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 40;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 66;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/41> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 41;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 85;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/42> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 42;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 86;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/43> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 43;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 83;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/44> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 44;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 83;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/45> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 45;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 85;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/46> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.9"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.14"^^xsd:float;
+  ex:id 46;
+  ex:nct_id 2133;
+  ex:outcome_id 98;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "100.69" .
+
+<http://example.org/outcome_analyses/47> a ex:outcome_analyses;
+  ex:ci_lower_limit "93.53"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "108.56"^^xsd:float;
+  ex:id 47;
+  ex:nct_id 2133;
+  ex:outcome_id 100;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "100.77" .
+
+<http://example.org/outcome_analyses/48> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.53"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.64"^^xsd:float;
+  ex:id 48;
+  ex:nct_id 2133;
+  ex:outcome_id 68;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "104.88" .
+
+<http://example.org/outcome_analyses/49> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.37"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "119.38"^^xsd:float;
+  ex:id 49;
+  ex:nct_id 2133;
+  ex:outcome_id 99;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "107.81" .
+
+<http://example.org/outcome_analyses/5> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 5;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 757;
+  ex:outcome_id 8;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/50> a ex:outcome_analyses;
+  ex:ci_lower_limit "99.97"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "111.56"^^xsd:float;
+  ex:id 50;
+  ex:nct_id 2133;
+  ex:outcome_id 82;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "105.64" .
+
+<http://example.org/outcome_analyses/51> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 51;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 66;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/52> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 52;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 66;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/53> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 53;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 86;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/54> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 54;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 84;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/55> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 55;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 76;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/56> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 56;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 76;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/57> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 57;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 1524;
+  ex:outcome_id 76;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/58> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 58;
+  ex:method "Kruskal-Wallis";
+  ex:nct_id 1523;
+  ex:outcome_id 70;
+  ex:p_value "0.05"^^xsd:float .
+
+<http://example.org/outcome_analyses/59> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.27"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.61"^^xsd:float;
+  ex:id 59;
+  ex:nct_id 2102;
+  ex:outcome_id 71;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "105.83" .
+
+<http://example.org/outcome_analyses/6> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 6;
+  ex:method "Fisher Exact";
+  ex:nct_id 757;
+  ex:outcome_id 13;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/60> a ex:outcome_analyses;
+  ex:ci_lower_limit "94.76"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "107.77"^^xsd:float;
+  ex:id 60;
+  ex:nct_id 2133;
+  ex:outcome_id 97;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "101.05" .
+
+<http://example.org/outcome_analyses/61> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:id 61;
+  ex:method "Fisher Exact";
+  ex:nct_id 1524;
+  ex:outcome_id 85;
+  ex:p_value "0.001"^^xsd:float .
+
+<http://example.org/outcome_analyses/62> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 62;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 141;
+  ex:p_value "0.413"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-0.02" .
+
+<http://example.org/outcome_analyses/63> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 63;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 143;
+  ex:p_value "0.996"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-0.01" .
+
+<http://example.org/outcome_analyses/64> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 64;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 153;
+  ex:p_value "0.702"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-0.55" .
+
+<http://example.org/outcome_analyses/65> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.34"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.59"^^xsd:float;
+  ex:id 65;
+  ex:nct_id 3163;
+  ex:outcome_id 162;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.27" .
+
+<http://example.org/outcome_analyses/66> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 66;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 126;
+  ex:p_value "0.867"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.05" .
+
+<http://example.org/outcome_analyses/67> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 67;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 148;
+  ex:p_value "0.451"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "0.02" .
+
+<http://example.org/outcome_analyses/68> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 68;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 130;
+  ex:p_value "0.307"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.03" .
+
+<http://example.org/outcome_analyses/69> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 69;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 121;
+  ex:p_value "0.551"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.03" .
+
+<http://example.org/outcome_analyses/7> ex:ci_percent "95.0"^^xsd:float;
+  ex:id 7;
+  a ex:outcome_analyses;
+  ex:method "t-test, 2 sided";
+  ex:nct_id 757;
+  ex:outcome_id 9;
+  ex:p_value "0.0001"^^xsd:float .
+
+<http://example.org/outcome_analyses/70> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 70;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 127;
+  ex:p_value "0.807"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-0.98" .
+
+<http://example.org/outcome_analyses/71> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 71;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 149;
+  ex:p_value "0.447"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "0.1" .
+
+<http://example.org/outcome_analyses/72> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 72;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 123;
+  ex:p_value "0.308"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.09" .
+
+<http://example.org/outcome_analyses/73> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 73;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 152;
+  ex:p_value "0.332"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "0.04" .
+
+<http://example.org/outcome_analyses/74> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 74;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 133;
+  ex:p_value "0.927"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "-0.01" .
+
+<http://example.org/outcome_analyses/75> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.69"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.67"^^xsd:float;
+  ex:id 75;
+  ex:nct_id 3163;
+  ex:outcome_id 160;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "95.16" .
+
+<http://example.org/outcome_analyses/76> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.45"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.12"^^xsd:float;
+  ex:id 76;
+  ex:nct_id 3162;
+  ex:outcome_id 158;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.11" .
+
+<http://example.org/outcome_analyses/77> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.59"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.23"^^xsd:float;
+  ex:id 77;
+  ex:nct_id 3162;
+  ex:outcome_id 156;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.23" .
+
+<http://example.org/outcome_analyses/78> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 78;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 122;
+  ex:p_value "0.936"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "0.01" .
+
+<http://example.org/outcome_analyses/79> a ex:outcome_analyses;
+  ex:ci_lower_limit "90.2"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "102.93"^^xsd:float;
+  ex:id 79;
+  ex:nct_id 3163;
+  ex:outcome_id 159;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "96.36" .
+
+<http://example.org/outcome_analyses/8> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:dispersion_type "Standard Deviation";
+  ex:dispersion_value "2.0";
+  ex:groups_description "Null Hypothesis: There isn't difference in the HAZ mean difference between children with Growth Deficit who received zinc amino acid or placebo.~We attributed ?=0.05, ?=0.20, and power=0.80.";
+  ex:id 8;
+  ex:method "t-test, 2 sided";
+  ex:method_description "In intragroup of supplementation (zinc or placebo) we used the t-test for dependent samples in order to compare growth over time.";
+  ex:nct_id 1099;
+  ex:outcome_id 26;
+  ex:p_value "0.05"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.12" .
+
+<http://example.org/outcome_analyses/80> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.04"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.61"^^xsd:float;
+  ex:id 80;
+  ex:nct_id 3162;
+  ex:outcome_id 138;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "94.77" .
+
+<http://example.org/outcome_analyses/81> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 81;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 129;
+  ex:p_value "0.685"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.01" .
+
+<http://example.org/outcome_analyses/82> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 82;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 131;
+  ex:p_value "0.988"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.01" .
+
+<http://example.org/outcome_analyses/83> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 83;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 120;
+  ex:p_value "0.382"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.03" .
+
+<http://example.org/outcome_analyses/84> a ex:outcome_analyses;
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:groups_description "We used a three-stage hierarchical model estimate the effect of the interventions on the change in endpoint from baseline to follow-up. Change scores for dichotomous measures were scored as -1, 0, or 1, with a positive value indicating increased guideline adherence or increased incidence of that process. We used ordered logistic models to test the hypothesis that patients in the intervention groups were more likely to meet guidelines or to receive these processes of care.";
+  ex:id 84;
+  ex:method "Regression, Logistic";
+  ex:nct_id 102;
+  ex:outcome_id 128;
+  ex:p_value "0.86"^^xsd:float;
+  ex:param_type "Median Difference (Final Values)";
+  ex:param_value "-0.01" .
+
+<http://example.org/outcome_analyses/85> a ex:outcome_analyses;
+  ex:ci_lower_limit "97.6"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "115.0"^^xsd:float;
+  ex:id 85;
+  ex:nct_id 3021;
+  ex:outcome_id 164;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "106.0" .
+
+<http://example.org/outcome_analyses/86> a ex:outcome_analyses;
+  ex:ci_lower_limit "88.1"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "109.5"^^xsd:float;
+  ex:id 86;
+  ex:nct_id 3344;
+  ex:outcome_id 166;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.2" .
+
+<http://example.org/outcome_analyses/87> a ex:outcome_analyses;
+  ex:ci_lower_limit "104.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.6"^^xsd:float;
+  ex:id 87;
+  ex:nct_id 3344;
+  ex:outcome_id 165;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "107.6" .
+
+<http://example.org/outcome_analyses/88> a ex:outcome_analyses;
+  ex:ci_lower_limit "92.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "104.0"^^xsd:float;
+  ex:id 88;
+  ex:nct_id 3344;
+  ex:outcome_id 174;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.2" .
+
+<http://example.org/outcome_analyses/89> a ex:outcome_analyses;
+  ex:ci_lower_limit "98.2"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "115.0"^^xsd:float;
+  ex:id 89;
+  ex:nct_id 3021;
+  ex:outcome_id 172;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "106.0" .
+
+<http://example.org/outcome_analyses/9> a ex:outcome_analyses;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "95.0"^^xsd:float;
+  ex:dispersion_type "Standard Deviation";
+  ex:dispersion_value "2.0";
+  ex:groups_description "Null Hypothesis: There isn't difference in the HAZ mean difference between children with Normal Height who received zinc amino acid or placebo.~We attributed ?=0.05, ?=0.20, and power=0.80.";
+  ex:id 9;
+  ex:method "t-test, 2 sided";
+  ex:method_description "In intragroup of supplementation (zinc or placebo) we used the t-test for dependent samples in order to compare growth over time.";
+  ex:nct_id 1099;
+  ex:outcome_id 26;
+  ex:p_value "0.05"^^xsd:float;
+  ex:param_type "Mean Difference (Final Values)";
+  ex:param_value "0.08" .
+
+<http://example.org/outcome_analyses/90> a ex:outcome_analyses;
+  ex:ci_lower_limit "103.0"^^xsd:float;
+  ex:ci_n_sides "2-Sided";
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "117.0"^^xsd:float;
+  ex:id 90;
+  ex:nct_id 3021;
+  ex:outcome_id 163;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "110.0" .
+
+<http://example.org/outcome_analyses/91> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 91;
+  ex:nct_id 3498;
+  ex:outcome_id 171;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "88.45" .
+
+<http://example.org/outcome_analyses/92> a ex:outcome_analyses;
+  ex:ci_lower_limit "85.8"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "105.4"^^xsd:float;
+  ex:id 92;
+  ex:nct_id 3366;
+  ex:outcome_id 167;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "95.1" .
+
+<http://example.org/outcome_analyses/93> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 93;
+  ex:nct_id 3498;
+  ex:outcome_id 173;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "81.33" .
+
+<http://example.org/outcome_analyses/94> a ex:outcome_analyses;
+  ex:ci_lower_limit "82.7"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "118.4"^^xsd:float;
+  ex:id 94;
+  ex:nct_id 3366;
+  ex:outcome_id 169;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "98.9" .
+
+<http://example.org/outcome_analyses/95> a ex:outcome_analyses;
+  ex:ci_lower_limit "95.0"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "110.5"^^xsd:float;
+  ex:id 95;
+  ex:nct_id 3366;
+  ex:outcome_id 170;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "102.4" .
+
+<http://example.org/outcome_analyses/96> a ex:outcome_analyses;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:id 96;
+  ex:nct_id 3498;
+  ex:outcome_id 168;
+  ex:param_type "Ratio of the T/R geometric mean x 100";
+  ex:param_value "87.87" .
+
+<http://example.org/outcome_analyses/97> a ex:outcome_analyses;
+  ex:ci_lower_limit "86.3"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "96.1"^^xsd:float;
+  ex:id 97;
+  ex:nct_id 3693;
+  ex:outcome_id 177;
+  ex:param_type "Ratio of Geometric Means";
+  ex:param_value "91.1" .
+
+<http://example.org/outcome_analyses/98> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.33"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.89"^^xsd:float;
+  ex:id 98;
+  ex:nct_id 3519;
+  ex:outcome_id 182;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "104.07" .
+
+<http://example.org/outcome_analyses/99> a ex:outcome_analyses;
+  ex:ci_lower_limit "101.42"^^xsd:float;
+  ex:ci_percent "90.0"^^xsd:float;
+  ex:ci_upper_limit "106.0"^^xsd:float;
+  ex:id 99;
+  ex:nct_id 3519;
+  ex:outcome_id 183;
+  ex:param_type "Test/Ref Ratio of LS Means x 100";
+  ex:param_value "103.68" .
